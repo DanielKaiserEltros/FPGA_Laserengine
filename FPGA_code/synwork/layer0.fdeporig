@@ -1,0 +1,107 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\synwork\\FPGA_code_FPGA_code_comp.srs|-top|data_out_fpga|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\bin64\\c_vhdl.exe":1554103268
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\location.map":1554127280
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std.vhd":1554102464
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1554102464
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\std1164.vhd":1554102464
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\numeric.vhd":1554102464
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1554102464
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\arith.vhd":1554102464
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1554102464
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1554102464
+#CUR:"C:\\lscc\\diamond\\3.11_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1542238332
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\image_clock_manager.vhd":1591873608
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\MCU_Interface.vhd":1432020302
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\LOUT_interface.vhd":1605268368
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\ParamReg.vhd":1469611554
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\GapReg.vhd":1432020302
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\galvo_dac_manager.vhd":1440600532
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\write_laser.vhd":1592131532
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\division.vhd":1455186752
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\repeat_manager.vhd":1469612648
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\EncoderCounter.vhd":1456148282
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\DataBuffer\\DataBuffer.vhd":1432020302
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\DPRAM4Wide.vhd":1432020302
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\gap_manager.vhd":1469611750
+#CUR:"C:\\lscc\\diamond\\Project\\FPGA P&S\\FPGA_code\\source\\Main_fpga.vhd":1469612648
+0 "C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\image_clock_manager.vhd" vhdl
+2 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\MCU_Interface.vhd" vhdl
+3 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd" vhdl
+4 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\ParamReg.vhd" vhdl
+5 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd" vhdl
+6 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd" vhdl
+7 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd" vhdl
+8 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd" vhdl
+9 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\repeat_manager.vhd" vhdl
+10 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd" vhdl
+11 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\DataBuffer\DataBuffer.vhd" vhdl
+12 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\DPRAM4Wide.vhd" vhdl
+13 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd" vhdl
+14 "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 8 
+11 0 
+12 11 
+13 8 
+14 3 1 10 13 9 7 2 5 6 4 12 
+
+# Dependency Lists (Users Of)
+0 11 
+1 14 
+2 14 
+3 14 
+4 14 
+5 14 
+6 14 
+7 14 
+8 13 10 
+9 14 
+10 14 
+11 12 
+12 14 
+13 14 
+14 -1
+
+# Design Unit to File Association
+arch work image_clock_manager arch_icm 1
+module work image_clock_manager 1
+arch work mcu_if mcu_if_arch 2
+module work mcu_if 2
+arch work lout_if arch_lout_if 3
+module work lout_if 3
+arch work paramreg arch_paramreg 4
+module work paramreg 4
+arch work gapreg arch_gapreg 5
+module work gapreg 5
+arch work galvo_dac_manager arch_gdacm 6
+module work galvo_dac_manager 6
+arch work write_laser arch_write_laser 7
+module work write_laser 7
+arch work division arch_div 8
+module work division 8
+arch work repeat_manager repeat_manager_arch 9
+module work repeat_manager 9
+arch work enc_ctr enc_ctr_arch 10
+module work enc_ctr 10
+config work structure_con 11
+arch work databuffer structure 11
+module work databuffer 11
+arch work dpram4wide arch_dpram4wide 12
+module work dpram4wide 12
+arch work gap_manager gap_manager_arch 13
+module work gap_manager 13
+arch work data_out_fpga arch_data_out_fpga 14
+module work data_out_fpga 14

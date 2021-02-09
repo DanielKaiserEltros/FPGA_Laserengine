@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="MapVHDLSimFile">
+        <Message>
+            <ID>35400250</ID>
+            <Severity>Info</Severity>
+            <Dynamic>0</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lscc/diamond/Project/FPGA P&amp;S/FPGA_code.lpf(15): Semantic error in &quot;IOBUF PORT &quot;CLK_ROW&quot; IO_TYPE=LVCMOS25 PULLMODE=UP HYSTERESIS=LARGE ;&quot;: </Dynamic>
+            <Dynamic>CLK_ROW</Dynamic>
+            <Navigation>C:/lscc/diamond/Project/FPGA P&amp;S/FPGA_code.lpf</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lscc/diamond/Project/FPGA P&amp;S/FPGA_code.lpf(16): Semantic error in &quot;IOBUF PORT &quot;CLK_ROW2&quot; IO_TYPE=LVCMOS25 PULLMODE=UP HYSTERESIS=LARGE ;&quot;: </Dynamic>
+            <Dynamic>CLK_ROW2</Dynamic>
+            <Navigation>C:/lscc/diamond/Project/FPGA P&amp;S/FPGA_code.lpf</Navigation>
+            <Navigation>16</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/lscc/diamond/Project/FPGA P&amp;S/FPGA_code.lpf(17): Semantic error in &quot;IOBUF PORT &quot;CLK_RPT&quot; IO_TYPE=LVCMOS25 PULLMODE=UP HYSTERESIS=LARGE ;&quot;: </Dynamic>
+            <Dynamic>CLK_RPT</Dynamic>
+            <Navigation>C:/lscc/diamond/Project/FPGA P&amp;S/FPGA_code.lpf</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CLK_ROW</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CLK_ROW2</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CLK_RPT</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram3/QA_1[0]</Dynamic>
+            <Navigation>memRB/dpram3/QA_1[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram3/QA_1[1]</Dynamic>
+            <Navigation>memRB/dpram3/QA_1[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram3/QA_1[2]</Dynamic>
+            <Navigation>memRB/dpram3/QA_1[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram3/QA_1[3]</Dynamic>
+            <Navigation>memRB/dpram3/QA_1[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram3/QA_1[4]</Dynamic>
+            <Navigation>memRB/dpram3/QA_1[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram3/QA_1[5]</Dynamic>
+            <Navigation>memRB/dpram3/QA_1[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram3/QA_1[6]</Dynamic>
+            <Navigation>memRB/dpram3/QA_1[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram3/QA_1[7]</Dynamic>
+            <Navigation>memRB/dpram3/QA_1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram3/DataBuffer_0_0_0_DOA8_6</Dynamic>
+            <Navigation>memRB/dpram3/DataBuffer_0_0_0_DOA8_6</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram3/DataBuffer_0_0_0_DOB8_6</Dynamic>
+            <Navigation>memRB/dpram3/DataBuffer_0_0_0_DOB8_6</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram2/QA_1[0]</Dynamic>
+            <Navigation>memRB/dpram2/QA_1[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram2/QA_1[1]</Dynamic>
+            <Navigation>memRB/dpram2/QA_1[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram2/QA_1[2]</Dynamic>
+            <Navigation>memRB/dpram2/QA_1[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram2/QA_1[3]</Dynamic>
+            <Navigation>memRB/dpram2/QA_1[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram2/QA_1[4]</Dynamic>
+            <Navigation>memRB/dpram2/QA_1[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram2/QA_1[5]</Dynamic>
+            <Navigation>memRB/dpram2/QA_1[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram2/QA_1[6]</Dynamic>
+            <Navigation>memRB/dpram2/QA_1[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram2/QA_1[7]</Dynamic>
+            <Navigation>memRB/dpram2/QA_1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram2/DataBuffer_0_0_0_DOA8_5</Dynamic>
+            <Navigation>memRB/dpram2/DataBuffer_0_0_0_DOA8_5</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram2/DataBuffer_0_0_0_DOB8_5</Dynamic>
+            <Navigation>memRB/dpram2/DataBuffer_0_0_0_DOB8_5</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram1/QA_1[0]</Dynamic>
+            <Navigation>memRB/dpram1/QA_1[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram1/QA_1[1]</Dynamic>
+            <Navigation>memRB/dpram1/QA_1[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram1/QA_1[2]</Dynamic>
+            <Navigation>memRB/dpram1/QA_1[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram1/QA_1[3]</Dynamic>
+            <Navigation>memRB/dpram1/QA_1[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram1/QA_1[4]</Dynamic>
+            <Navigation>memRB/dpram1/QA_1[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram1/QA_1[5]</Dynamic>
+            <Navigation>memRB/dpram1/QA_1[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram1/QA_1[6]</Dynamic>
+            <Navigation>memRB/dpram1/QA_1[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram1/QA_1[7]</Dynamic>
+            <Navigation>memRB/dpram1/QA_1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram1/DataBuffer_0_0_0_DOA8_4</Dynamic>
+            <Navigation>memRB/dpram1/DataBuffer_0_0_0_DOA8_4</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram1/DataBuffer_0_0_0_DOB8_4</Dynamic>
+            <Navigation>memRB/dpram1/DataBuffer_0_0_0_DOB8_4</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram0/QA_1[0]</Dynamic>
+            <Navigation>memRB/dpram0/QA_1[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram0/QA_1[1]</Dynamic>
+            <Navigation>memRB/dpram0/QA_1[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram0/QA_1[2]</Dynamic>
+            <Navigation>memRB/dpram0/QA_1[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram0/QA_1[3]</Dynamic>
+            <Navigation>memRB/dpram0/QA_1[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram0/QA_1[4]</Dynamic>
+            <Navigation>memRB/dpram0/QA_1[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram0/QA_1[5]</Dynamic>
+            <Navigation>memRB/dpram0/QA_1[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram0/QA_1[6]</Dynamic>
+            <Navigation>memRB/dpram0/QA_1[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram0/QA_1[7]</Dynamic>
+            <Navigation>memRB/dpram0/QA_1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram0/DataBuffer_0_0_0_DOA8_3</Dynamic>
+            <Navigation>memRB/dpram0/DataBuffer_0_0_0_DOA8_3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memRB/dpram0/DataBuffer_0_0_0_DOB8_3</Dynamic>
+            <Navigation>memRB/dpram0/DataBuffer_0_0_0_DOB8_3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QA_1[0]</Dynamic>
+            <Navigation>memLUT/dpram3/QA_1[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QA_1[1]</Dynamic>
+            <Navigation>memLUT/dpram3/QA_1[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QA_1[2]</Dynamic>
+            <Navigation>memLUT/dpram3/QA_1[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QA_1[3]</Dynamic>
+            <Navigation>memLUT/dpram3/QA_1[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QA_1[4]</Dynamic>
+            <Navigation>memLUT/dpram3/QA_1[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QA_1[5]</Dynamic>
+            <Navigation>memLUT/dpram3/QA_1[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QA_1[6]</Dynamic>
+            <Navigation>memLUT/dpram3/QA_1[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QA_1[7]</Dynamic>
+            <Navigation>memLUT/dpram3/QA_1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/DataBuffer_0_0_0_DOA8_2</Dynamic>
+            <Navigation>memLUT/dpram3/DataBuffer_0_0_0_DOA8_2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QB_1[4]</Dynamic>
+            <Navigation>memLUT/dpram3/QB_1[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QB_1[5]</Dynamic>
+            <Navigation>memLUT/dpram3/QB_1[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QB_1[6]</Dynamic>
+            <Navigation>memLUT/dpram3/QB_1[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/QB_1[7]</Dynamic>
+            <Navigation>memLUT/dpram3/QB_1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram3/DataBuffer_0_0_0_DOB8_2</Dynamic>
+            <Navigation>memLUT/dpram3/DataBuffer_0_0_0_DOB8_2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram2/QA_1[0]</Dynamic>
+            <Navigation>memLUT/dpram2/QA_1[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram2/QA_1[1]</Dynamic>
+            <Navigation>memLUT/dpram2/QA_1[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram2/QA_1[2]</Dynamic>
+            <Navigation>memLUT/dpram2/QA_1[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram2/QA_1[3]</Dynamic>
+            <Navigation>memLUT/dpram2/QA_1[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram2/QA_1[4]</Dynamic>
+            <Navigation>memLUT/dpram2/QA_1[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram2/QA_1[5]</Dynamic>
+            <Navigation>memLUT/dpram2/QA_1[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram2/QA_1[6]</Dynamic>
+            <Navigation>memLUT/dpram2/QA_1[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram2/QA_1[7]</Dynamic>
+            <Navigation>memLUT/dpram2/QA_1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram2/DataBuffer_0_0_0_DOA8_1</Dynamic>
+            <Navigation>memLUT/dpram2/DataBuffer_0_0_0_DOA8_1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram2/DataBuffer_0_0_0_DOB8_1</Dynamic>
+            <Navigation>memLUT/dpram2/DataBuffer_0_0_0_DOB8_1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QA_1[0]</Dynamic>
+            <Navigation>memLUT/dpram1/QA_1[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QA_1[1]</Dynamic>
+            <Navigation>memLUT/dpram1/QA_1[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QA_1[2]</Dynamic>
+            <Navigation>memLUT/dpram1/QA_1[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QA_1[3]</Dynamic>
+            <Navigation>memLUT/dpram1/QA_1[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QA_1[4]</Dynamic>
+            <Navigation>memLUT/dpram1/QA_1[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QA_1[5]</Dynamic>
+            <Navigation>memLUT/dpram1/QA_1[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QA_1[6]</Dynamic>
+            <Navigation>memLUT/dpram1/QA_1[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QA_1[7]</Dynamic>
+            <Navigation>memLUT/dpram1/QA_1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/DataBuffer_0_0_0_DOA8_0</Dynamic>
+            <Navigation>memLUT/dpram1/DataBuffer_0_0_0_DOA8_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QB_1[4]</Dynamic>
+            <Navigation>memLUT/dpram1/QB_1[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QB_1[5]</Dynamic>
+            <Navigation>memLUT/dpram1/QB_1[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QB_1[6]</Dynamic>
+            <Navigation>memLUT/dpram1/QB_1[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/QB_1[7]</Dynamic>
+            <Navigation>memLUT/dpram1/QB_1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram1/DataBuffer_0_0_0_DOB8_0</Dynamic>
+            <Navigation>memLUT/dpram1/DataBuffer_0_0_0_DOB8_0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram0/QA_1[0]</Dynamic>
+            <Navigation>memLUT/dpram0/QA_1[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram0/QA_1[1]</Dynamic>
+            <Navigation>memLUT/dpram0/QA_1[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram0/QA_1[2]</Dynamic>
+            <Navigation>memLUT/dpram0/QA_1[2]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram0/QA_1[3]</Dynamic>
+            <Navigation>memLUT/dpram0/QA_1[3]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram0/QA_1[4]</Dynamic>
+            <Navigation>memLUT/dpram0/QA_1[4]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram0/QA_1[5]</Dynamic>
+            <Navigation>memLUT/dpram0/QA_1[5]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram0/QA_1[6]</Dynamic>
+            <Navigation>memLUT/dpram0/QA_1[6]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram0/QA_1[7]</Dynamic>
+            <Navigation>memLUT/dpram0/QA_1[7]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram0/DataBuffer_0_0_0_0_DOA8</Dynamic>
+            <Navigation>memLUT/dpram0/DataBuffer_0_0_0_0_DOA8</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>memLUT/dpram0/DataBuffer_0_0_0_0_DOB8</Dynamic>
+            <Navigation>memLUT/dpram0/DataBuffer_0_0_0_0_DOB8</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams11_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams11_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams11_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams11_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams11_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams11_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams7_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams7_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams7_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams7_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams7_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams7_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams3_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams3_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams3_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams3_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams3_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams3_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams15_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams15_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams15_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams15_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_1_rams15_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_1_rams15_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams9_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_rams9_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams9_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_rams9_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams9_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_rams9_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams5_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_rams5_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams5_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_rams5_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams5_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_rams5_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams1_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_rams1_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams1_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_rams1_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams1_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_rams1_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams13_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_rams13_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams13_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_rams13_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams13_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_rams13_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams10_0_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_rams10_0_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams10_0_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_rams10_0_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams10_0_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_rams10_0_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams6_0_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_rams6_0_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams6_0_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_rams6_0_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams6_0_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_rams6_0_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams2_0_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_rams2_0_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams2_0_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_rams2_0_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams2_0_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_rams2_0_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams14_0_ram_DO1</Dynamic>
+            <Navigation>gapinf/gapreg_rams14_0_ram_DO1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams14_0_ram_DO2</Dynamic>
+            <Navigation>gapinf/gapreg_rams14_0_ram_DO2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>gapinf/gapreg_rams14_0_ram_DO3</Dynamic>
+            <Navigation>gapinf/gapreg_rams14_0_ram_DO3</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CLK_ROW</Dynamic>
+            <Navigation>CLK_ROW</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CLK_ROW2</Dynamic>
+            <Navigation>CLK_ROW2</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>CLK_RPT</Dynamic>
+            <Navigation>CLK_RPT</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>127</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD326 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:517:0:517:5|Port debug_info of entity work.gap_manager is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
+            <Navigation>CD326</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>517</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>517</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Port debug_info of entity work.gap_manager is unconnected. If a port needs to remain unconnected, use the keyword open.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD326 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:633:0:633:2|Port debug_info of entity work.galvo_dac_manager is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
+            <Navigation>CD326</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>633</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>633</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Port debug_info of entity work.galvo_dac_manager is unconnected. If a port needs to remain unconnected, use the keyword open.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:448:7:448:18|Signal debug_tx_reg is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>448</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>448</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>Signal debug_tx_reg is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd&quot;:96:2:96:3|Pruning register bits 7 to 0 of glv_delay_frac(33 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 7 to 0 of glv_delay_frac(33 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd&quot;:96:2:96:3|Pruning register bit 33 of glv_offset_warn(33 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 33 of glv_offset_warn(33 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd&quot;:96:2:96:3|Pruning register bits 16 to 0 of glv_offset_warn(33 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 16 to 0 of glv_offset_warn(33 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD610 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\GapReg.vhd&quot;:53:42:53:52|Index value 0 to 255 could be out of prefix range 159 downto 0.</Dynamic>
+            <Navigation>CD610</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\GapReg.vhd</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>53</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>Index value 0 to 255 could be out of prefix range 159 downto 0. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD610 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\GapReg.vhd&quot;:63:6:63:18|Index value 0 to 255 could be out of prefix range 159 downto 0.</Dynamic>
+            <Navigation>CD610</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\GapReg.vhd</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>Index value 0 to 255 could be out of prefix range 159 downto 0. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD610 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\GapReg.vhd&quot;:63:6:63:18|Index value 0 to 255 could be out of prefix range 159 downto 0.</Dynamic>
+            <Navigation>CD610</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\GapReg.vhd</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>Index value 0 to 255 could be out of prefix range 159 downto 0. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD326 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd&quot;:387:1:387:6|Port busy of entity work.division is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
+            <Navigation>CD326</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd</Navigation>
+            <Navigation>387</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>387</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Port busy of entity work.division is unconnected. If a port needs to remain unconnected, use the keyword open.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD326 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd&quot;:405:1:405:9|Port busy of entity work.division is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
+            <Navigation>CD326</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd</Navigation>
+            <Navigation>405</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>405</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Port busy of entity work.division is unconnected. If a port needs to remain unconnected, use the keyword open.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL240 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd&quot;:29:1:29:10|Signal DEBUG_INFO is floating; a simulation mismatch is possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Signal DEBUG_INFO is floating; a simulation mismatch is possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd&quot;:318:2:318:3|Pruning unused bits 4 to 0 of px_per_row_add_4(6 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd</Navigation>
+            <Navigation>318</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>318</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning unused bits 4 to 0 of px_per_row_add_4(6 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd&quot;:429:2:429:3|Pruning register bits 27 to 16 of dR_set_small(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd</Navigation>
+            <Navigation>429</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>429</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 27 to 16 of dR_set_small(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd&quot;:429:2:429:3|Pruning register bits 27 to 24 of dR_set_base(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd</Navigation>
+            <Navigation>429</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>429</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 27 to 24 of dR_set_base(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD326 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\EncoderCounter.vhd&quot;:87:1:87:3|Port busy of entity work.division is unconnected. If a port needs to remain unconnected, use the keyword open.</Dynamic>
+            <Navigation>CD326</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\EncoderCounter.vhd</Navigation>
+            <Navigation>87</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>87</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Port busy of entity work.division is unconnected. If a port needs to remain unconnected, use the keyword open.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\EncoderCounter.vhd&quot;:112:2:112:3|Pruning register bits 1 to 0 of Enc_count_spd_reg(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\EncoderCounter.vhd</Navigation>
+            <Navigation>112</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>112</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 1 to 0 of Enc_count_spd_reg(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\EncoderCounter.vhd&quot;:112:2:112:3|Pruning register bits 19 to 14 of E_t(19 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\EncoderCounter.vhd</Navigation>
+            <Navigation>112</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>112</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 19 to 14 of E_t(19 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL265 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\LOUT_interface.vhd&quot;:120:2:120:3|Removing unused bit 4 of Laser_cpld_status_4(5 downto 0). Either assign all bits or reduce the width of the signal.</Dynamic>
+            <Navigation>CL265</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\LOUT_interface.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing unused bit 4 of Laser_cpld_status_4(5 downto 0). Either assign all bits or reduce the width of the signal.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\LOUT_interface.vhd&quot;:120:2:120:3|Pruning register bit 0 of BOARD_SEL(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\LOUT_interface.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 0 of BOARD_SEL(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 0 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 0 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 1 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 1 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 2 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 2 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 3 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 3 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 4 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 4 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 5 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 5 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 6 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 6 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 7 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 7 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 8 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 8 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 9 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 9 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 10 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 10 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 11 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 11 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 12 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 12 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 13 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 13 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 14 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 14 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 15 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 15 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 16 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 16 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 17 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 17 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 18 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 18 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 19 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 19 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 20 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 20 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 21 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 21 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 22 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 22 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL245 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd&quot;:657:0:657:2|Bit 23 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL245</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\Main_fpga.vhd</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>657</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>Bit 23 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\LOUT_interface.vhd&quot;:14:1:14:17|Input port bits 31 to 28 of data_from_mem_lut(31 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\LOUT_interface.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Input port bits 31 to 28 of data_from_mem_lut(31 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\LOUT_interface.vhd&quot;:14:1:14:17|Input port bits 15 to 12 of data_from_mem_lut(31 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\LOUT_interface.vhd</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Input port bits 15 to 12 of data_from_mem_lut(31 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\LOUT_interface.vhd&quot;:15:1:15:14|Input port bit 7 of data_from_lout(7 downto 0) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\LOUT_interface.vhd</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Input port bit 7 of data_from_lout(7 downto 0) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\EncoderCounter.vhd&quot;:23:1:23:12|Input port bit 3 of galvo_status(3 downto 0) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\EncoderCounter.vhd</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Input port bit 3 of galvo_status(3 downto 0) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\EncoderCounter.vhd&quot;:23:1:23:12|Input port bits 1 to 0 of galvo_status(3 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\EncoderCounter.vhd</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Input port bits 1 to 0 of galvo_status(3 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd&quot;:429:2:429:3|Pruning register bits 27 to 25 of dR_set_base_plus(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd</Navigation>
+            <Navigation>429</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>429</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 27 to 25 of dR_set_base_plus(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd&quot;:18:1:18:19|Input port bits 15 to 8 of settling_time_small(15 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Input port bits 15 to 8 of settling_time_small(15 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd&quot;:21:1:21:10|Input port bits 15 to 10 of px_clk_div(15 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Input port bits 15 to 10 of px_clk_div(15 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL246 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd&quot;:25:1:25:12|Input port bits 1 to 0 of galvo_status(3 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\gap_manager.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Input port bits 1 to 0 of galvo_status(3 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL247 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\write_laser.vhd&quot;:11:1:11:8|Input port bit 4 of delay_px(5 downto 0) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\write_laser.vhd</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>Input port bit 4 of delay_px(5 downto 0) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd&quot;:96:2:96:3|Pruning register bit 33 of glv_offset_err(33 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 33 of glv_offset_err(33 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd&quot;:96:2:96:3|Pruning register bits 15 to 0 of glv_offset_err(33 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 15 to 0 of glv_offset_err(33 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd&quot;:96:2:96:3|Sharing sequential element frac_D_reg. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Sharing sequential element frac_D_reg. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd&quot;:96:2:96:3|Pruning register bit 33 of glv_offset_frac(33 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 33 of glv_offset_frac(33 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd&quot;:96:2:96:3|Pruning register bits 33 to 30 of glv_delay_frac(33 downto 8). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\lscc\diamond\Project\FPGA P&amp;S\FPGA_code\source\galvo_dac_manager.vhd</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 33 to 30 of glv_delay_frac(33 downto 8). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\lout_interface.vhd&quot;:120:2:120:3|Found inferred clock data_out_fpga|CLK_SYS which controls 3090 sequential elements including loutif.aod_write_count[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\lout_interface.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock data_out_fpga|CLK_SYS which controls 3090 sequential elements including loutif.aod_write_count[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\division.vhd&quot;:45:2:45:3|Removing instance encctr.div.ddent_cp[1] because it is equivalent to instance encctr.div.ddent_cp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\division.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing instance encctr.div.ddent_cp[1] because it is equivalent to instance encctr.div.ddent_cp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\galvo_dac_manager.vhd&quot;:96:2:96:3|Removing instance gdm.glv_delay_frac[29] because it is equivalent to instance gdm.glv_delay_frac[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\galvo_dac_manager.vhd</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>96</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing instance gdm.glv_delay_frac[29] because it is equivalent to instance gdm.glv_delay_frac[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops13_0 because it is equivalent to instance gapinf.working.gapreg_flops13. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops13_0 because it is equivalent to instance gapinf.working.gapreg_flops13. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops13 because it is equivalent to instance gapinf.working.gapreg_flops13. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops13 because it is equivalent to instance gapinf.working.gapreg_flops13. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops10_0 because it is equivalent to instance gapinf.working.gapreg_flops10. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops10_0 because it is equivalent to instance gapinf.working.gapreg_flops10. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops10 because it is equivalent to instance gapinf.working.gapreg_flops10. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops10 because it is equivalent to instance gapinf.working.gapreg_flops10. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops8_0 because it is equivalent to instance gapinf.working.gapreg_flops8. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops8_0 because it is equivalent to instance gapinf.working.gapreg_flops8. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops8 because it is equivalent to instance gapinf.working.gapreg_flops8. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops8 because it is equivalent to instance gapinf.working.gapreg_flops8. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops5_0 because it is equivalent to instance gapinf.working.gapreg_flops5. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops5_0 because it is equivalent to instance gapinf.working.gapreg_flops5. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops5 because it is equivalent to instance gapinf.working.gapreg_flops5. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops5 because it is equivalent to instance gapinf.working.gapreg_flops5. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops15_0 because it is equivalent to instance gapinf.working.gapreg_flops15. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops15_0 because it is equivalent to instance gapinf.working.gapreg_flops15. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops15 because it is equivalent to instance gapinf.working.gapreg_flops15. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops15 because it is equivalent to instance gapinf.working.gapreg_flops15. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops14_0 because it is equivalent to instance gapinf.working.gapreg_flops14. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops14_0 because it is equivalent to instance gapinf.working.gapreg_flops14. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops14 because it is equivalent to instance gapinf.working.gapreg_flops14. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops14 because it is equivalent to instance gapinf.working.gapreg_flops14. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops12_0 because it is equivalent to instance gapinf.working.gapreg_flops12. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops12_0 because it is equivalent to instance gapinf.working.gapreg_flops12. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops12 because it is equivalent to instance gapinf.working.gapreg_flops12. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops12 because it is equivalent to instance gapinf.working.gapreg_flops12. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops11_0 because it is equivalent to instance gapinf.working.gapreg_flops11. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops11_0 because it is equivalent to instance gapinf.working.gapreg_flops11. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops11 because it is equivalent to instance gapinf.working.gapreg_flops11. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops11 because it is equivalent to instance gapinf.working.gapreg_flops11. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops9_0 because it is equivalent to instance gapinf.working.gapreg_flops9. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops9_0 because it is equivalent to instance gapinf.working.gapreg_flops9. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops9 because it is equivalent to instance gapinf.working.gapreg_flops9. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops9 because it is equivalent to instance gapinf.working.gapreg_flops9. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops7_0 because it is equivalent to instance gapinf.working.gapreg_flops7. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops7_0 because it is equivalent to instance gapinf.working.gapreg_flops7. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops7 because it is equivalent to instance gapinf.working.gapreg_flops7. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops7 because it is equivalent to instance gapinf.working.gapreg_flops7. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops6_0 because it is equivalent to instance gapinf.working.gapreg_flops6. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops6_0 because it is equivalent to instance gapinf.working.gapreg_flops6. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops6 because it is equivalent to instance gapinf.working.gapreg_flops6. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops6 because it is equivalent to instance gapinf.working.gapreg_flops6. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops4_0 because it is equivalent to instance gapinf.working.gapreg_flops4. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops4_0 because it is equivalent to instance gapinf.working.gapreg_flops4. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops4 because it is equivalent to instance gapinf.working.gapreg_flops4. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops4 because it is equivalent to instance gapinf.working.gapreg_flops4. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops3_0 because it is equivalent to instance gapinf.working.gapreg_flops3. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops3_0 because it is equivalent to instance gapinf.working.gapreg_flops3. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops3 because it is equivalent to instance gapinf.working.gapreg_flops3. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops3 because it is equivalent to instance gapinf.working.gapreg_flops3. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops2_0 because it is equivalent to instance gapinf.working.gapreg_flops2. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops2_0 because it is equivalent to instance gapinf.working.gapreg_flops2. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops2 because it is equivalent to instance gapinf.working.gapreg_flops2. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops2 because it is equivalent to instance gapinf.working.gapreg_flops2. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops1_0 because it is equivalent to instance gapinf.working.gapreg_flops1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops1_0 because it is equivalent to instance gapinf.working.gapreg_flops1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops1 because it is equivalent to instance gapinf.working.gapreg_flops1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops1 because it is equivalent to instance gapinf.working.gapreg_flops1. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_flops0_0 because it is equivalent to instance gapinf.working.gapreg_flops0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_flops0_0 because it is equivalent to instance gapinf.working.gapreg_flops0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd&quot;:618:0:618:5|Removing instance gapinf.working.gapreg_1_flops0 because it is equivalent to instance gapinf.working.gapreg_flops0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\lscc\diamond\project\fpga p&amp;s\fpga_code\source\main_fpga.vhd</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>618</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance gapinf.working.gapreg_1_flops0 because it is equivalent to instance gapinf.working.gapreg_flops0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock data_out_fpga|CLK_SYS with period 1000.00ns. Please declare a user-defined clock on port CLK_SYS.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock data_out_fpga|CLK_SYS with period 1000.00ns. Please declare a user-defined clock on port CLK_SYS.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

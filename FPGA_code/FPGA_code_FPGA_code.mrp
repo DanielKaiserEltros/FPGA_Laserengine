@@ -1,0 +1,3372 @@
+
+        Lattice Mapping Report File for Design Module 'data_out_fpga'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HC -t TQFP144 -s 4 -oc Industrial
+     FPGA_code_FPGA_code.ngd -o FPGA_code_FPGA_code_map.ncd -pr
+     FPGA_code_FPGA_code.prf -mp FPGA_code_FPGA_code.mrp
+     C:/lscc/diamond/Project/FPGA P&S/FPGA_code.lpf -c 0 -gui -msgset
+     C:/lscc/diamond/Project/FPGA P&S/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HCTQFP144
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
+Mapped on:  11/13/20  12:54:49
+
+Design Summary
+--------------
+
+   Number of registers:   3161 out of  7209 (44%)
+      PFU registers:         3117 out of  6864 (45%)
+      PIO registers:           44 out of   345 (13%)
+   Number of SLICEs:      2594 out of  3432 (76%)
+      SLICEs as Logic/ROM:   2378 out of  3432 (69%)
+      SLICEs as RAM:          216 out of  2574 (8%)
+      SLICEs as Carry:       1150 out of  3432 (34%)
+   Number of LUT4s:        5167 out of  6864 (75%)
+      Number used as logic LUTs:        2435
+      Number used as distributed RAM:   432
+      Number used as ripple logic:      2300
+      Number used as shift registers:     0
+   Number of PIO sites used: 66 + 4(JTAG) out of 115 (61%)
+   Number of block RAMs:  8 out of 26 (31%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net CLK_SYS_c: 1865 loads, 1864 rising, 1 falling (Driver: PIO CLK_SYS )
+   Number of Clock Enables:  233
+     Net Reset_glob: 2 loads, 2 LSLICEs
+
+                                    Page 1
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Design Summary (cont)
+---------------------
+     Net gdm.strobe_proc.un13_strobe_ctr: 1 loads, 0 LSLICEs
+     Net Reset_part: 59 loads, 59 LSLICEs
+     Net imgclkmgr.un1_px_div_3_i: 1 loads, 0 LSLICEs
+     Net un1_reset_2_i_a2: 16 loads, 0 LSLICEs
+     Net substate_RNISG621[1]: 8 loads, 0 LSLICEs
+     Net mcuif/state_s0_0_a2_0_a2_RNIGOSD2: 4 loads, 4 LSLICEs
+     Net mcuif/un1_data_to_fpga_reg_1_sqmuxa_0: 1 loads, 1 LSLICEs
+     Net mcuif/Rts_fpga_en_0: 1 loads, 1 LSLICEs
+     Net mcuif/Addr_12bite: 7 loads, 7 LSLICEs
+     Net un1_RTS_MCU_1_sqmuxa_1_0_0: 1 loads, 0 LSLICEs
+     Net memRB/un3_dpr3_clockena_0_a3_0: 2 loads, 0 LSLICEs
+     Net memRB/un3_dpr2_clockena_0_a3_0: 2 loads, 0 LSLICEs
+     Net memRB/un3_dpr1_clockena_0_a2: 2 loads, 0 LSLICEs
+     Net memRB/un5_dpr0_clockena_0_a2: 2 loads, 0 LSLICEs
+     Net memLUT/un3_dpr3_clockena_0_a3: 2 loads, 0 LSLICEs
+     Net memLUT/un3_dpr2_clockena_0_a3: 2 loads, 0 LSLICEs
+     Net memLUT/un3_dpr1_clockena_0_a3: 2 loads, 0 LSLICEs
+     Net memLUT/un5_dpr0_clockena_0_a3: 2 loads, 0 LSLICEs
+     Net lock_paramreg_sig: 124 loads, 123 LSLICEs
+     Net reg/N_1424_i: 4 loads, 4 LSLICEs
+     Net reg/Param_9_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_8_1_sqmuxa_1_i_0: 4 loads, 4 LSLICEs
+     Net reg/Param_7_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_63_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_62_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_6_1_sqmuxa_1_i_0: 4 loads, 4 LSLICEs
+     Net reg/Param_61_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_60_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_59_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_5_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_58_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_57_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_56_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_55_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_54_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_53_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_52_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_51_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_50_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_49_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_4_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_48_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_47_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_46_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_45_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_44_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_43_1_sqmuxa_1_i_0: 4 loads, 4 LSLICEs
+     Net reg/Param_40_1_sqmuxa_1_i_0_0: 5 loads, 5 LSLICEs
+     Net reg/Param_42_1_sqmuxa_1_i_0: 4 loads, 4 LSLICEs
+     Net reg/Param_41_1_sqmuxa_1_i_0_0: 5 loads, 5 LSLICEs
+     Net reg/Param_39_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_3_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_38_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_37_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_36_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_35_1_sqmuxa: 4 loads, 4 LSLICEs
+
+                                    Page 2
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Design Summary (cont)
+---------------------
+     Net reg/Param_34_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_33_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_32_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_31_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_30_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_2_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_29_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_28_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_27_1_sqmuxa_1_i_0: 4 loads, 4 LSLICEs
+     Net reg/Param_24_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_26_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_25_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_23_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_22_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_21_1_sqmuxa_1_i_0: 4 loads, 4 LSLICEs
+     Net reg/Param_20_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_19_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_18_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_17_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_16_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_15_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_14_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_12_1_sqmuxa_1_i_0: 4 loads, 4 LSLICEs
+     Net reg/Param_1_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net reg/Param_13_1_sqmuxa_1_i_0_0: 4 loads, 4 LSLICEs
+     Net reg/Param_11_1_sqmuxa_1_i_0: 4 loads, 4 LSLICEs
+     Net reg/Param_10_1_sqmuxa_1_i_0: 4 loads, 4 LSLICEs
+     Net reg/Param_0_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_96_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_92_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_88_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_84_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_8_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_80_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_76_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_72_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_68_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_64_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_60_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_56_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_52_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_44_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_4_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_48_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_40_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_36_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_32_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_28_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_24_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/N_251_i: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_16_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_156_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_152_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_148_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_144_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_140_1_sqmuxa: 4 loads, 4 LSLICEs
+
+                                    Page 3
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Design Summary (cont)
+---------------------
+     Net gapinf/gapreg_136_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_132_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_128_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_12_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_124_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_120_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_116_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_112_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_108_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_104_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_100_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapinf/gapreg_0_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net wrlaser/row_target_reached_reg_0_sqmuxa_1: 60 loads, 60 LSLICEs
+     Net wrlaser/un1_write_status_2_i: 1 loads, 1 LSLICEs
+     Net wrlaser/un1_write_status_0_sqmuxa_0: 5 loads, 5 LSLICEs
+     Net wrlaser/laser_shift_reg_1_sqmuxa_i: 8 loads, 8 LSLICEs
+     Net Icm_out_px_clk_aod_redge: 64 loads, 64 LSLICEs
+     Net repeatman/un1_rpt_status_1_i: 1 loads, 1 LSLICEs
+     Net repeatman/un1_rpt_status_3_i_0: 15 loads, 15 LSLICEs
+     Net repeatman/rpt_arr_3_1_sqmuxa: 14 loads, 14 LSLICEs
+     Net repeatman/rpt_arr_2_1_sqmuxa: 14 loads, 14 LSLICEs
+     Net repeatman/rpt_arr_1_1_sqmuxa: 14 loads, 14 LSLICEs
+     Net gapman/div_settl/ddent_cp_0_sqmuxa: 16 loads, 16 LSLICEs
+     Net gapman/div_settl/quot_reg_RNO_1[0]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/N_72_i: 18 loads, 18 LSLICEs
+     Net gapman/div_settl/quot_regce_1[1]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[2]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[3]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[4]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[5]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[6]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[7]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[8]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[9]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[10]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[11]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[12]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[13]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[14]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[15]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[16]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_1[17]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_0[18]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_0[19]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_0[20]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_0[21]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_0[22]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/quot_regce_0[23]: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/un1_div_state_2_0: 12 loads, 12 LSLICEs
+     Net gapman/div_DS/quot_reg_RNO_0[0]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/un1_reset_2_i: 17 loads, 17 LSLICEs
+     Net gapman/div_DS/quot_regce_0[1]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[2]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[3]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[4]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[5]: 1 loads, 1 LSLICEs
+
+                                    Page 4
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Design Summary (cont)
+---------------------
+     Net gapman/div_DS/quot_regce_0[6]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[7]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[8]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[9]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[10]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[11]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[12]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[13]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[14]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[15]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[16]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/quot_regce_0[17]: 1 loads, 1 LSLICEs
+     Net gapman/div_DS/un1_div_state_1_i: 9 loads, 9 LSLICEs
+     Net gapman/div_DS/ddent_cp_0_sqmuxa: 16 loads, 16 LSLICEs
+     Net gapman/gap_status_ns_0_m3_RNIQ0R51[1]: 2 loads, 2 LSLICEs
+     Net gapman/N_196_i: 1 loads, 1 LSLICEs
+     Net gapman/data_pixels_tmp_1_sqmuxa: 16 loads, 16 LSLICEs
+     Net gapman/gap_status_i_i_0[0]: 4 loads, 4 LSLICEs
+     Net gapman/data_pixels_tmpce[24]: 16 loads, 16 LSLICEs
+     Net gapman/data_pixels_tmpce[56]: 16 loads, 16 LSLICEs
+     Net gapman/data_pixels_tmpce[88]: 16 loads, 16 LSLICEs
+     Net gapman/frac_next_row_4_sqmuxa: 60 loads, 60 LSLICEs
+     Net gapman/DS_dac_t_out_1_sqmuxa_i: 9 loads, 9 LSLICEs
+     Net encctr/div/quot_reg_RNO[0]: 1 loads, 1 LSLICEs
+     Net encctr/div/un1_reset_2_i: 16 loads, 16 LSLICEs
+     Net encctr/div/quot_regce[1]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[2]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[3]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[4]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[5]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[6]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[7]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[8]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[9]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[10]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[11]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[12]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[13]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[14]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[15]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[16]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[17]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[18]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[19]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[20]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[21]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[22]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[23]: 1 loads, 1 LSLICEs
+     Net encctr/div/quot_regce[24]: 1 loads, 1 LSLICEs
+     Net encctr/div/un1_div_state_1_i: 13 loads, 13 LSLICEs
+     Net encctr/div/ddent_cp_0_sqmuxa: 15 loads, 15 LSLICEs
+     Net encctr/Clk_count_spd_reg_0_sqmuxa: 7 loads, 7 LSLICEs
+     Net encctr/Clk_count_spd_reg_0_sqmuxa_1: 8 loads, 8 LSLICEs
+     Net imgclkmgr/un1_px_div_i: 18 loads, 18 LSLICEs
+     Net loutif/un1_start_aod_1_0_a2_0_a2: 1 loads, 1 LSLICEs
+     Net loutif/un1_board_func_sel_1: 1 loads, 1 LSLICEs
+
+                                    Page 5
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Design Summary (cont)
+---------------------
+     Net loutif/Dir_for_normal_RNO: 1 loads, 1 LSLICEs
+     Net loutif/IO_cpld_status_RNO[4]: 1 loads, 1 LSLICEs
+     Net loutif/status_read_count_4_sqmuxa: 3 loads, 3 LSLICEs
+     Net status_read_count_RNIRBPT[3]: 6 loads, 0 LSLICEs
+     Net loutif.aod_data_byte_1_sqmuxa_i: 5 loads, 3 LSLICEs
+     Net loutif/Func_for_normal_6_i_a2_0_0_a2_RNI1EOT[0]: 2 loads, 2 LSLICEs
+     Net loutif.LASER_PWR_LATCH_0_sqmuxa_i: 1 loads, 0 LSLICEs
+     Net loutif.N_95_i: 1 loads, 0 LSLICEs
+   Number of LSRs:  37
+     Net Reset_glob: 398 loads, 377 LSLICEs
+     Net Reset_part: 427 loads, 425 LSLICEs
+     Net reg/N_1434: 24 loads, 24 LSLICEs
+     Net reg/DataOutA_645: 4 loads, 4 LSLICEs
+     Net gdm/glv_offset_frac_next_s_33_0_RNIJ3JP: 9 loads, 9 LSLICEs
+     Net gdm/N_62_1_i: 2 loads, 2 LSLICEs
+     Net gdm/glv_offset_frac_delaycomp_s_25_0_RNID3NE: 8 loads, 8 LSLICEs
+     Net gdm/un1_reset_5: 9 loads, 9 LSLICEs
+     Net gdm/glv_add_3_sqmuxa_1_RNIG84K: 11 loads, 11 LSLICEs
+     Net gapinf/gapreg_rams2_0_ram_RNIBF16C: 8 loads, 8 LSLICEs
+     Net gapinf/gapreg_1_rams3_ram_RNIJ3C7C: 8 loads, 8 LSLICEs
+     Net gapinf/Gaplength_out_635_0: 6 loads, 6 LSLICEs
+     Net gapinf/gapreg_rams13_ram_RNI4DKPB: 5 loads, 5 LSLICEs
+     Net wrlaser/row_target_reached_reg_0_sqmuxa_1: 4 loads, 4 LSLICEs
+     Net wrlaser/rows_marked_count_1_sqmuxa_13_RNIK4LO1: 9 loads, 9 LSLICEs
+     Net wrlaser/un1_write_status_0_sqmuxa_0_RNI895E: 4 loads, 4 LSLICEs
+     Net repeatman/rpt_arr_0_0_sqmuxa: 15 loads, 15 LSLICEs
+     Net repeatman/un1_resetdup: 3 loads, 3 LSLICEs
+     Net repeatman/fb: 1 loads, 1 LSLICEs
+     Net gapman/div_settl/un1_reset_3_i_o4_RNII12R_0: 9 loads, 9 LSLICEs
+     Net gapman/div_settl/remainder_frac_1_sqmuxa: 3 loads, 3 LSLICEs
+     Net gapman/div_DS/remainder_frac_1_sqmuxa: 3 loads, 3 LSLICEs
+     Net gapman/read_RB_status_3_sqmuxa: 2 loads, 2 LSLICEs
+     Net gapman/gap_status_RNIBKVD1[2]: 9 loads, 9 LSLICEs
+     Net gapman/read_RB_action_0_sqmuxa: 4 loads, 4 LSLICEs
+     Net gapman/read_RB_actionc_i: 1 loads, 1 LSLICEs
+     Net gapman/un4_sr_min_rawlto7_RNIKU7E1: 2 loads, 2 LSLICEs
+     Net gapman/DS_dac_t_out_0_sqmuxa: 9 loads, 9 LSLICEs
+     Net encctr/Clk_count_spd_0_sqmuxa: 18 loads, 18 LSLICEs
+     Net encctr/div/remainder_frac_1_sqmuxa: 4 loads, 4 LSLICEs
+     Net encctr/N_5_1_i: 11 loads, 11 LSLICEs
+     Net encctr/un1_reset_2: 7 loads, 7 LSLICEs
+     Net imgclkmgr/un1_px_div_RNIGVO71: 10 loads, 10 LSLICEs
+     Net loutif/un1_reset_0: 1 loads, 1 LSLICEs
+     Net loutif/Cmd_laser_power_i: 4 loads, 4 LSLICEs
+     Net loutif/Can_wr_1_sqmuxa_i_0_0dup: 6 loads, 6 LSLICEs
+     Net loutif/Wr_for_power_0_sqmuxa: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net Reset_part: 578 loads
+     Net Reset_glob: 556 loads
+     Net Mcuif_out_addr_to_fpga[5]: 325 loads
+     Net gapinf/VCC: 320 loads
+     Net GapIndex_reg[1]: 276 loads
+     Net GapIndex_reg[0]: 263 loads
+     Net lock_paramreg_sig: 254 loads
+     Net Mcuif_out_addr_to_fpga[4]: 247 loads
+
+                                    Page 6
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Design Summary (cont)
+---------------------
+     Net Mcuif_out_addr_to_fpga[3]: 218 loads
+     Net GapIndex_reg[2]: 178 loads
+
+
+
+
+   Number of warnings:  6
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: C:/lscc/diamond/Project/FPGA P&S/FPGA_code.lpf(15): Semantic
+     error in "IOBUF PORT "CLK_ROW" IO_TYPE=LVCMOS25 PULLMODE=UP
+     HYSTERESIS=LARGE ;": Port "CLK_ROW" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/lscc/diamond/Project/FPGA P&S/FPGA_code.lpf(16): Semantic
+     error in "IOBUF PORT "CLK_ROW2" IO_TYPE=LVCMOS25 PULLMODE=UP
+     HYSTERESIS=LARGE ;": Port "CLK_ROW2" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: C:/lscc/diamond/Project/FPGA P&S/FPGA_code.lpf(17): Semantic
+     error in "IOBUF PORT "CLK_RPT" IO_TYPE=LVCMOS25 PULLMODE=UP
+     HYSTERESIS=LARGE ;": Port "CLK_RPT" does not exist in the design. This
+     preference has been disabled.
+WARNING - map: IO buffer missing for top level port CLK_ROW...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port CLK_ROW2...logic will be
+     discarded.
+WARNING - map: IO buffer missing for top level port CLK_RPT...logic will be
+     discarded.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| MCU_BIDIR_DATA[0]   | BIDIR     | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| LASER_BIDIR_DATA[7] | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| CLK_ENC             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| CLK_SYS             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LASER_PWR_LATCH     | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| LASER_GUIDE         | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| LASER_ESTOP         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LASER_BIDIR_DATA[6] | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| LASER_BIDIR_DATA[5] | BIDIR     | LVCMOS25  | IN         |
+
+                                    Page 7
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| LASER_BIDIR_DATA[4] | BIDIR     | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| LASER_BIDIR_DATA[3] | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| LASER_BIDIR_DATA[2] | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| LASER_BIDIR_DATA[1] | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| LASER_BIDIR_DATA[0] | BIDIR     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| LASER_SYNCH         | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| LASER_EE            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| LASER_EM            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| GLV_WRQ             | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_CSQ             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| GLV_LDACQ           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| GLV_CLRQ            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| GLV_DO[15]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[14]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[13]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[12]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[11]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[10]          | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[9]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[8]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[7]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[6]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[5]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[4]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[3]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[2]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[1]           | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| GLV_DO[0]           | OUTPUT    | LVCMOS25  | OUT        |
+
+                                    Page 8
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| BOARD_RD            | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| BOARD_WR            | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| BOARD_FUNC_SEL[2]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| BOARD_FUNC_SEL[1]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| BOARD_FUNC_SEL[0]   | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| BOARD_SEL[1]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| BOARD_SEL[0]        | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ENC_DIR             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| ENC_ENC             | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| MCU_MARKING         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MCU_LOCK_PARAMREG   | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| MCU_RTS_MCU         | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| MCU_RESET           | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| MCU_BUFF_SEL        | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MCU_MEM_SEL         | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MCU_DATA_SEL        | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| MCU_MARK_EN         | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| MCU_WR              | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| MCU_RD              | INPUT     | LVCMOS25  | IN         |
++---------------------+-----------+-----------+------------+
+| MCU_BIDIR_DATA[7]   | BIDIR     | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| MCU_BIDIR_DATA[6]   | BIDIR     | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| MCU_BIDIR_DATA[5]   | BIDIR     | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| MCU_BIDIR_DATA[4]   | BIDIR     | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| MCU_BIDIR_DATA[3]   | BIDIR     | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| MCU_BIDIR_DATA[2]   | BIDIR     | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| MCU_BIDIR_DATA[1]   | BIDIR     | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| CLK_PX_AOD          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| CLK_PX_LASER        | OUTPUT    | LVCMOS25  |            |
+
+                                    Page 9
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
+| CLK_SYS_TEST_O      | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Block loutif/VCC undriven or does not drive anything - clipped.
+Block encctr/div/VCC undriven or does not drive anything - clipped.
+Block gapman/div_DS/VCC undriven or does not drive anything - clipped.
+Block gapman/div_settl/VCC undriven or does not drive anything - clipped.
+Block repeatman/VCC undriven or does not drive anything - clipped.
+Block wrlaser/VCC undriven or does not drive anything - clipped.
+Block gapinf/working.gapreg_rams14_0_ram/RAM1 undriven or does not drive
+     anything - clipped.
+Block gapinf/working.gapreg_rams2_0_ram/RAM1 undriven or does not drive anything
+     - clipped.
+Block gapinf/working.gapreg_rams6_0_ram/RAM1 undriven or does not drive anything
+     - clipped.
+Block gapinf/working.gapreg_rams10_0_ram/RAM1 undriven or does not drive
+     anything - clipped.
+Block gapinf/working.gapreg_rams13_ram/RAM1 undriven or does not drive anything
+     - clipped.
+Block gapinf/working.gapreg_rams1_ram/RAM1 undriven or does not drive anything -
+     clipped.
+Block gapinf/working.gapreg_rams5_ram/RAM1 undriven or does not drive anything -
+     clipped.
+Block gapinf/working.gapreg_rams9_ram/RAM1 undriven or does not drive anything -
+     clipped.
+Block gapinf/working.gapreg_1_rams15_ram/RAM1 undriven or does not drive
+     anything - clipped.
+Block gapinf/working.gapreg_1_rams3_ram/RAM1 undriven or does not drive anything
+     - clipped.
+Block gapinf/working.gapreg_1_rams7_ram/RAM1 undriven or does not drive anything
+     - clipped.
+Block gapinf/working.gapreg_1_rams11_ram/RAM1 undriven or does not drive
+     anything - clipped.
+Block reg/VCC undriven or does not drive anything - clipped.
+Block reg/GND undriven or does not drive anything - clipped.
+Block mcuif/VCC undriven or does not drive anything - clipped.
+Signal lock_paramreg_sig_i was merged into signal lock_paramreg_sig
+Signal loutif/CN was merged into signal CLK_SYS_c
+Signal DATA_TO_MCU_cl_i[7] was merged into signal mcuif/DATA_TO_MCU_cl[7]
+Signal DATA_TO_MCU_cl_1_i[7] was merged into signal mcuif/DATA_TO_MCU_cl_1[7]
+Signal DATA_TO_MCU_cl_2_i[7] was merged into signal mcuif/DATA_TO_MCU_cl_2[7]
+Signal DATA_TO_MCU_cl_3_i[7] was merged into signal mcuif/DATA_TO_MCU_cl_3[7]
+Signal DATA_TO_MCU_cl_4_i[7] was merged into signal mcuif/DATA_TO_MCU_cl_4[7]
+Signal DATA_TO_MCU_cl_5_i[7] was merged into signal mcuif/DATA_TO_MCU_cl_5[7]
+Signal DATA_TO_MCU_cl_6_i[7] was merged into signal mcuif/DATA_TO_MCU_cl_6[7]
+Signal DATA_TO_MCU_cl_7_i[7] was merged into signal mcuif/DATA_TO_MCU_cl_7[7]
+Signal gapinf/N_45 undriven or does not drive anything - clipped.
+Signal gapinf/N_30 undriven or does not drive anything - clipped.
+Signal loutif/GND undriven or does not drive anything - clipped.
+Signal imgclkmgr/GND undriven or does not drive anything - clipped.
+Signal encctr/GND undriven or does not drive anything - clipped.
+
+                                   Page 10
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal encctr/div/GND undriven or does not drive anything - clipped.
+Signal gapman/GND undriven or does not drive anything - clipped.
+Signal gapman/div_DS/GND undriven or does not drive anything - clipped.
+Signal gapman/div_settl/GND undriven or does not drive anything - clipped.
+Signal repeatman/GND undriven or does not drive anything - clipped.
+Signal wrlaser/GND undriven or does not drive anything - clipped.
+Signal gapinf/GND undriven or does not drive anything - clipped.
+Signal gdm/GND undriven or does not drive anything - clipped.
+Signal memLUT/dpram0/VCC undriven or does not drive anything - clipped.
+Signal memLUT/dpram0/GND undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/VCC undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/GND undriven or does not drive anything - clipped.
+Signal memLUT/dpram2/VCC undriven or does not drive anything - clipped.
+Signal memLUT/dpram2/GND undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/VCC undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/GND undriven or does not drive anything - clipped.
+Signal memRB/dpram0/VCC undriven or does not drive anything - clipped.
+Signal memRB/dpram0/GND undriven or does not drive anything - clipped.
+Signal memRB/dpram1/VCC undriven or does not drive anything - clipped.
+Signal memRB/dpram1/GND undriven or does not drive anything - clipped.
+Signal memRB/dpram2/VCC undriven or does not drive anything - clipped.
+Signal memRB/dpram2/GND undriven or does not drive anything - clipped.
+Signal memRB/dpram3/VCC undriven or does not drive anything - clipped.
+Signal memRB/dpram3/GND undriven or does not drive anything - clipped.
+Signal mcuif/GND undriven or does not drive anything - clipped.
+Signal loutif/un1_power_count_cry_5_0_COUT undriven or does not drive anything -
+     clipped.
+Signal loutif/un1_power_count_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal loutif/N_18 undriven or does not drive anything - clipped.
+Signal imgclkmgr/un1_px_count_laser_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/N_2 undriven or does not drive anything - clipped.
+Signal imgclkmgr/un1_px_count_laser_s_15_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un1_px_count_laser_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_a_4_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_a_4_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/N_3 undriven or does not drive anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_a_4_s_15_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_a_4_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un2_px_count_aod_a_4_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/N_4 undriven or does not drive anything - clipped.
+Signal imgclkmgr/un2_px_count_aod_a_4_s_15_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un2_px_count_aod_a_4_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un8_px_count_aod_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal imgclkmgr/un8_px_count_aod_cry_0_0_S0 undriven or does not drive anything
+
+                                   Page 11
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     - clipped.
+Signal imgclkmgr/N_5 undriven or does not drive anything - clipped.
+Signal imgclkmgr/un8_px_count_aod_s_15_0_S1 undriven or does not drive anything
+     - clipped.
+Signal imgclkmgr/un8_px_count_aod_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un17_px_count_aod_0_I_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un17_px_count_aod_0_I_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/N_6 undriven or does not drive anything - clipped.
+Signal imgclkmgr/un17_px_count_aod_0_I_9_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un17_px_count_aod_0_I_9_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un17_px_count_aod_0_I_27_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un17_px_count_aod_0_I_27_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un17_px_count_aod_0_I_33_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un17_px_count_aod_0_I_33_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un17_px_count_aod_0_I_21_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un17_px_count_aod_0_I_21_0_COUT undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_0_I_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_0_I_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/N_7 undriven or does not drive anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_0_I_9_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_0_I_9_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_0_I_27_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_0_I_27_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_0_I_33_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_0_I_33_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_0_I_21_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un3_px_count_laser_0_I_21_0_COUT undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un2_px_count_aod_0_I_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal imgclkmgr/un2_px_count_aod_0_I_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal imgclkmgr/N_8 undriven or does not drive anything - clipped.
+Signal imgclkmgr/un2_px_count_aod_0_I_9_0_S1 undriven or does not drive anything
+     - clipped.
+Signal imgclkmgr/un2_px_count_aod_0_I_9_0_S0 undriven or does not drive anything
+
+                                   Page 12
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     - clipped.
+Signal imgclkmgr/un2_px_count_aod_0_I_27_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un2_px_count_aod_0_I_27_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un2_px_count_aod_0_I_33_0_S1 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un2_px_count_aod_0_I_33_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un2_px_count_aod_0_I_21_0_S0 undriven or does not drive
+     anything - clipped.
+Signal imgclkmgr/un2_px_count_aod_0_I_21_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/dR_enc_2_madd_1_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/dR_enc_2_madd_1_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/N_1 undriven or does not drive anything - clipped.
+Signal encctr/dR_enc_2_madd_1_cry_16_0_COUT undriven or does not drive anything
+     - clipped.
+Signal encctr/dR_enc_2_madd_2_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/dR_enc_2_madd_2_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/N_2 undriven or does not drive anything - clipped.
+Signal encctr/dR_enc_2_madd_2_cry_16_0_COUT undriven or does not drive anything
+     - clipped.
+Signal encctr/dR_enc_2_madd_0_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/dR_enc_2_madd_0_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/N_3 undriven or does not drive anything - clipped.
+Signal encctr/dR_enc_2_madd_0_cry_15_0_COUT undriven or does not drive anything
+     - clipped.
+Signal encctr/dR_enc_2_madd_3_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/dR_enc_2_madd_3_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/N_4 undriven or does not drive anything - clipped.
+Signal encctr/dR_enc_2_madd_3_cry_17_0_COUT undriven or does not drive anything
+     - clipped.
+Signal encctr/dR_enc_2_madd_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/dR_enc_2_madd_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/N_5 undriven or does not drive anything - clipped.
+Signal encctr/dR_enc_2_madd_s_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/dR_enc_2_madd_s_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal encctr/un1_Enc_count_total_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_6 undriven or does not drive anything - clipped.
+Signal encctr/un1_Enc_count_total_s_23_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/un1_Enc_count_total_s_23_0_COUT undriven or does not drive
+
+                                   Page 13
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal encctr/un1_Enc_count_spd_1_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_7 undriven or does not drive anything - clipped.
+Signal encctr/un1_Enc_count_spd_1_s_15_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/un1_Enc_count_spd_1_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/un1_Clk_count_spd_1_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_8 undriven or does not drive anything - clipped.
+Signal encctr/un1_Clk_count_spd_1_s_15_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/un1_Clk_count_spd_1_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/un1_ES_t_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/un1_ES_t_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/N_9 undriven or does not drive anything - clipped.
+Signal encctr/un1_ES_t_1_s_19_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/un1_ES_t_1_s_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_4_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_4_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_10 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_4_cry_24_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_5_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_5_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_11 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_5_cry_24_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_6_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_6_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_12 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_6_cry_24_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_7_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_7_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_13 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_7_cry_24_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_1_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_1_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+
+                                   Page 14
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal encctr/N_14 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_1_cry_24_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/N_15 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_s_31_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_s_31_0_COUT undriven or does not drive anything -
+     clipped.
+Signal encctr/r_dac_tmp_1_madd_12_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_12_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_16 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_12_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_12_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_12_cry_3_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_12_cry_28_0_S1 undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_12_cry_28_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_13_cry_4_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_13_cry_4_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_17 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_13_s_31_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_13_s_31_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_9_cry_2_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_9_cry_2_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_18 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_9_cry_27_0_COUT undriven or does not drive
+
+                                   Page 15
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_10_cry_2_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_10_cry_2_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_19 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_10_cry_27_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_11_cry_2_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_11_cry_2_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_20 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_11_s_27_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_11_s_27_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_8_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_8_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_21 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_8_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_8_cry_25_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_0_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_0_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_22 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_0_cry_23_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_2_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_2_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_23 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_2_cry_24_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_3_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/r_dac_tmp_1_madd_3_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/N_24 undriven or does not drive anything - clipped.
+Signal encctr/r_dac_tmp_1_madd_3_cry_24_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/r_sum_tmp_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_sum_tmp_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/N_25 undriven or does not drive anything - clipped.
+Signal encctr/r_sum_tmp_1_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/r_sum_tmp_1_s_29_0_S1 undriven or does not drive anything -
+     clipped.
+
+                                   Page 16
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal encctr/r_sum_tmp_1_s_29_0_COUT undriven or does not drive anything -
+     clipped.
+Signal encctr/un3_r_enc_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/un3_r_enc_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/N_26 undriven or does not drive anything - clipped.
+Signal encctr/un3_r_enc_s_45_0_S1 undriven or does not drive anything - clipped.
+     
+Signal encctr/un3_r_enc_s_45_0_COUT undriven or does not drive anything -
+     clipped.
+Signal encctr/div/remainder_work_8_14_31_i_m3_cry_0_0_S0 undriven or does not
+     drive anything - clipped.
+Signal encctr/div/N_1 undriven or does not drive anything - clipped.
+Signal encctr/div/remainder_work_8_14_31_i_m3_s_15_0_S1 undriven or does not
+     drive anything - clipped.
+Signal encctr/div/remainder_work_8_14_31_i_m3_s_15_0_COUT undriven or does not
+     drive anything - clipped.
+Signal encctr/div/un1_bit_pos_cry_0_0_S1_1 undriven or does not drive anything -
+     clipped.
+Signal encctr/div/un1_bit_pos_cry_0_0_S0_1 undriven or does not drive anything -
+     clipped.
+Signal encctr/div/N_12 undriven or does not drive anything - clipped.
+Signal encctr/div/un1_bit_pos_s_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/div/un1_bit_pos_s_5_0_COUT undriven or does not drive anything -
+     clipped.
+Signal encctr/div/un25_div_state_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/N_13 undriven or does not drive anything - clipped.
+Signal encctr/div/un25_div_state_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_3_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_3_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_5_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_5_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_7_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_7_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_9_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_9_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_11_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_11_0_S0 undriven or does not drive anything
+     - clipped.
+
+                                   Page 17
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal encctr/div/un25_div_state_cry_13_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_13_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_15_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_15_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_16_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un25_div_state_cry_16_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/div/un5_div_state_0_I_1_0_S1_1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un5_div_state_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/div/N_14 undriven or does not drive anything - clipped.
+Signal encctr/div/un5_div_state_0_I_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal encctr/div/un5_div_state_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/div/un5_div_state_0_I_27_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un5_div_state_0_I_27_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un5_div_state_0_I_33_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un5_div_state_0_I_33_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un5_div_state_0_I_21_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un5_div_state_0_I_21_0_COUT undriven or does not drive
+     anything - clipped.
+Signal encctr/div/un2_div_state_0_I_9_0_S1_1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un2_div_state_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal encctr/div/N_15 undriven or does not drive anything - clipped.
+Signal encctr/div/un2_div_state_0_I_15_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un2_div_state_0_I_15_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un2_div_state_0_I_45_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un2_div_state_0_I_45_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un2_div_state_0_I_39_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un2_div_state_0_I_39_0_S0 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un2_div_state_0_I_21_0_S1 undriven or does not drive anything
+     - clipped.
+Signal encctr/div/un2_div_state_0_I_21_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/un1_gap_index_reg_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+
+                                   Page 18
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gapman/N_1 undriven or does not drive anything - clipped.
+Signal gapman/un1_gap_index_reg_s_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un1_gap_index_reg_s_5_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gapman/un1_Rb_ptr_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_2 undriven or does not drive anything - clipped.
+Signal gapman/un1_Rb_ptr_s_9_0_S1 undriven or does not drive anything - clipped.
+     
+Signal gapman/un1_Rb_ptr_s_9_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gapman/un1_row_target_count_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/N_3 undriven or does not drive anything - clipped.
+Signal gapman/un1_row_target_count_s_15_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/un1_row_target_count_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_0_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_0_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/N_4 undriven or does not drive anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_0_cry_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_2_cry_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_2_cry_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/N_6 undriven or does not drive anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_2_cry_16_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_1_cry_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_1_cry_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/N_7 undriven or does not drive anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_1_cry_16_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_3_cry_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_3_cry_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/N_8 undriven or does not drive anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_3_cry_16_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_base_plus_cry_8_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/dr_set_base_plus_cry_8_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_9 undriven or does not drive anything - clipped.
+Signal gapman/dr_set_base_plus_cry_23_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_5_cry_2_0_S1 undriven or does not drive
+     anything - clipped.
+
+                                   Page 19
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gapman/dr_set_small_tmp_1_madd_5_cry_2_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/N_14 undriven or does not drive anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_5_s_19_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_5_s_19_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_4_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_4_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/N_15 undriven or does not drive anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_4_cry_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_4_cry_17_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_12_cry_2_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_12_cry_2_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_16 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_12_s_23_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_12_s_23_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_13_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_13_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_17 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_13_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_13_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_13_cry_3_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_13_cry_24_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_13_cry_24_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_11_cry_2_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_11_cry_2_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_18 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_11_cry_23_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_6_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_6_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_19 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_6_cry_20_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_7_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+
+                                   Page 20
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gapman/ds_t_tmp_1_madd_7_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_20 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_7_cry_20_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_10_cry_2_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_10_cry_2_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_21 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_10_cry_23_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_4_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_4_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_22 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_4_cry_20_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_5_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_5_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_23 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_5_cry_20_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_0_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_0_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_24 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_0_cry_19_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_2_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_2_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_25 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_2_cry_20_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_3_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_3_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_26 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_3_cry_20_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_8_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_8_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_27 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_8_cry_18_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_1_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+
+                                   Page 21
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gapman/ds_t_tmp_1_madd_1_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_29 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_1_cry_20_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_9_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_9_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_30 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_9_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_9_cry_21_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/N_31 undriven or does not drive anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_cry_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_cry_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_cry_3_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_s_19_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/dr_set_small_tmp_1_madd_s_19_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_32 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_s_19_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_s_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_15_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_15_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_33 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_15_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_15_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_15_cry_3_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_15_cry_3_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_15_cry_5_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_15_cry_5_0_S0 undriven or does not drive anything
+
+                                   Page 22
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_15_cry_7_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_15_s_27_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_15_s_27_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_14_cry_4_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/ds_t_tmp_1_madd_14_cry_4_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_34 undriven or does not drive anything - clipped.
+Signal gapman/ds_t_tmp_1_madd_14_s_27_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/ds_t_tmp_1_madd_14_s_27_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/sr_min_tmp_1_madd_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/sr_min_tmp_1_madd_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_35 undriven or does not drive anything - clipped.
+Signal gapman/sr_min_tmp_1_madd_s_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/sr_min_tmp_1_madd_s_11_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/sr_min_tmp_1_madd_4_cry_2_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/sr_min_tmp_1_madd_4_cry_2_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_36 undriven or does not drive anything - clipped.
+Signal gapman/sr_min_tmp_1_madd_4_s_11_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/sr_min_tmp_1_madd_4_s_11_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/sr_min_tmp_1_madd_3_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/sr_min_tmp_1_madd_3_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_37 undriven or does not drive anything - clipped.
+Signal gapman/sr_min_tmp_1_madd_3_cry_11_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/sr_min_tmp_1_madd_0_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/sr_min_tmp_1_madd_0_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_38 undriven or does not drive anything - clipped.
+Signal gapman/sr_min_tmp_1_madd_0_cry_9_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/sr_min_tmp_1_madd_2_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/sr_min_tmp_1_madd_2_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_39 undriven or does not drive anything - clipped.
+Signal gapman/sr_min_tmp_1_madd_2_cry_10_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/sr_min_tmp_1_madd_1_cry_1_0_S1 undriven or does not drive anything
+
+                                   Page 23
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     - clipped.
+Signal gapman/sr_min_tmp_1_madd_1_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_40 undriven or does not drive anything - clipped.
+Signal gapman/sr_min_tmp_1_madd_1_cry_10_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/DS_dac_t_1_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/DS_dac_t_1_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_41 undriven or does not drive anything - clipped.
+Signal gapman/DS_dac_t_1_s_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/DS_dac_t_1_s_17_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gapman/un3_px_per_row_add_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/un3_px_per_row_add_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/N_42 undriven or does not drive anything - clipped.
+Signal gapman/un3_px_per_row_add_cry_1_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/un3_px_per_row_add_cry_1_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/un3_px_per_row_add_cry_3_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/un3_px_per_row_add_cry_3_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/un3_px_per_row_add_cry_5_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/frac_diff_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/frac_diff_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_43 undriven or does not drive anything - clipped.
+Signal gapman/frac_diff_s_27_0_S1 undriven or does not drive anything - clipped.
+     
+Signal gapman/frac_diff_s_27_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gapman/un1_frac_next_row_cry_8_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un1_frac_next_row_cry_8_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_44 undriven or does not drive anything - clipped.
+Signal gapman/un1_frac_next_row_s_27_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un1_frac_next_row_s_27_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/un4_gap_status_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_45 undriven or does not drive anything - clipped.
+Signal gapman/un4_gap_status_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_1_0_S0 undriven or does not drive anything -
+
+                                   Page 24
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal gapman/un4_gap_status_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_13_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_13_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_15_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_17_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_19_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_19_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_23_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_23_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_25_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_cry_25_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_s_27_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un4_gap_status_s_27_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_0_0_S0 undriven or does not drive anything -
+
+                                   Page 25
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal gapman/N_46 undriven or does not drive anything - clipped.
+Signal gapman/un131_gap_status_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_13_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_13_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_15_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_17_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_19_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_19_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_23_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_23_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_25_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_25_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un131_gap_status_cry_27_0_S0 undriven or does not drive anything -
+     clipped.
+
+                                   Page 26
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gapman/un131_gap_status_cry_27_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/un122_gap_status_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_47 undriven or does not drive anything - clipped.
+Signal gapman/un122_gap_status_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_13_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_13_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_15_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_17_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_19_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_19_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_23_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_23_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_25_0_S1 undriven or does not drive anything -
+
+                                   Page 27
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal gapman/un122_gap_status_cry_25_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_27_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un122_gap_status_cry_27_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/un95_gap_status_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_48 undriven or does not drive anything - clipped.
+Signal gapman/un95_gap_status_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_11_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_11_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_13_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_13_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_15_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_17_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_17_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_19_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_19_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_21_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_21_0_S0 undriven or does not drive anything -
+     clipped.
+
+                                   Page 28
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gapman/un95_gap_status_cry_23_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_23_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_25_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_25_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_27_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un95_gap_status_cry_27_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/un26_gap_status_0_I_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un26_gap_status_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_49 undriven or does not drive anything - clipped.
+Signal gapman/un26_gap_status_0_I_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un26_gap_status_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un26_gap_status_0_I_27_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un26_gap_status_0_I_27_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un26_gap_status_0_I_33_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un26_gap_status_0_I_33_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un26_gap_status_0_I_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un26_gap_status_0_I_21_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/un23_gap_status_0_I_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un23_gap_status_0_I_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/N_50 undriven or does not drive anything - clipped.
+Signal gapman/un23_gap_status_0_I_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un23_gap_status_0_I_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un23_gap_status_0_I_27_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un23_gap_status_0_I_27_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un23_gap_status_0_I_33_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gapman/un23_gap_status_0_I_33_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un23_gap_status_0_I_21_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gapman/un23_gap_status_0_I_21_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gapman/div_DS/remainder_work_8_14_30_i_m3_cry_0_0_S0 undriven or does not
+     drive anything - clipped.
+
+                                   Page 29
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gapman/div_DS/N_10 undriven or does not drive anything - clipped.
+Signal gapman/div_DS/remainder_work_8_14_30_i_m3_s_15_0_S1 undriven or does not
+     drive anything - clipped.
+Signal gapman/div_DS/remainder_work_8_14_30_i_m3_s_15_0_COUT undriven or does
+     not drive anything - clipped.
+Signal gapman/div_DS/un1_bit_pos_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gapman/div_DS/un1_bit_pos_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gapman/div_DS/N_11 undriven or does not drive anything - clipped.
+Signal gapman/div_DS/un1_bit_pos_cry_3_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_0_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_0_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/N_12 undriven or does not drive anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_1_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_1_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_3_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_3_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_5_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_5_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_7_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_7_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_9_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_9_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_11_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_11_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_13_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_13_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_15_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_15_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_16_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un25_div_state_cry_16_0_COUT_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un5_div_state_0_I_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un5_div_state_0_I_1_0_S0_0 undriven or does not drive
+
+                                   Page 30
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal gapman/div_DS/N_13 undriven or does not drive anything - clipped.
+Signal gapman/div_DS/un5_div_state_0_I_9_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un5_div_state_0_I_9_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un5_div_state_0_I_27_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un5_div_state_0_I_27_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un5_div_state_0_I_33_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un5_div_state_0_I_33_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un5_div_state_0_I_21_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un5_div_state_0_I_21_0_COUT_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un2_div_state_0_I_1_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un2_div_state_0_I_1_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/N_14 undriven or does not drive anything - clipped.
+Signal gapman/div_DS/un2_div_state_0_I_9_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un2_div_state_0_I_9_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un2_div_state_0_I_27_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un2_div_state_0_I_27_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un2_div_state_0_I_33_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un2_div_state_0_I_33_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un2_div_state_0_I_21_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_DS/un2_div_state_0_I_21_0_COUT_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/remainder_3_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/N_1 undriven or does not drive anything - clipped.
+Signal gapman/div_settl/remainder_3_s_15_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/remainder_3_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un1_bit_pos_cry_0_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un1_bit_pos_cry_0_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/N_2 undriven or does not drive anything - clipped.
+Signal gapman/div_settl/un1_bit_pos_cry_3_0_COUT_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_0_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_0_0_S0_1 undriven or does not drive
+
+                                   Page 31
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal gapman/div_settl/N_3 undriven or does not drive anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_1_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_1_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_3_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_3_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_5_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_5_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_7_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_7_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_9_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_9_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_11_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_11_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_13_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_13_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_15_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_15_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_16_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un25_div_state_cry_16_0_COUT_1 undriven or does not
+     drive anything - clipped.
+Signal gapman/div_settl/un5_div_state_0_I_1_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un5_div_state_0_I_1_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/N_7 undriven or does not drive anything - clipped.
+Signal gapman/div_settl/un5_div_state_0_I_9_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un5_div_state_0_I_9_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un5_div_state_0_I_27_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un5_div_state_0_I_27_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un5_div_state_0_I_33_0_S1_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un5_div_state_0_I_33_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un5_div_state_0_I_21_0_S0_1 undriven or does not drive
+
+                                   Page 32
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     anything - clipped.
+Signal gapman/div_settl/un5_div_state_0_I_21_0_COUT_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un2_div_state_0_I_1_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un2_div_state_0_I_1_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/N_8 undriven or does not drive anything - clipped.
+Signal gapman/div_settl/un2_div_state_0_I_9_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un2_div_state_0_I_9_0_S0_1 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un2_div_state_0_I_27_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un2_div_state_0_I_27_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un2_div_state_0_I_33_0_S1_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un2_div_state_0_I_33_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un2_div_state_0_I_21_0_S0_0 undriven or does not drive
+     anything - clipped.
+Signal gapman/div_settl/un2_div_state_0_I_21_0_COUT_1 undriven or does not drive
+     anything - clipped.
+Signal repeatman/rpt_arr_0_8_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal repeatman/rpt_arr_0_8_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal repeatman/N_1 undriven or does not drive anything - clipped.
+Signal repeatman/rpt_arr_0_8_s_27_0_S1 undriven or does not drive anything -
+     clipped.
+Signal repeatman/rpt_arr_0_8_s_27_0_COUT undriven or does not drive anything -
+     clipped.
+Signal repeatman/un1_repeats_cnt_reg_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal repeatman/N_2 undriven or does not drive anything - clipped.
+Signal repeatman/un1_repeats_cnt_reg_s_23_0_S1 undriven or does not drive
+     anything - clipped.
+Signal repeatman/un1_repeats_cnt_reg_s_23_0_COUT undriven or does not drive
+     anything - clipped.
+Signal repeatman/un25_rpt_arr_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal repeatman/un25_rpt_arr_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal repeatman/N_3 undriven or does not drive anything - clipped.
+Signal repeatman/un25_rpt_arr_s_19_0_S1 undriven or does not drive anything -
+     clipped.
+Signal repeatman/un25_rpt_arr_s_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un1_pixel_count_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/N_2 undriven or does not drive anything - clipped.
+Signal wrlaser/un1_pixel_count_cry_5_0_COUT undriven or does not drive anything
+     - clipped.
+Signal wrlaser/un1_rows_marked_count_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+
+                                   Page 33
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal wrlaser/N_3 undriven or does not drive anything - clipped.
+Signal wrlaser/un1_rows_marked_count_s_15_0_S1 undriven or does not drive
+     anything - clipped.
+Signal wrlaser/un1_rows_marked_count_s_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal wrlaser/un5_write_status_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/N_4 undriven or does not drive anything - clipped.
+Signal wrlaser/un5_write_status_cry_1_0_S1 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_1_0_S0 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_3_0_S1 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_3_0_S0 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_5_0_S1 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_5_0_S0 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_7_0_S0 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_9_0_S1 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_9_0_S0 undriven or does not drive anything -
+     clipped.
+Signal wrlaser/un5_write_status_cry_11_0_S1 undriven or does not drive anything
+     - clipped.
+Signal wrlaser/un5_write_status_cry_11_0_S0 undriven or does not drive anything
+     - clipped.
+Signal wrlaser/un5_write_status_cry_13_0_S1 undriven or does not drive anything
+     - clipped.
+Signal wrlaser/un5_write_status_cry_13_0_S0 undriven or does not drive anything
+     - clipped.
+Signal wrlaser/un5_write_status_cry_15_0_S0 undriven or does not drive anything
+     - clipped.
+Signal wrlaser/un5_write_status_cry_15_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gapinf/gapreg_rams14_0_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams14_0_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams14_0_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams2_0_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams2_0_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams2_0_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams6_0_ram_DO2 undriven or does not drive anything -
+     clipped.
+
+                                   Page 34
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gapinf/gapreg_rams6_0_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams6_0_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams10_0_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams10_0_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams10_0_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams13_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams13_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams13_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams1_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams1_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams1_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams5_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams5_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams5_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams9_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams9_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_rams9_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams15_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams15_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams15_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams3_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams3_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams3_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams7_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams7_ram_DO3 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams7_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams11_ram_DO2 undriven or does not drive anything -
+     clipped.
+Signal gapinf/gapreg_1_rams11_ram_DO3 undriven or does not drive anything -
+     clipped.
+
+                                   Page 35
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gapinf/gapreg_1_rams11_ram_DO1 undriven or does not drive anything -
+     clipped.
+Signal gdm/glv_add_7_1_cry_0_0_S0 undriven or does not drive anything - clipped.
+     
+Signal gdm/N_1 undriven or does not drive anything - clipped.
+Signal gdm/glv_add_7_1_s_25_0_S1 undriven or does not drive anything - clipped.
+Signal gdm/glv_add_7_1_s_25_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gdm/un19_strobe_ctr_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gdm/un19_strobe_ctr_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gdm/N_2 undriven or does not drive anything - clipped.
+Signal gdm/un19_strobe_ctr_s_7_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gdm/un19_strobe_ctr_s_7_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_warn_cnt_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_warn_cnt_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gdm/N_3 undriven or does not drive anything - clipped.
+Signal gdm/un1_warn_cnt_s_23_0_S1 undriven or does not drive anything - clipped.
+     
+Signal gdm/un1_warn_cnt_s_23_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_err_cnt_cry_0_0_S1 undriven or does not drive anything - clipped.
+     
+Signal gdm/un1_err_cnt_cry_0_0_S0 undriven or does not drive anything - clipped.
+     
+Signal gdm/N_4 undriven or does not drive anything - clipped.
+Signal gdm/un1_err_cnt_s_23_0_S1 undriven or does not drive anything - clipped.
+Signal gdm/un1_err_cnt_s_23_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gdm/glv_delay_frac_tmp_2_0_0_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gdm/glv_delay_frac_tmp_2_0_0_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gdm/N_5 undriven or does not drive anything - clipped.
+Signal gdm/glv_delay_frac_tmp_2_0_0_s_19_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gdm/glv_delay_frac_tmp_2_0_0_s_19_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gdm/glv_delay_frac_tmp_2_0_cry_0_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gdm/glv_delay_frac_tmp_2_0_cry_0_0_S0 undriven or does not drive anything
+     - clipped.
+Signal gdm/N_6 undriven or does not drive anything - clipped.
+Signal gdm/glv_delay_frac_tmp_2_0_s_19_0_S1 undriven or does not drive anything
+     - clipped.
+Signal gdm/glv_delay_frac_tmp_2_0_s_19_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gdm/un5_glv_offset_err_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gdm/un5_glv_offset_err_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+
+                                   Page 36
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gdm/N_7 undriven or does not drive anything - clipped.
+Signal gdm/un5_glv_offset_err_cry_15_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gdm/glv_offset_frac_next_cry_0_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gdm/glv_offset_frac_next_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gdm/N_8 undriven or does not drive anything - clipped.
+Signal gdm/glv_offset_frac_next_s_33_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gdm/glv_offset_frac_next_s_33_0_COUT undriven or does not drive anything
+     - clipped.
+Signal gdm/glv_offset_frac_delaycomp_cry_0_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gdm/glv_offset_frac_delaycomp_cry_0_0_S0 undriven or does not drive
+     anything - clipped.
+Signal gdm/N_9 undriven or does not drive anything - clipped.
+Signal gdm/glv_offset_frac_delaycomp_s_25_0_S1 undriven or does not drive
+     anything - clipped.
+Signal gdm/glv_offset_frac_delaycomp_s_25_0_COUT undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_reset_4_0_cry_0_0_S0 undriven or does not drive anything -
+     clipped.
+Signal gdm/N_10 undriven or does not drive anything - clipped.
+Signal gdm/un1_reset_4_0_s_15_0_S1 undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_reset_4_0_s_15_0_COUT undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S1[16] undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S0[16] undriven or does not drive
+     anything - clipped.
+Signal gdm/N_11 undriven or does not drive anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S1[18] undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S0[18] undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S1[22] undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S0[22] undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S1[26] undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S0[26] undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S1[30] undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S0[30] undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_S1[32] undriven or does not drive
+     anything - clipped.
+Signal gdm/un1_glv_offset_frac_next_cry_0_COUT[32] undriven or does not drive
+     anything - clipped.
+Signal gdm/warn_reg3_cry_0_S1[0] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal gdm/N_12 undriven or does not drive anything - clipped.
+
+                                   Page 37
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Signal gdm/warn_reg3_cry_0_S1[1] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S0[1] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S1[3] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S0[3] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S1[5] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S0[5] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S1[7] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S0[7] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S1[9] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S0[9] undriven or does not drive anything - clipped.
+Signal gdm/warn_reg3_cry_0_S1[11] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S0[11] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S1[13] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S0[13] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S1[15] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S0[15] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S1[18] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S0[18] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S1[22] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S0[22] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S1[26] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S0[26] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S1[30] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S0[30] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_S1[32] undriven or does not drive anything - clipped.
+     
+Signal gdm/warn_reg3_cry_0_COUT[32] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[0] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal gdm/N_13 undriven or does not drive anything - clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[1] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[1] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[3] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[3] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[5] undriven or does not drive anything -
+
+                                   Page 38
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[5] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[7] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[7] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[9] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[9] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[11] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[11] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[13] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[13] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[15] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[15] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[18] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[18] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[22] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[22] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[26] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[26] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[30] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S0[30] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_S1[32] undriven or does not drive anything -
+     clipped.
+Signal gdm/un1_glv_offset_err_cry_0_COUT[32] undriven or does not drive anything
+     - clipped.
+Signal memLUT/dpram0/DataBuffer_0_0_0_0_DOB8 undriven or does not drive anything
+     - clipped.
+Signal memLUT/dpram0/DataBuffer_0_0_0_0_DOA8 undriven or does not drive anything
+     - clipped.
+Signal memLUT/dpram0/QA_1[7] undriven or does not drive anything - clipped.
+Signal memLUT/dpram0/QA_1[6] undriven or does not drive anything - clipped.
+Signal memLUT/dpram0/QA_1[5] undriven or does not drive anything - clipped.
+Signal memLUT/dpram0/QA_1[4] undriven or does not drive anything - clipped.
+Signal memLUT/dpram0/QA_1[3] undriven or does not drive anything - clipped.
+Signal memLUT/dpram0/QA_1[2] undriven or does not drive anything - clipped.
+Signal memLUT/dpram0/QA_1[1] undriven or does not drive anything - clipped.
+Signal memLUT/dpram0/QA_1[0] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/DataBuffer_0_0_0_DOB8_0 undriven or does not drive anything
+
+                                   Page 39
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     - clipped.
+Signal memLUT/dpram1/QB_1[7] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/QB_1[6] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/QB_1[5] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/QB_1[4] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/DataBuffer_0_0_0_DOA8_0 undriven or does not drive anything
+     - clipped.
+Signal memLUT/dpram1/QA_1[7] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/QA_1[6] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/QA_1[5] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/QA_1[4] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/QA_1[3] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/QA_1[2] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/QA_1[1] undriven or does not drive anything - clipped.
+Signal memLUT/dpram1/QA_1[0] undriven or does not drive anything - clipped.
+Signal memLUT/dpram2/DataBuffer_0_0_0_DOB8_1 undriven or does not drive anything
+     - clipped.
+Signal memLUT/dpram2/DataBuffer_0_0_0_DOA8_1 undriven or does not drive anything
+     - clipped.
+Signal memLUT/dpram2/QA_1[7] undriven or does not drive anything - clipped.
+Signal memLUT/dpram2/QA_1[6] undriven or does not drive anything - clipped.
+Signal memLUT/dpram2/QA_1[5] undriven or does not drive anything - clipped.
+Signal memLUT/dpram2/QA_1[4] undriven or does not drive anything - clipped.
+Signal memLUT/dpram2/QA_1[3] undriven or does not drive anything - clipped.
+Signal memLUT/dpram2/QA_1[2] undriven or does not drive anything - clipped.
+Signal memLUT/dpram2/QA_1[1] undriven or does not drive anything - clipped.
+Signal memLUT/dpram2/QA_1[0] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/DataBuffer_0_0_0_DOB8_2 undriven or does not drive anything
+     - clipped.
+Signal memLUT/dpram3/QB_1[7] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/QB_1[6] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/QB_1[5] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/QB_1[4] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/DataBuffer_0_0_0_DOA8_2 undriven or does not drive anything
+     - clipped.
+Signal memLUT/dpram3/QA_1[7] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/QA_1[6] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/QA_1[5] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/QA_1[4] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/QA_1[3] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/QA_1[2] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/QA_1[1] undriven or does not drive anything - clipped.
+Signal memLUT/dpram3/QA_1[0] undriven or does not drive anything - clipped.
+Signal memRB/dpram0/DataBuffer_0_0_0_DOB8_3 undriven or does not drive anything
+     - clipped.
+Signal memRB/dpram0/DataBuffer_0_0_0_DOA8_3 undriven or does not drive anything
+     - clipped.
+Signal memRB/dpram0/QA_1[7] undriven or does not drive anything - clipped.
+Signal memRB/dpram0/QA_1[6] undriven or does not drive anything - clipped.
+Signal memRB/dpram0/QA_1[5] undriven or does not drive anything - clipped.
+Signal memRB/dpram0/QA_1[4] undriven or does not drive anything - clipped.
+Signal memRB/dpram0/QA_1[3] undriven or does not drive anything - clipped.
+Signal memRB/dpram0/QA_1[2] undriven or does not drive anything - clipped.
+Signal memRB/dpram0/QA_1[1] undriven or does not drive anything - clipped.
+Signal memRB/dpram0/QA_1[0] undriven or does not drive anything - clipped.
+Signal memRB/dpram1/DataBuffer_0_0_0_DOB8_4 undriven or does not drive anything
+
+                                   Page 40
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+     - clipped.
+Signal memRB/dpram1/DataBuffer_0_0_0_DOA8_4 undriven or does not drive anything
+     - clipped.
+Signal memRB/dpram1/QA_1[7] undriven or does not drive anything - clipped.
+Signal memRB/dpram1/QA_1[6] undriven or does not drive anything - clipped.
+Signal memRB/dpram1/QA_1[5] undriven or does not drive anything - clipped.
+Signal memRB/dpram1/QA_1[4] undriven or does not drive anything - clipped.
+Signal memRB/dpram1/QA_1[3] undriven or does not drive anything - clipped.
+Signal memRB/dpram1/QA_1[2] undriven or does not drive anything - clipped.
+Signal memRB/dpram1/QA_1[1] undriven or does not drive anything - clipped.
+Signal memRB/dpram1/QA_1[0] undriven or does not drive anything - clipped.
+Signal memRB/dpram2/DataBuffer_0_0_0_DOB8_5 undriven or does not drive anything
+     - clipped.
+Signal memRB/dpram2/DataBuffer_0_0_0_DOA8_5 undriven or does not drive anything
+     - clipped.
+Signal memRB/dpram2/QA_1[7] undriven or does not drive anything - clipped.
+Signal memRB/dpram2/QA_1[6] undriven or does not drive anything - clipped.
+Signal memRB/dpram2/QA_1[5] undriven or does not drive anything - clipped.
+Signal memRB/dpram2/QA_1[4] undriven or does not drive anything - clipped.
+Signal memRB/dpram2/QA_1[3] undriven or does not drive anything - clipped.
+Signal memRB/dpram2/QA_1[2] undriven or does not drive anything - clipped.
+Signal memRB/dpram2/QA_1[1] undriven or does not drive anything - clipped.
+Signal memRB/dpram2/QA_1[0] undriven or does not drive anything - clipped.
+Signal memRB/dpram3/DataBuffer_0_0_0_DOB8_6 undriven or does not drive anything
+     - clipped.
+Signal memRB/dpram3/DataBuffer_0_0_0_DOA8_6 undriven or does not drive anything
+     - clipped.
+Signal memRB/dpram3/QA_1[7] undriven or does not drive anything - clipped.
+Signal memRB/dpram3/QA_1[6] undriven or does not drive anything - clipped.
+Signal memRB/dpram3/QA_1[5] undriven or does not drive anything - clipped.
+Signal memRB/dpram3/QA_1[4] undriven or does not drive anything - clipped.
+Signal memRB/dpram3/QA_1[3] undriven or does not drive anything - clipped.
+Signal memRB/dpram3/QA_1[2] undriven or does not drive anything - clipped.
+Signal memRB/dpram3/QA_1[1] undriven or does not drive anything - clipped.
+Signal memRB/dpram3/QA_1[0] undriven or does not drive anything - clipped.
+Signal mcuif/Addr_12bit_cry_0_S0[0] undriven or does not drive anything -
+     clipped.
+Signal mcuif/N_1 undriven or does not drive anything - clipped.
+Signal mcuif/Addr_12bit_s_0_S1[11] undriven or does not drive anything -
+     clipped.
+Signal mcuif/Addr_12bit_s_0_COUT[11] undriven or does not drive anything -
+     clipped.
+Block lock_paramreg_sig_0io_RNI07M5 was optimized away.
+Block loutif/Wr_for_normal.CN was optimized away.
+Block mcuif/DATA_TO_MCU_cl_RNIV7IC[7] was optimized away.
+Block mcuif/DATA_TO_MCU_cl_1_RNIFR63[7] was optimized away.
+Block mcuif/DATA_TO_MCU_cl_2_RNIGU94[7] was optimized away.
+Block mcuif/DATA_TO_MCU_cl_3_RNIH1D5[7] was optimized away.
+Block mcuif/DATA_TO_MCU_cl_4_RNII4G6[7] was optimized away.
+Block mcuif/DATA_TO_MCU_cl_5_RNIJ7J7[7] was optimized away.
+Block mcuif/DATA_TO_MCU_cl_6_RNIKAM8[7] was optimized away.
+Block mcuif/DATA_TO_MCU_cl_7_RNILDP9[7] was optimized away.
+Block gapinf/G_137 was optimized away.
+Block gapinf/G_122 was optimized away.
+Block loutif/GND was optimized away.
+Block imgclkmgr/GND was optimized away.
+
+                                   Page 41
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Removed logic (cont)
+--------------------
+Block encctr/GND was optimized away.
+Block encctr/div/GND was optimized away.
+Block gapman/GND was optimized away.
+Block gapman/div_DS/GND was optimized away.
+Block gapman/div_settl/GND was optimized away.
+Block repeatman/GND was optimized away.
+Block wrlaser/GND was optimized away.
+Block gapinf/GND was optimized away.
+Block gdm/GND was optimized away.
+Block memLUT/dpram0/VCC was optimized away.
+Block memLUT/dpram0/GND was optimized away.
+Block memLUT/dpram1/VCC was optimized away.
+Block memLUT/dpram1/GND was optimized away.
+Block memLUT/dpram2/VCC was optimized away.
+Block memLUT/dpram2/GND was optimized away.
+Block memLUT/dpram3/VCC was optimized away.
+Block memLUT/dpram3/GND was optimized away.
+Block memRB/dpram0/VCC was optimized away.
+Block memRB/dpram0/GND was optimized away.
+Block memRB/dpram1/VCC was optimized away.
+Block memRB/dpram1/GND was optimized away.
+Block memRB/dpram2/VCC was optimized away.
+Block memRB/dpram2/GND was optimized away.
+Block memRB/dpram3/VCC was optimized away.
+Block memRB/dpram3/GND was optimized away.
+Block mcuif/GND was optimized away.
+
+Memory Usage
+------------
+
+/gapinf:
+    EBRs: 0
+    RAM SLICEs: 144
+    Logic SLICEs: 47
+    PFU Registers: 360
+/gapinf/working.gapreg_1_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_0:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_1:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_10:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_11:
+
+                                   Page 42
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Memory Usage (cont)
+-------------------
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_12:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_13:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_14:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_15:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_16:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_17:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_18:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_2:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_3:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_4:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_5:
+    EBRs: 0
+
+                                   Page 43
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Memory Usage (cont)
+-------------------
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_6:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_7:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_8:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_ram_9:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_rams11_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_rams15_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_rams3_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_1_rams7_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_0:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_1:
+    EBRs: 0
+    RAM SLICEs: 1
+
+                                   Page 44
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Memory Usage (cont)
+-------------------
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_10:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_105:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_11:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_110:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_117:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_12:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_122:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_129:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_13:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_134:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_14:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+
+                                   Page 45
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Memory Usage (cont)
+-------------------
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_141:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_146:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_15:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_153:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_158:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_16:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_165:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_17:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_170:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_177:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_18:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+
+                                   Page 46
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Memory Usage (cont)
+-------------------
+/gapinf/working.gapreg_ram_182:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_19:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_2:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_20:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_21:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_22:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_23:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_24:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_3:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_4:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_5:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_6:
+
+                                   Page 47
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Memory Usage (cont)
+-------------------
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_7:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_8:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_ram_9:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_rams10_0_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_rams13_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_rams14_0_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_rams1_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_rams2_0_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_rams5_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_rams6_0_ram:
+    EBRs: 0
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/gapinf/working.gapreg_rams9_ram:
+    EBRs: 0
+
+                                   Page 48
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Memory Usage (cont)
+-------------------
+    RAM SLICEs: 1
+    Logic SLICEs: 0
+    PFU Registers: 0
+/memLUT/dpram0:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR DataBuffer_0_0_0_0:  TYPE= DP8KC,  Width_B= 8,  Depth_A= 1024,
+         Depth_B= 128,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         DataBuffer.lpc
+/memLUT/dpram1:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR DataBuffer_0_0_0_0:  TYPE= DP8KC,  Width_B= 4,  Depth_A= 1024,
+         Depth_B= 128,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         DataBuffer.lpc
+/memLUT/dpram2:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR DataBuffer_0_0_0_0:  TYPE= DP8KC,  Width_B= 8,  Depth_A= 1024,
+         Depth_B= 128,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         DataBuffer.lpc
+/memLUT/dpram3:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR DataBuffer_0_0_0_0:  TYPE= DP8KC,  Width_B= 4,  Depth_A= 1024,
+         Depth_B= 128,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         DataBuffer.lpc
+/memRB/dpram0:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR DataBuffer_0_0_0_0:  TYPE= DP8KC,  Width_B= 8,  Depth_A= 1024,
+         Depth_B= 1024,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         DataBuffer.lpc
+/memRB/dpram1:
+    EBRs: 1
+    RAM SLICEs: 0
+
+                                   Page 49
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Memory Usage (cont)
+-------------------
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR DataBuffer_0_0_0_0:  TYPE= DP8KC,  Width_B= 8,  Depth_A= 1024,
+         Depth_B= 1024,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         DataBuffer.lpc
+/memRB/dpram2:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR DataBuffer_0_0_0_0:  TYPE= DP8KC,  Width_B= 8,  Depth_A= 1024,
+         Depth_B= 1024,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         DataBuffer.lpc
+/memRB/dpram3:
+    EBRs: 1
+    RAM SLICEs: 0
+    Logic SLICEs: 0
+    PFU Registers: 0
+    -Contains EBR DataBuffer_0_0_0_0:  TYPE= DP8KC,  Width_B= 8,  Depth_A= 1024,
+         Depth_B= 1024,  REGMODE_A= NOREG,  REGMODE_B= NOREG,  RESETMODE= ASYNC,
+         ASYNC_RESET_RELEASE= SYNC,  WRITEMODE_A= NORMAL,  WRITEMODE_B= NORMAL,
+         GSR= DISABLED,  MEM_INIT_FILE= INIT_ALL_0s,  MEM_LPC_FILE=
+         DataBuffer.lpc
+
+     
+
+ASIC Components
+---------------
+
+Instance Name: memRB/dpram3/DataBuffer_0_0_0_0
+         Type: DP8KC
+Instance Name: memRB/dpram2/DataBuffer_0_0_0_0
+         Type: DP8KC
+Instance Name: memRB/dpram1/DataBuffer_0_0_0_0
+         Type: DP8KC
+Instance Name: memRB/dpram0/DataBuffer_0_0_0_0
+         Type: DP8KC
+Instance Name: memLUT/dpram3/DataBuffer_0_0_0_0
+         Type: DP8KC
+Instance Name: memLUT/dpram2/DataBuffer_0_0_0_0
+         Type: DP8KC
+Instance Name: memLUT/dpram1/DataBuffer_0_0_0_0
+         Type: DP8KC
+Instance Name: memLUT/dpram0/DataBuffer_0_0_0_0
+         Type: DP8KC
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 3 secs  
+   Total REAL Time: 5 secs  
+   Peak Memory Usage: 101 MB
+
+                                   Page 50
+
+
+
+
+Design:  data_out_fpga                                 Date:  11/13/20  12:54:49
+
+Run Time and Memory Usage (cont)
+--------------------------------
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   Page 51
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights
+     reserved.

@@ -1,0 +1,227 @@
+---------------------------------------------------
+Report for cell data_out_fpga
+   Instance path: data_out_fpga
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2594.00        100.0
+                                 IOLGC	      44.00        100.0
+                                  LUT4	    2435.00        100.0
+                               DISTRAM	     216.00        100.0
+                                 IOREG	         44        100.0
+                                 IOBUF	         66        100.0
+                                PFUREG	       3117        100.0
+                                RIPPLE	       1150        100.0
+                                   EBR	          8        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           write_laser	          1         6.9
+                        repeat_manager	          1         3.6
+                              paramreg	          1        15.7
+                                mcu_if	          1         1.2
+                               lout_if	          1         2.0
+                   image_clock_manager	          1         2.5
+                                gapreg	          1        16.8
+                           gap_manager	          1        27.4
+                     galvo_dac_manager	          1        11.3
+                               enc_ctr	          1        12.5
+                          dpram4wide_1	          1         0.1
+                          dpram4wide_0	          1         0.1
+---------------------------------------------------
+Report for cell mcu_if
+   Instance path: data_out_fpga/mcuif
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      31.50         1.2
+                                  LUT4	      43.00         1.8
+                                PFUREG	         37         1.2
+                                RIPPLE	          7         0.6
+---------------------------------------------------
+Report for cell dpram4wide_0
+   Instance path: data_out_fpga/memRB
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.75         0.1
+                                  LUT4	       4.00         0.2
+                                   EBR	          4        50.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            DataBuffer	          1         0.0
+                          DataBuffer_3	          1         0.0
+                          DataBuffer_4	          1         0.0
+                          DataBuffer_2	          1         0.0
+---------------------------------------------------
+Report for cell DataBuffer_4
+   Instance path: data_out_fpga/memRB/dpram3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        12.5
+---------------------------------------------------
+Report for cell DataBuffer_3
+   Instance path: data_out_fpga/memRB/dpram2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        12.5
+---------------------------------------------------
+Report for cell DataBuffer_2
+   Instance path: data_out_fpga/memRB/dpram1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        12.5
+---------------------------------------------------
+Report for cell DataBuffer
+   Instance path: data_out_fpga/memRB/dpram0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        12.5
+---------------------------------------------------
+Report for cell dpram4wide_1
+   Instance path: data_out_fpga/memLUT
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         0.1
+                                  LUT4	       4.00         0.2
+                                   EBR	          4        50.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        DataBuffer_0_0	          1         0.0
+                        DataBuffer_1_0	          1         0.0
+                          DataBuffer_1	          1         0.0
+                          DataBuffer_0	          1         0.0
+---------------------------------------------------
+Report for cell DataBuffer_1_0
+   Instance path: data_out_fpga/memLUT/dpram3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        12.5
+---------------------------------------------------
+Report for cell DataBuffer_0_0
+   Instance path: data_out_fpga/memLUT/dpram2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        12.5
+---------------------------------------------------
+Report for cell DataBuffer_1
+   Instance path: data_out_fpga/memLUT/dpram1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        12.5
+---------------------------------------------------
+Report for cell DataBuffer_0
+   Instance path: data_out_fpga/memLUT/dpram0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1        12.5
+---------------------------------------------------
+Report for cell paramreg
+   Instance path: data_out_fpga/reg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     406.98        15.7
+                                  LUT4	     468.00        19.2
+                                PFUREG	        765        24.5
+---------------------------------------------------
+Report for cell galvo_dac_manager
+   Instance path: data_out_fpga/gdm
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     293.00        11.3
+                                  LUT4	     284.00        11.7
+                                PFUREG	        183         5.9
+                                RIPPLE	        151        13.1
+---------------------------------------------------
+Report for cell gapreg
+   Instance path: data_out_fpga/gapinf
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     434.75        16.8
+                                  LUT4	     497.00        20.4
+                               DISTRAM	     204.00        94.4
+                                PFUREG	        362        11.6
+---------------------------------------------------
+Report for cell write_laser
+   Instance path: data_out_fpga/wrlaser
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     179.68         6.9
+                                  LUT4	     323.00        13.3
+                                PFUREG	        283         9.1
+                                RIPPLE	         22         1.9
+---------------------------------------------------
+Report for cell repeat_manager
+   Instance path: data_out_fpga/repeatman
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      92.17         3.6
+                                  LUT4	      81.00         3.3
+                                PFUREG	        143         4.6
+                                RIPPLE	         39         3.4
+---------------------------------------------------
+Report for cell gap_manager
+   Instance path: data_out_fpga/gapman
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     709.92        27.4
+                                  LUT4	     410.00        16.8
+                                PFUREG	        807        25.9
+                                RIPPLE	        506        44.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        division_16_10	          1         2.8
+                         division_16_8	          1         2.9
+---------------------------------------------------
+Report for cell division_16_8
+   Instance path: data_out_fpga/gapman/div_settl
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      74.08         2.9
+                                  LUT4	      90.00         3.7
+                                PFUREG	        119         3.8
+                                RIPPLE	         32         2.8
+---------------------------------------------------
+Report for cell division_16_10
+   Instance path: data_out_fpga/gapman/div_DS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      72.35         2.8
+                                  LUT4	     106.00         4.4
+                                PFUREG	        107         3.4
+                                RIPPLE	         32         2.8
+---------------------------------------------------
+Report for cell enc_ctr
+   Instance path: data_out_fpga/encctr
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     323.33        12.5
+                                  LUT4	     190.00         7.8
+                                PFUREG	        433        13.9
+                                RIPPLE	        370        32.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        division_16_22	          1         3.3
+---------------------------------------------------
+Report for cell division_16_22
+   Instance path: data_out_fpga/encctr/div
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      85.08         3.3
+                                  LUT4	     127.00         5.2
+                                PFUREG	        118         3.8
+                                RIPPLE	         33         2.9
+---------------------------------------------------
+Report for cell image_clock_manager
+   Instance path: data_out_fpga/imgclkmgr
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      63.83         2.5
+                                  LUT4	      27.00         1.1
+                                PFUREG	         51         1.6
+                                RIPPLE	         51         4.4
+---------------------------------------------------
+Report for cell lout_if
+   Instance path: data_out_fpga/loutif
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      53.00         2.0
+                                  LUT4	      99.00         4.1
+                                PFUREG	         51         1.6
+                                RIPPLE	          4         0.3

@@ -1,0 +1,1040 @@
+#Build: Synplify Pro J-2014.09L, Build 047R, Nov  7 2014
+#install: C:\lscc\diamond\3.4_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: SCHNEIDER
+
+#Implementation: FPGA_code
+
+Synopsys HDL Compiler, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.4_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":8:7:8:19|Top entity is set to data_out_fpga.
+VHDL syntax check successful!
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":8:7:8:19|Synthesizing work.data_out_fpga.arch_data_out_fpga 
+@W: CD326 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":517:0:517:5|Port debug_info of entity work.gap_manager is unconnected
+@W: CD326 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":633:0:633:2|Port debug_info of entity work.galvo_dac_manager is unconnected
+@W: CD638 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":448:7:448:18|Signal debug_tx_reg is undriven 
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\DPRAM4Wide.vhd":6:7:6:16|Synthesizing work.dpram4wide.arch_dpram4wide 
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\DataBuffer\DataBuffer.vhd":14:7:14:16|Synthesizing work.databuffer.structure 
+@N: CD630 :"C:\lscc\diamond\3.4_x64\cae_library\synthesis\vhdl\machxo2.vhd":1699:10:1699:14|Synthesizing work.dp8kc.syn_black_box 
+Post processing for work.dp8kc.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.4_x64\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box 
+Post processing for work.vlo.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.4_x64\cae_library\synthesis\vhdl\machxo2.vhd":1483:10:1483:12|Synthesizing work.vhi.syn_black_box 
+Post processing for work.vhi.syn_black_box
+Post processing for work.databuffer.structure
+Post processing for work.dpram4wide.arch_dpram4wide
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\ParamReg.vhd":5:7:5:14|Synthesizing work.paramreg.arch_paramreg 
+Post processing for work.paramreg.arch_paramreg
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":6:7:6:23|Synthesizing work.galvo_dac_manager.arch_gdacm 
+Post processing for work.galvo_dac_manager.arch_gdacm
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(0) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(1) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(2) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(3) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(4) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(5) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(6) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(7) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(8) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(9) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(10) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(11) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(12) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(13) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(14) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(15) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(16) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(33) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(0) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(1) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(2) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(3) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(4) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(5) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(6) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(7) is always 0, optimizing ...
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bits 7 to 0 of glv_delay_frac(33 downto 0)  
+@W: CL260 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bit 33 of glv_offset_warn(33 downto 0)  
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bits 16 to 0 of glv_offset_warn(33 downto 0)  
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":9:7:9:12|Synthesizing work.gapreg.arch_gapreg 
+@W: CD610 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":53:42:53:52|Index value 0 to 255 could be out of prefix range 159 downto 0 
+@W: CD610 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":63:6:63:18|Index value 0 to 255 could be out of prefix range 159 downto 0 
+Post processing for work.gapreg.arch_gapreg
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\MCU_Interface.vhd":32:7:32:12|Synthesizing work.mcu_if.mcu_if_arch 
+Post processing for work.mcu_if.mcu_if_arch
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":5:7:5:17|Synthesizing work.write_laser.arch_write_laser 
+Post processing for work.write_laser.arch_write_laser
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\repeat_manager.vhd":6:7:6:20|Synthesizing work.repeat_manager.repeat_manager_arch 
+Post processing for work.repeat_manager.repeat_manager_arch
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":6:7:6:17|Synthesizing work.gap_manager.gap_manager_arch 
+@W: CD326 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":387:1:387:6|Port busy of entity work.division is unconnected
+@W: CD326 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":405:1:405:9|Port busy of entity work.division is unconnected
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":6:7:6:14|Synthesizing work.division.arch_div 
+Post processing for work.division.arch_div
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":6:7:6:14|Synthesizing work.division.arch_div 
+Post processing for work.division.arch_div
+Post processing for work.gap_manager.gap_manager_arch
+@W: CL240 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":29:1:29:10|DEBUG_INFO is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL271 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":318:2:318:3|Pruning bits 4 to 0 of px_per_row_add_4(6 downto 0) -- not in use ... 
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(24) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(25) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(26) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(27) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(16) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(17) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(18) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(19) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(20) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(21) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(22) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(23) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(24) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(25) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(26) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(27) is always 0, optimizing ...
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Pruning register bits 27 to 16 of dR_set_small(27 downto 0)  
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Pruning register bits 27 to 24 of dR_set_base(27 downto 0)  
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":13:7:13:13|Synthesizing work.enc_ctr.enc_ctr_arch 
+@W: CD326 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":87:1:87:3|Port busy of entity work.division is unconnected
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":6:7:6:14|Synthesizing work.division.arch_div 
+Post processing for work.division.arch_div
+Post processing for work.enc_ctr.enc_ctr_arch
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(14) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(15) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(16) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(17) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(18) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(19) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit Enc_count_spd_reg(0) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit Enc_count_spd_reg(1) is always 0, optimizing ...
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Pruning register bits 1 to 0 of Enc_count_spd_reg(15 downto 0)  
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Pruning register bits 19 to 14 of E_t(19 downto 0)  
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\image_clock_manager.vhd":6:7:6:25|Synthesizing work.image_clock_manager.arch_icm 
+Post processing for work.image_clock_manager.arch_icm
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":6:7:6:13|Synthesizing work.lout_if.arch_lout_if 
+Post processing for work.lout_if.arch_lout_if
+@W: CL265 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":116:2:116:3|Pruning bit 4 of Laser_cpld_status_4(5 downto 0) -- not in use ... 
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":116:2:116:3|Register bit BOARD_SEL(0) is always 1, optimizing ...
+@W: CL260 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":116:2:116:3|Pruning register bit 0 of BOARD_SEL(1 downto 0)  
+Post processing for work.data_out_fpga.arch_data_out_fpga
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 0 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 1 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 2 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 3 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 4 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 5 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 6 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 7 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 8 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 9 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 10 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 11 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 12 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 13 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 14 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 15 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 16 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 17 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 18 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 19 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 20 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 21 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 22 of input debug_tx of instance reg is floating
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 23 of input debug_tx of instance reg is floating
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":116:2:116:3|Trying to extract state machine for register status_read_count
+Extracted state machine for register status_read_count
+State machine has 11 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1111
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":116:2:116:3|Trying to extract state machine for register aod_write_count
+Extracted state machine for register aod_write_count
+State machine has 13 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1111
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":14:1:14:17|Input port bits 31 to 28 of data_from_mem_lut(31 downto 0) are unused 
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":14:1:14:17|Input port bits 15 to 12 of data_from_mem_lut(31 downto 0) are unused 
+@W: CL247 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":15:1:15:14|Input port bit 7 of data_from_lout(7 downto 0) is unused 
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":45:2:45:3|Trying to extract state machine for register div_state
+Extracted state machine for register div_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+@W: CL247 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":23:1:23:12|Input port bit 3 of galvo_status(3 downto 0) is unused 
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":23:1:23:12|Input port bits 1 to 0 of galvo_status(3 downto 0) are unused 
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":45:2:45:3|Trying to extract state machine for register div_state
+Extracted state machine for register div_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":45:2:45:3|Trying to extract state machine for register div_state
+Extracted state machine for register div_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base_plus(25) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base_plus(26) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base_plus(27) is always 0, optimizing ...
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Pruning register bits 27 to 25 of dR_set_base_plus(27 downto 0)  
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":170:2:170:3|Trying to extract state machine for register gap_status
+Extracted state machine for register gap_status
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":170:2:170:3|Trying to extract state machine for register lock_status
+Extracted state machine for register lock_status
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":318:2:318:3|Trying to extract state machine for register read_RB_status
+Extracted state machine for register read_RB_status
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":18:1:18:19|Input port bits 15 to 8 of settling_time_small(15 downto 0) are unused 
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":21:1:21:10|Input port bits 15 to 10 of px_clk_div(15 downto 0) are unused 
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":25:1:25:12|Input port bits 1 to 0 of galvo_status(3 downto 0) are unused 
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":70:2:70:3|Trying to extract state machine for register write_status
+Extracted state machine for register write_status
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":134:2:134:3|Trying to extract state machine for register delay_em_cnt
+Extracted state machine for register delay_em_cnt
+State machine has 2 reachable states with original encodings of:
+   00
+   01
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":11:1:11:8|Input port bits 5 to 4 of delay_px(5 downto 0) are unused 
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\MCU_Interface.vhd":96:2:96:3|Trying to extract state machine for register substate
+Extracted state machine for register substate
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\MCU_Interface.vhd":96:2:96:3|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL134 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":42:2:42:3|Found RAM gapreg, depth=160, width=8
+@N: CL134 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":42:2:42:3|Found RAM gapreg, depth=160, width=8
+@N: CL134 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":42:2:42:3|Found RAM gapreg, depth=160, width=8
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(0) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(1) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(2) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(3) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(4) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(5) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(6) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(7) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(8) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(9) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(10) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(11) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(12) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(13) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(14) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(15) is always 0, optimizing ...
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(33) is always 0, optimizing ...
+@W: CL260 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bit 33 of glv_offset_err(33 downto 0)  
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bits 15 to 0 of glv_offset_err(33 downto 0)  
+@W: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_frac(33) is always 0, optimizing ...
+@N: CL177 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Sharing sequential element frac_D_reg.
+@W: CL260 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bit 33 of glv_offset_frac(33 downto 0)  
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bits 33 to 30 of glv_delay_frac(33 downto 8)  
+@W: CL159 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":16:1:16:7|Input CLK_ROW is unused
+@W: CL159 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":17:1:17:8|Input CLK_ROW2 is unused
+@W: CL159 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":18:1:18:7|Input CLK_RPT is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 91MB peak: 96MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Fri Sep 20 16:08:36 2019
+
+###########################################################]
+Inconsistency encountered while reading the file dependency file: division; problem reading the design unit mappings
+Synopsys Netlist Linker, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Sep 20 16:08:37 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Fri Sep 20 16:08:37 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp201409rc, Build 144R, built Nov 10 2014
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 74MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Sep 20 16:08:38 2019
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1062R, Built Nov 13 2014 09:43:00
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2014.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\lscc\diamond\Project\FPGA P&S\FPGA_code\FPGA_code_FPGA_code_scck.rpt 
+Printing clock  summary report in "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\FPGA_code_FPGA_code_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 112MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 112MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 119MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 121MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":170:2:170:3|Removing sequential instance row_clk_redge of view:PrimLib.sdffr(prim) in hierarchy view:work.gap_manager(gap_manager_arch) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":58:2:58:3|Removing sequential instance px_clk_aod_reg of view:PrimLib.sdffrse(prim) in hierarchy view:work.image_clock_manager(arch_icm) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance DEBUG_RX[23:0] of view:PrimLib.dffe(prim) in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist data_out_fpga
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+
+
+@S |Clock Summary
+****************
+
+Start                     Requested     Requested     Clock        Clock              
+Clock                     Frequency     Period        Type         Group              
+--------------------------------------------------------------------------------------
+System                    1.0 MHz       1000.000      system       system_clkgroup    
+data_out_fpga|CLK_SYS     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0
+======================================================================================
+
+@W: MT529 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\lout_interface.vhd":116:2:116:3|Found inferred clock data_out_fpga|CLK_SYS which controls 2986 sequential elements including loutif.aod_data_byte[7:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 83MB peak: 147MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Sep 20 16:08:39 2019
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1062R, Built Nov 13 2014 09:43:00
+Copyright (C) 1994-2014, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2014.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 146MB)
+
+Encoding state machine status_read_count[0:10] (view:work.lout_if(arch_lout_if))
+original code -> new code
+   0000 -> 00000000001
+   0001 -> 00000000010
+   0010 -> 00000000100
+   0011 -> 00000001000
+   0100 -> 00000010000
+   0101 -> 00000100000
+   0110 -> 00001000000
+   0111 -> 00010000000
+   1000 -> 00100000000
+   1001 -> 01000000000
+   1111 -> 10000000000
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\lout_interface.vhd":116:2:116:3|Removing sequential instance status_read_count[0] of view:PrimLib.dff(prim) in hierarchy view:work.lout_if(arch_lout_if) because there are no references to its outputs 
+Encoding state machine aod_write_count[0:12] (view:work.lout_if(arch_lout_if))
+original code -> new code
+   0000 -> 0000000000001
+   0001 -> 0000000000010
+   0010 -> 0000000000100
+   0011 -> 0000000001000
+   0100 -> 0000000010000
+   0101 -> 0000000100000
+   0110 -> 0000001000000
+   0111 -> 0000010000000
+   1000 -> 0000100000000
+   1001 -> 0001000000000
+   1010 -> 0010000000000
+   1011 -> 0100000000000
+   1111 -> 1000000000000
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\lout_interface.vhd":245:2:245:3|Found counter in view:work.lout_if(arch_lout_if) inst power_count[6:0]
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":58:2:58:3|Found counter in view:work.image_clock_manager(arch_icm) inst px_count_laser[15:0]
+@N: MF179 :|Found 16 bit by 16 bit '==' comparator, 'icm_px_proc\.un3_px_count_laser'
+@N: MF179 :|Found 16 bit by 16 bit '==' comparator, 'icm_px_proc\.un2_px_count_aod'
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":82:8:82:27|Found 16 bit by 16 bit '==' comparator, 'icm_px_proc\.un17_px_count_aod'
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":112:2:112:3|Found counter in view:work.enc_ctr(enc_ctr_arch) inst Clk_count_spd[15:0]
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":112:2:112:3|Found counter in view:work.enc_ctr(enc_ctr_arch) inst Enc_count_spd[15:0]
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":112:2:112:3|Found counter in view:work.enc_ctr(enc_ctr_arch) inst Enc_count_total[23:0]
+Encoding state machine div_state[0:2] (view:work.division_16_22(arch_div))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[37] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[36] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[35] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[34] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[33] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[32] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[31] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[30] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[29] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[28] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[27] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[26] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[25] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[37] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[36] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[35] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[34] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[33] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[32] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[31] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[30] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[29] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[28] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[27] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[26] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[25] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Found counter in view:work.division_16_22(arch_div) inst bit_pos[5:0]
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing instance encctr.div.ddent_cp[1],  because it is equivalent to instance encctr.div.ddent_cp[0]
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:10:54:26|Found 16 bit by 16 bit '==' comparator, 'un2_div_state'
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:33:54:47|Found 16 bit by 16 bit '==' comparator, 'un5_div_state'
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance ddent_cp[0] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance remainder_frac[0] in hierarchy view:work.division_16_22(arch_div) because there are no references to its outputs 
+Encoding state machine lock_status[0:2] (view:work.gap_manager(gap_manager_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine gap_status[0:6] (view:work.gap_manager(gap_manager_arch))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   100 -> 100
+   101 -> 101
+   110 -> 110
+Encoding state machine read_RB_status[0:3] (view:work.gap_manager(gap_manager_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":318:2:318:3|No possible illegal states for state machine read_RB_status[0:3],safe FSM implementation is disabled
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":170:2:170:3|Found counter in view:work.gap_manager(gap_manager_arch) inst row_target_count[15:0]
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":170:2:170:3|Found counter in view:work.gap_manager(gap_manager_arch) inst gap_index_reg[5:0]
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":318:2:318:3|Found counter in view:work.gap_manager(gap_manager_arch) inst Rb_ptr[9:0]
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":318:2:318:3|Found counter in view:work.gap_manager(gap_manager_arch) inst rb_read_count[3:0]
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":219:14:219:42|Found 7 bit by 7 bit '==' comparator, 'gap_proc\.un50_gap_status'
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":204:10:204:48|Found 16 bit by 16 bit '==' comparator, 'gap_proc\.un27_gap_status'
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":207:37:207:66|Found 16 bit by 16 bit '==' comparator, 'gap_proc\.un30_gap_status'
+Encoding state machine div_state[0:2] (view:work.division_16_10(arch_div))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[25] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[24] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[23] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[22] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[21] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[20] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[19] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[18] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[25] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[24] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[23] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[22] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[21] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[20] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[19] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[18] in hierarchy view:work.division_16_10(arch_div) because there are no references to its outputs 
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Found counter in view:work.division_16_10(arch_div) inst bit_pos[4:0]
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:10:54:26|Found 16 bit by 16 bit '==' comparator, 'un2_div_state'
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:33:54:47|Found 16 bit by 16 bit '==' comparator, 'un5_div_state'
+Encoding state machine div_state[0:2] (view:work.division_16_8(arch_div))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Found counter in view:work.division_16_8(arch_div) inst bit_pos[4:0]
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:10:54:26|Found 16 bit by 16 bit '==' comparator, 'un2_div_state'
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:33:54:47|Found 16 bit by 16 bit '==' comparator, 'un5_div_state'
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\repeat_manager.vhd":60:2:60:3|Found counter in view:work.repeat_manager(repeat_manager_arch) inst repeats_cnt_reg[23:0]
+Encoding state machine write_status[0:2] (view:work.write_laser(arch_write_laser))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine delay_em_cnt[0:1] (view:work.write_laser(arch_write_laser))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\write_laser.vhd":134:2:134:3|No possible illegal states for state machine delay_em_cnt[0:1],safe FSM implementation is disabled
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\write_laser.vhd":70:2:70:3|Found counter in view:work.write_laser(arch_write_laser) inst rows_marked_count[15:0]
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\write_laser.vhd":70:2:70:3|Found counter in view:work.write_laser(arch_write_laser) inst pixel_count[6:0]
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\write_laser.vhd":100:9:100:37|Found 7 bit by 7 bit '==' comparator, 'write_em_proc\.un26_write_status'
+@N: MF135 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Found RAM 'working\.gapreg_1[15:8]', 160 words by 8 bits 
+@N: MF246 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Hierarchically decompose RAM 'working\.gapreg_1[15:8]' 
+@N: MF135 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Found RAM 'working\.gapreg[15:8]', 160 words by 8 bits 
+@N: MF246 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Hierarchically decompose RAM 'working\.gapreg[15:8]' 
+@N: MF135 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Found RAM 'working\.gapreg[7:0]', 160 words by 8 bits 
+@N: MF246 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Hierarchically decompose RAM 'working\.gapreg[7:0]' 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams0_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams1_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams3_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams4_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams5_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams7_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams8_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams9_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams11_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams12_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams13_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams15_0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams2 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams3 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams4 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams6 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams7 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams8 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams10 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams11 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams12 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams14 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams15 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams0 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams1 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams2 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams4 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams5 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams6 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams8 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams9 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams10 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams12 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams13 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams14 of view:PrimLib.ram1(prim) in hierarchy view:work.gapreg(arch_gapreg) because there are no references to its outputs 
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":96:2:96:3|Found counter in view:work.galvo_dac_manager(arch_gdacm) inst warn_cnt[23:0]
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":96:2:96:3|Found counter in view:work.galvo_dac_manager(arch_gdacm) inst err_cnt[8:31]
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":217:2:217:3|Found counter in view:work.galvo_dac_manager(arch_gdacm) inst strobe_ctr[7:0]
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":96:2:96:3|Removing instance gdm.glv_delay_frac[29],  because it is equivalent to instance gdm.glv_delay_frac[28]
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[15] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[14] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[13] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[12] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[11] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[10] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[9] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[8] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[7] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register Command[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[6] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register Command[6] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[5] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register Command[5] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[4] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register Command[4] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[3] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register Command[3] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[2] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register Command[2] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Beam_px_delay[5] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Beam_px_delay[4] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[7] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[7] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[6] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[6] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[5] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[5] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[4] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[4] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[3] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[3] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[2] in hierarchy view:work.paramreg(arch_paramreg) because there are no references to its outputs 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[2] packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+Encoding state machine state[0:2] (view:work.mcu_if(mcu_if_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine substate[0:4] (view:work.mcu_if(mcu_if_arch))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   100 -> 100
+@N:"c:\lscc\diamond\project\fpga p&s\fpga_code\source\mcu_interface.vhd":96:2:96:3|Found counter in view:work.mcu_if(mcu_if_arch) inst Addr_12bit[11:0]
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance encctr.div.remainder_frac[1] in hierarchy view:work.data_out_fpga(arch_data_out_fpga) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 166MB peak: 166MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 163MB peak: 168MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 167MB peak: 174MB)
+
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops7_0,  because it is equivalent to instance gapinf.working.gapreg_flops7
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops7,  because it is equivalent to instance gapinf.working.gapreg_flops7
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops6_0,  because it is equivalent to instance gapinf.working.gapreg_flops6
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops6,  because it is equivalent to instance gapinf.working.gapreg_flops6
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops5_0,  because it is equivalent to instance gapinf.working.gapreg_flops5
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops5,  because it is equivalent to instance gapinf.working.gapreg_flops5
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops4_0,  because it is equivalent to instance gapinf.working.gapreg_flops4
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops4,  because it is equivalent to instance gapinf.working.gapreg_flops4
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":69:8:69:35|Pipelining module icm_px_proc\.un2_px_count_aod
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":58:2:58:3|Register px_count_aod[15:0] pushed in.
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":181:14:181:26|Pipelining module enc_proc\.dR_enc_2[21:0]
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":112:2:112:3|Register dR_enc[21:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":112:2:112:3|Register R_enc[45:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\repeat_manager.vhd":60:2:60:3|Register rpt_arr\\\[2\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\repeat_manager.vhd":60:2:60:3|Register rpt_arr\\\[1\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\repeat_manager.vhd":60:2:60:3|Register rpt_arr\\\[3\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":112:2:112:3|Register R_sum[27:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\repeat_manager.vhd":60:2:60:3|Register rpt_arr\\\[0\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register rows_per_rpt[19:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":112:2:112:3|Register R_dac[23:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\repeat_manager.vhd":60:2:60:3|Register rpt_rd[1:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[15\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[16\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[17\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":170:2:170:3|Register frac_next_row[27:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[47\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[48\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[49\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Glv_decr_fast[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[31\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[63\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[0\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[32\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[1\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[33\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Px_clk_div[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Beam_clk_delay[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[8\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[40\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[24\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[56\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[9\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[41\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[25\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[57\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register DataOutA[7:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Glv_service[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\mcu_interface.vhd":96:2:96:3|Register DATA_TO_MCU pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[4\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[36\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[20\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[52\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[12\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[44\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[28\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[60\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":170:2:170:3|Register DS_dac_t_out[17:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register FRAC_DE[19:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register FRAC_RE[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register SETTLING_TIME_BASE[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register GLV_AMPL[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":96:2:96:3|Register glv_total[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":429:2:429:3|Register DS_dac_t[17:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[2\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[34\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[18\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[50\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[10\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[42\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[26\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[58\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[6\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[38\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[22\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[54\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[14\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[46\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[30\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Param\\\[62\\\] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":429:2:429:3|Register S_set[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":96:2:96:3|Register glv_offset_warn[32:17] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":96:2:96:3|Register glv_offset_frac[32:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":96:2:96:3|Register glv_delay_frac[29:8] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register FRAC_DR[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Mark_rows_per_rpt[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register FRAC_RD[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Addr_high_dpram[3:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register SETTLING_TIME_SMALL[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register Px_per_row[6:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Register ddent_cp[15:0] pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":96:2:96:3|Register glv_offset_err[32:16] pushed in.
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":453:16:453:41|Pipelining module ds_t_tmp_1[35:0]
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":429:2:429:3|Register DS_t[17:0] pushed in.
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":181:14:181:26|Pipelining module enc_proc\.dR_enc_2[21:0]
+@N: MF169 :|Register NoName pushed in.
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":440:18:440:61|Pipelining module sr_min_tmp_1[15:0]
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":429:2:429:3|Register SR_min_raw[15:0] pushed in.
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":182:13:182:27|Pipelining module un3_r_enc[45:0]
+@N: MF169 :|Register NoName pushed in.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Register rows_per_rpt[19:0] pushed in.
+@N: FX404 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":78:19:78:37|Found addmux in view:work.data_out_fpga(arch_data_out_fpga) inst encctr.div.remainder_work_8_14_46_i_m3[15:0] from encctr.div.remainder_2[15:0] 
+@N: FX404 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":78:19:78:37|Found addmux in view:work.data_out_fpga(arch_data_out_fpga) inst gapman.div_settl.remainder_work_8_14_134_i_m3[15:0] from gapman.div_settl.remainder_2[15:0] 
+@N: FX404 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":78:19:78:37|Found addmux in view:work.data_out_fpga(arch_data_out_fpga) inst gapman.div_DS.remainder_work_8_14_139_i_m3[15:0] from gapman.div_DS.remainder_2[15:0] 
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 181MB peak: 182MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 181MB peak: 182MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 179MB peak: 182MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 181MB peak: 182MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 226MB peak: 232MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:19s; Memory used current: 188MB peak: 232MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Generating RAM gapinf.working\.gapreg_1[15:8]
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Generating RAM gapinf.working\.gapreg[15:8]
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Generating RAM gapinf.working\.gapreg[7:0]
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams14_0
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams2_0
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams6_0
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams10_0
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams13
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams1
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams5
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams9
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_1_rams15
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_1_rams3
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_1_rams7
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_1_rams11
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\mcu_interface.vhd":96:2:96:3|Boundary register mcuif.RTS_MCU.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\mcu_interface.vhd":96:2:96:3|Boundary register mcuif.wr_en_reg.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":217:2:217:3|Boundary register gdm.GLV_WRQ.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\write_laser.vhd":134:2:134:3|Boundary register wrlaser.pixel_value_out.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":58:2:58:3|Boundary register imgclkmgr.px_clk_laser_reg.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\lout_interface.vhd":116:2:116:3|Boundary register loutif.Dir_for_normal.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\lout_interface.vhd":116:2:116:3|Boundary register loutif.BOARD_RD.fb packed into a complex cell. To disable register packing, set syn_keep=1 on net between register and complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 190MB peak: 232MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 3339 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLK_SYS             port                   3339       Reset_glob     
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\lscc\diamond\Project\FPGA P&S\FPGA_code\FPGA_code_FPGA_code.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:25s; Memory used current: 178MB peak: 232MB)
+
+Writing Analyst data base C:\lscc\diamond\Project\FPGA P&S\FPGA_code\synwork\FPGA_code_FPGA_code_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:26s; Memory used current: 178MB peak: 232MB)
+
+Writing EDIF Netlist and constraint files
+J-2014.09L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:27s; Memory used current: 183MB peak: 232MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:28s; Memory used current: 179MB peak: 232MB)
+
+@W: MT420 |Found inferred clock data_out_fpga|CLK_SYS with period 1000.00ns. Please declare a user-defined clock on object "p:CLK_SYS"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Sep 20 16:09:09 2019
+#
+
+
+Top view:               data_out_fpga
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 498.355
+
+                          Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock            Frequency     Frequency     Period        Period        Slack       Type         Group              
+------------------------------------------------------------------------------------------------------------------------------
+data_out_fpga|CLK_SYS     1.0 MHz       51.7 MHz      1000.000      19.337        498.355     inferred     Inferred_clkgroup_0
+==============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                        |    rise  to  rise     |    fall  to  fall   |    rise  to  fall     |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------
+Starting               Ending                 |  constraint  slack    |  constraint  slack  |  constraint  slack    |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------
+data_out_fpga|CLK_SYS  data_out_fpga|CLK_SYS  |  1000.000    980.663  |  No paths    -      |  500.000     498.355  |  No paths    -    
+========================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: data_out_fpga|CLK_SYS
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                               Arrival            
+Instance                   Reference                 Type        Pin     Net                      Time        Slack  
+                           Clock                                                                                     
+---------------------------------------------------------------------------------------------------------------------
+loutif.Can_wr              data_out_fpga|CLK_SYS     FD1P3IX     Q       Can_wr                   0.972       498.355
+gapman.glv_move_reg[1]     data_out_fpga|CLK_SYS     FD1P3AX     Q       glv_move_reg[1]          1.331       980.663
+gapman.glv_move_reg[0]     data_out_fpga|CLK_SYS     FD1P3AX     Q       glv_move_reg[0]          1.280       980.714
+gapman.glv_move_reg[2]     data_out_fpga|CLK_SYS     FD1P3AX     Q       glv_move_reg[2]          1.268       980.726
+reg.Glv_decr_fast[0]       data_out_fpga|CLK_SYS     FD1P3AX     Q       Reg_glv_decr_fast[0]     1.108       981.988
+reg.Glv_decr_fast[3]       data_out_fpga|CLK_SYS     FD1P3AX     Q       Reg_glv_decr_fast[3]     1.108       982.203
+reg.Glv_decr_fast[1]       data_out_fpga|CLK_SYS     FD1P3AX     Q       Reg_glv_decr_fast[1]     1.108       982.346
+reg.Glv_decr_fast[2]       data_out_fpga|CLK_SYS     FD1P3AX     Q       Reg_glv_decr_fast[2]     1.108       982.346
+reg.Glv_decr_fast[4]       data_out_fpga|CLK_SYS     FD1P3AX     Q       Reg_glv_decr_fast[4]     1.108       982.346
+reg.Glv_decr_fast[5]       data_out_fpga|CLK_SYS     FD1P3AX     Q       Reg_glv_decr_fast[5]     1.108       982.346
+=====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                                          Required            
+Instance                   Reference                 Type        Pin     Net                                 Time         Slack  
+                           Clock                                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------
+loutif.Wr_for_normal       data_out_fpga|CLK_SYS     FD1S3AX     D       Can_wr_i                            499.894      498.355
+gdm.glv_offset_frac[0]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_2_sqmuxa_i     999.197      980.663
+gdm.glv_offset_frac[1]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_2_sqmuxa_i     999.197      980.663
+gdm.glv_offset_frac[2]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_2_sqmuxa_i     999.197      980.663
+gdm.glv_offset_frac[3]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_2_sqmuxa_i     999.197      980.663
+gdm.glv_offset_frac[4]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_2_sqmuxa_i     999.197      980.663
+gdm.glv_offset_frac[5]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_2_sqmuxa_i     999.197      980.663
+gdm.glv_offset_frac[6]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_2_sqmuxa_i     999.197      980.663
+gdm.glv_offset_frac[7]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_2_sqmuxa_i     999.197      980.663
+gdm.glv_offset_frac[8]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_2_sqmuxa_i     999.197      980.663
+=================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         499.894
+
+    - Propagation time:                      1.540
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     498.355
+
+    Number of logic level(s):                1
+    Starting point:                          loutif.Can_wr / Q
+    Ending point:                            loutif.Wr_for_normal / D
+    The start point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CK
+    The end   point is clocked by            data_out_fpga|CLK_SYS [falling] on pin CK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                         Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+loutif.Can_wr                FD1P3IX     Q        Out     0.972     0.972       -         
+Can_wr                       Net         -        -       -         -           1         
+loutif.Wr_for_normal_RNO     INV         A        In      0.000     0.972       -         
+loutif.Wr_for_normal_RNO     INV         Z        Out     0.568     1.540       -         
+Can_wr_i                     Net         -        -       -         -           1         
+loutif.Wr_for_normal         FD1S3AX     D        In      0.000     1.540       -         
+==========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished timing report (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:28s; Memory used current: 179MB peak: 232MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000hc-4
+
+Register bits: 3251 of 6864 (47%)
+PIC Latch:       0
+I/O cells:       66
+Block Rams : 8 of 26 (30%)
+
+
+Details:
+BB:             15
+CCU2D:          1132
+DP8KC:          8
+DPR16X4C:       72
+FD1P3AX:        1348
+FD1P3IX:        1103
+FD1P3JX:        19
+FD1S3AX:        72
+FD1S3AY:        3
+FD1S3IX:        658
+FD1S3JX:        4
+GSR:            1
+IB:             10
+IFS1P3DX:       10
+IFS1P3IX:       2
+IFS1P3JX:       1
+INV:            24
+L6MUX21:        194
+OB:             40
+OBZ:            1
+OFS1P3DX:       27
+OFS1P3IX:       2
+OFS1P3JX:       2
+ORCALUT4:       2254
+PFUMX:          365
+PUR:            1
+VHI:            22
+VLO:            24
+true:           2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:28s; Memory used current: 70MB peak: 232MB)
+
+Process took 0h:00m:29s realtime, 0h:00m:28s cputime
+# Fri Sep 20 16:09:09 2019
+
+###########################################################]

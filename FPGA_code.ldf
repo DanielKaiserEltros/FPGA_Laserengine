@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="FPGA_code" device="LCMXO2-7000HC-4TG144I" default_implementation="FPGA_code">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="FPGA_code" dir="FPGA_code" description="FPGA_code" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="data_out_fpga" top="data_out_fpga"/>
+        <Source name="FPGA_code/source/Main_fpga.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="data_out_fpga"/>
+        </Source>
+        <Source name="FPGA_code/source/EncoderCounter.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/image_clock_manager.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/MCU_Interface.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/LOUT_interface.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/DPRAM4Wide.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/ParamReg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/GapReg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/DataBuffer/DataBuffer.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/galvo_dac_manager.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/write_laser.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/division.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/gap_manager.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/source/repeat_manager.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="FPGA_code/FPGA_code.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="SIM/SIM.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="SIM_EXP/SIM_EXP.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="SIM_PostMAP/SIM_PostMAP.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="SIM_RTL/SIM_RTL.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="TB/TB.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="TB_clock/TB_clock.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Strategy1.sty"/>
+</BaliProject>

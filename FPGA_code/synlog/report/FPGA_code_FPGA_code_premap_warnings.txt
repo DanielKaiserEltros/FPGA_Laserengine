@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\lout_interface.vhd":120:2:120:3|Found inferred clock data_out_fpga|CLK_SYS which controls 3090 sequential elements including loutif.aod_write_count[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -1,0 +1,4 @@
+#Start recording tcl command: 6/18/2020 15:29:05
+#Project Location: C:/lscc/diamond/Project/FPGA P&S; Project name: FPGA_code
+prj_project open "C:/lscc/diamond/Project/FPGA P&S/FPGA_code.ldf"
+#Stop recording: 6/18/2020 15:39:52

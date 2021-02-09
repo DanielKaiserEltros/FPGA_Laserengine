@@ -1,0 +1,7 @@
+MODULE DataBuffer DEFIN DataBuffer.vhd
+	SUBMODULE DP8KC
+		INSTANCE DataBuffer_0_0_0_0
+	SUBMODULE VLO
+		INSTANCE scuba_vlo_inst
+	SUBMODULE VHI
+		INSTANCE scuba_vhi_inst

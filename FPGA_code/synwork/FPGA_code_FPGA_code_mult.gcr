@@ -1,0 +1,7 @@
+i CLK_SYS
+m 0 0
+u 341 3069
+p {p:CLK_SYS}{t:Reset_glob.C}
+e ckid0_0 {t:Reset_glob.C} dffs
+c ckid0_0 {p:CLK_SYS} Unconstrained_port Inferred clock from port
+l 0 0 0 0 0

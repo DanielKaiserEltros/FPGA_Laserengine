@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="DataBuffer" module="DataBuffer" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2014 03 21 10:24:53.810" version="7.1" type="Module" synthesis="synplify" source_format="VHDL">
+  <Package>
+		<File name="" type="mem" modified="2014 02 27 12:02:33.000"/>
+		<File name="DataBuffer.lpc" type="lpc" modified="2014 03 21 10:22:27.000"/>
+		<File name="DataBuffer.vhd" type="top_level_vhdl" modified="2014 03 21 10:22:27.000"/>
+		<File name="DataBuffer_tmpl.vhd" type="template_vhdl" modified="2014 03 21 10:22:27.000"/>
+		<File name="tb_DataBuffer_tmpl.vhd" type="testbench_vhdl" modified="2014 03 21 10:22:27.000"/>
+  </Package>
+</DiamondModule>

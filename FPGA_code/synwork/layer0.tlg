@@ -1,0 +1,314 @@
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":8:7:8:19|Synthesizing work.data_out_fpga.arch_data_out_fpga.
+@W: CD326 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":517:0:517:5|Port debug_info of entity work.gap_manager is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":633:0:633:2|Port debug_info of entity work.galvo_dac_manager is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":448:7:448:18|Signal debug_tx_reg is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\DPRAM4Wide.vhd":6:7:6:16|Synthesizing work.dpram4wide.arch_dpram4wide.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\DataBuffer\DataBuffer.vhd":14:7:14:16|Synthesizing work.databuffer.structure.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":1699:10:1699:14|Synthesizing work.dp8kc.syn_black_box.
+Post processing for work.dp8kc.syn_black_box
+Running optimization stage 1 on DP8KC .......
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box.
+Post processing for work.vlo.syn_black_box
+Running optimization stage 1 on VLO .......
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":1483:10:1483:12|Synthesizing work.vhi.syn_black_box.
+Post processing for work.vhi.syn_black_box
+Running optimization stage 1 on VHI .......
+Post processing for work.databuffer.structure
+Running optimization stage 1 on DataBuffer .......
+Post processing for work.dpram4wide.arch_dpram4wide
+Running optimization stage 1 on dpram4wide .......
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\ParamReg.vhd":5:7:5:14|Synthesizing work.paramreg.arch_paramreg.
+Post processing for work.paramreg.arch_paramreg
+Running optimization stage 1 on paramreg .......
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":6:7:6:23|Synthesizing work.galvo_dac_manager.arch_gdacm.
+Post processing for work.galvo_dac_manager.arch_gdacm
+Running optimization stage 1 on galvo_dac_manager .......
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(0) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(1) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(2) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(3) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(4) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(5) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(6) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(7) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(8) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(9) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(10) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(11) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(12) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(13) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(14) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(15) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(16) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(33) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(0) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(1) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(2) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(3) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(4) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(5) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(6) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(7) is always 0.
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bits 7 to 0 of glv_delay_frac(33 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bit 33 of glv_offset_warn(33 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bits 16 to 0 of glv_offset_warn(33 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":9:7:9:12|Synthesizing work.gapreg.arch_gapreg.
+@W: CD610 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":53:42:53:52|Index value 0 to 255 could be out of prefix range 159 downto 0. 
+@W: CD610 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":63:6:63:18|Index value 0 to 255 could be out of prefix range 159 downto 0. 
+@W: CD610 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":63:6:63:18|Index value 0 to 255 could be out of prefix range 159 downto 0. 
+Post processing for work.gapreg.arch_gapreg
+Running optimization stage 1 on gapreg .......
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\MCU_Interface.vhd":32:7:32:12|Synthesizing work.mcu_if.mcu_if_arch.
+Post processing for work.mcu_if.mcu_if_arch
+Running optimization stage 1 on mcu_if .......
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":5:7:5:17|Synthesizing work.write_laser.arch_write_laser.
+Post processing for work.write_laser.arch_write_laser
+Running optimization stage 1 on write_laser .......
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\repeat_manager.vhd":6:7:6:20|Synthesizing work.repeat_manager.repeat_manager_arch.
+Post processing for work.repeat_manager.repeat_manager_arch
+Running optimization stage 1 on repeat_manager .......
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":6:7:6:17|Synthesizing work.gap_manager.gap_manager_arch.
+@W: CD326 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":387:1:387:6|Port busy of entity work.division is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD326 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":405:1:405:9|Port busy of entity work.division is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":6:7:6:14|Synthesizing work.division.arch_div.
+Post processing for work.division.arch_div
+Running optimization stage 1 on division .......
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":6:7:6:14|Synthesizing work.division.arch_div.
+Post processing for work.division.arch_div
+Running optimization stage 1 on division .......
+Post processing for work.gap_manager.gap_manager_arch
+Running optimization stage 1 on gap_manager .......
+@W: CL240 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":29:1:29:10|Signal DEBUG_INFO is floating; a simulation mismatch is possible.
+@W: CL271 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":318:2:318:3|Pruning unused bits 4 to 0 of px_per_row_add_4(6 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(24) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(25) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(26) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(27) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(16) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(17) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(18) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(19) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(20) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(21) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(22) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(23) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(24) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(25) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(26) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(27) is always 0.
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Pruning register bits 27 to 16 of dR_set_small(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Pruning register bits 27 to 24 of dR_set_base(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":13:7:13:13|Synthesizing work.enc_ctr.enc_ctr_arch.
+@W: CD326 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":87:1:87:3|Port busy of entity work.division is unconnected. If a port needs to remain unconnected, use the keyword open.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":6:7:6:14|Synthesizing work.division.arch_div.
+Post processing for work.division.arch_div
+Running optimization stage 1 on division .......
+Post processing for work.enc_ctr.enc_ctr_arch
+Running optimization stage 1 on enc_ctr .......
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(14) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(15) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(16) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(17) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(18) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(19) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit Enc_count_spd_reg(0) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit Enc_count_spd_reg(1) is always 0.
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Pruning register bits 1 to 0 of Enc_count_spd_reg(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Pruning register bits 19 to 14 of E_t(19 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\image_clock_manager.vhd":6:7:6:25|Synthesizing work.image_clock_manager.arch_icm.
+Post processing for work.image_clock_manager.arch_icm
+Running optimization stage 1 on image_clock_manager .......
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":6:7:6:13|Synthesizing work.lout_if.arch_lout_if.
+Post processing for work.lout_if.arch_lout_if
+Running optimization stage 1 on lout_if .......
+@W: CL265 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":120:2:120:3|Removing unused bit 4 of Laser_cpld_status_4(5 downto 0). Either assign all bits or reduce the width of the signal.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":120:2:120:3|Register bit BOARD_SEL(0) is always 1.
+@W: CL260 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":120:2:120:3|Pruning register bit 0 of BOARD_SEL(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Post processing for work.data_out_fpga.arch_data_out_fpga
+Running optimization stage 1 on data_out_fpga .......
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 0 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 1 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 2 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 3 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 4 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 5 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 6 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 7 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 8 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 9 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 10 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 11 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 12 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 13 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 14 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 15 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 16 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 17 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 18 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 19 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 20 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 21 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 22 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":657:0:657:2|Bit 23 of input debug_tx of instance reg is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on lout_if .......
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":120:2:120:3|Trying to extract state machine for register status_read_count.
+Extracted state machine for register status_read_count
+State machine has 11 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1111
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":120:2:120:3|Trying to extract state machine for register aod_write_count.
+Extracted state machine for register aod_write_count
+State machine has 13 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+   1011
+   1111
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":14:1:14:17|Input port bits 31 to 28 of data_from_mem_lut(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":14:1:14:17|Input port bits 15 to 12 of data_from_mem_lut(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":15:1:15:14|Input port bit 7 of data_from_lout(7 downto 0) is unused 
+Running optimization stage 2 on image_clock_manager .......
+Running optimization stage 2 on division_16_22 .......
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":45:2:45:3|Trying to extract state machine for register div_state.
+Extracted state machine for register div_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+Running optimization stage 2 on enc_ctr .......
+@W: CL247 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":23:1:23:12|Input port bit 3 of galvo_status(3 downto 0) is unused 
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":23:1:23:12|Input port bits 1 to 0 of galvo_status(3 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on division_16_10 .......
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":45:2:45:3|Trying to extract state machine for register div_state.
+Extracted state machine for register div_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+Running optimization stage 2 on division_16_8 .......
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":45:2:45:3|Trying to extract state machine for register div_state.
+Extracted state machine for register div_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+Running optimization stage 2 on gap_manager .......
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base_plus(25) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base_plus(26) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base_plus(27) is always 0.
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Pruning register bits 27 to 25 of dR_set_base_plus(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":170:2:170:3|Trying to extract state machine for register gap_status.
+Extracted state machine for register gap_status
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":170:2:170:3|Trying to extract state machine for register lock_status.
+Extracted state machine for register lock_status
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":318:2:318:3|Trying to extract state machine for register read_RB_status.
+Extracted state machine for register read_RB_status
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":18:1:18:19|Input port bits 15 to 8 of settling_time_small(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":21:1:21:10|Input port bits 15 to 10 of px_clk_div(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":25:1:25:12|Input port bits 1 to 0 of galvo_status(3 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on repeat_manager .......
+Running optimization stage 2 on write_laser .......
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":82:2:82:3|Trying to extract state machine for register write_status.
+Extracted state machine for register write_status
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":147:2:147:3|Trying to extract state machine for register delay_em_cnt.
+Extracted state machine for register delay_em_cnt
+State machine has 2 reachable states with original encodings of:
+   00
+   01
+@W: CL247 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":11:1:11:8|Input port bit 4 of delay_px(5 downto 0) is unused 
+Running optimization stage 2 on mcu_if .......
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\MCU_Interface.vhd":96:2:96:3|Trying to extract state machine for register substate.
+Extracted state machine for register substate
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\MCU_Interface.vhd":96:2:96:3|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on gapreg .......
+@N: CL134 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":42:2:42:3|Found RAM gapreg, depth=160, width=8
+@N: CL134 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":42:2:42:3|Found RAM gapreg, depth=160, width=8
+@N: CL134 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":42:2:42:3|Found RAM gapreg, depth=160, width=8
+Running optimization stage 2 on galvo_dac_manager .......
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(0) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(1) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(2) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(3) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(4) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(5) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(6) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(7) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(8) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(9) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(10) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(11) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(12) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(13) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(14) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(15) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(33) is always 0.
+@W: CL260 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bit 33 of glv_offset_err(33 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bits 15 to 0 of glv_offset_err(33 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_frac(33) is always 0.
+@W: CL177 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Sharing sequential element frac_D_reg. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL260 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bit 33 of glv_offset_frac(33 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Pruning register bits 33 to 30 of glv_delay_frac(33 downto 8). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on paramreg .......
+Running optimization stage 2 on VHI .......
+Running optimization stage 2 on VLO .......
+Running optimization stage 2 on DP8KC .......
+Running optimization stage 2 on DataBuffer .......
+Running optimization stage 2 on dpram4wide .......
+Running optimization stage 2 on data_out_fpga .......
+@N: CL159 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":16:1:16:7|Input CLK_ROW is unused.
+@N: CL159 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":17:1:17:8|Input CLK_ROW2 is unused.
+@N: CL159 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":18:1:18:7|Input CLK_RPT is unused.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\lscc\diamond\Project\FPGA P&S\FPGA_code\synwork\layer0.rt.csv
+

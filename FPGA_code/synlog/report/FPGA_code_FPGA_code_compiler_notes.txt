@@ -1,0 +1,114 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":8:7:8:19|Top entity is set to data_out_fpga.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":8:7:8:19|Synthesizing work.data_out_fpga.arch_data_out_fpga.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\DPRAM4Wide.vhd":6:7:6:16|Synthesizing work.dpram4wide.arch_dpram4wide.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\DataBuffer\DataBuffer.vhd":14:7:14:16|Synthesizing work.databuffer.structure.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":1699:10:1699:14|Synthesizing work.dp8kc.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":1490:10:1490:12|Synthesizing work.vlo.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":1483:10:1483:12|Synthesizing work.vhi.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\ParamReg.vhd":5:7:5:14|Synthesizing work.paramreg.arch_paramreg.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":6:7:6:23|Synthesizing work.galvo_dac_manager.arch_gdacm.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(0) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(1) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(2) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(3) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(4) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(5) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(6) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(7) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(8) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(9) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(10) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(11) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(12) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(13) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(14) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(15) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(16) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_warn(33) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(0) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(1) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(2) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(3) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(4) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(5) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(6) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_delay_frac(7) is always 0.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":9:7:9:12|Synthesizing work.gapreg.arch_gapreg.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\MCU_Interface.vhd":32:7:32:12|Synthesizing work.mcu_if.mcu_if_arch.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":5:7:5:17|Synthesizing work.write_laser.arch_write_laser.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\repeat_manager.vhd":6:7:6:20|Synthesizing work.repeat_manager.repeat_manager_arch.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":6:7:6:17|Synthesizing work.gap_manager.gap_manager_arch.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":6:7:6:14|Synthesizing work.division.arch_div.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":6:7:6:14|Synthesizing work.division.arch_div.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(24) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(25) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(26) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base(27) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(16) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(17) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(18) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(19) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(20) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(21) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(22) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(23) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(24) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(25) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(26) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_small(27) is always 0.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":13:7:13:13|Synthesizing work.enc_ctr.enc_ctr_arch.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":6:7:6:14|Synthesizing work.division.arch_div.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(14) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(15) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(16) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(17) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(18) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit E_t(19) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit Enc_count_spd_reg(0) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\EncoderCounter.vhd":112:2:112:3|Register bit Enc_count_spd_reg(1) is always 0.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\image_clock_manager.vhd":6:7:6:25|Synthesizing work.image_clock_manager.arch_icm.
+@N: CD630 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":6:7:6:13|Synthesizing work.lout_if.arch_lout_if.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":120:2:120:3|Register bit BOARD_SEL(0) is always 1.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":120:2:120:3|Trying to extract state machine for register status_read_count.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\LOUT_interface.vhd":120:2:120:3|Trying to extract state machine for register aod_write_count.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":45:2:45:3|Trying to extract state machine for register div_state.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":45:2:45:3|Trying to extract state machine for register div_state.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\division.vhd":45:2:45:3|Trying to extract state machine for register div_state.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base_plus(25) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base_plus(26) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":429:2:429:3|Register bit dR_set_base_plus(27) is always 0.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":170:2:170:3|Trying to extract state machine for register gap_status.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":170:2:170:3|Trying to extract state machine for register lock_status.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\gap_manager.vhd":318:2:318:3|Trying to extract state machine for register read_RB_status.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":82:2:82:3|Trying to extract state machine for register write_status.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\write_laser.vhd":147:2:147:3|Trying to extract state machine for register delay_em_cnt.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\MCU_Interface.vhd":96:2:96:3|Trying to extract state machine for register substate.
+@N: CL201 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\MCU_Interface.vhd":96:2:96:3|Trying to extract state machine for register state.
+@N: CL134 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":42:2:42:3|Found RAM gapreg, depth=160, width=8
+@N: CL134 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":42:2:42:3|Found RAM gapreg, depth=160, width=8
+@N: CL134 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\GapReg.vhd":42:2:42:3|Found RAM gapreg, depth=160, width=8
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(0) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(1) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(2) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(3) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(4) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(5) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(6) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(7) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(8) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(9) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(10) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(11) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(12) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(13) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(14) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(15) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_err(33) is always 0.
+@N: CL189 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\galvo_dac_manager.vhd":96:2:96:3|Register bit glv_offset_frac(33) is always 0.
+@N: CL159 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":16:1:16:7|Input CLK_ROW is unused.
+@N: CL159 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":17:1:17:8|Input CLK_ROW2 is unused.
+@N: CL159 :"C:\lscc\diamond\Project\FPGA P&S\FPGA_code\source\Main_fpga.vhd":18:1:18:7|Input CLK_RPT is unused.
+@N|Running in 64-bit mode
+

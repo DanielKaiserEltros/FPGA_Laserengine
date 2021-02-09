@@ -1,0 +1,252 @@
+
+Loading design for application trce from file fpga_code_fpga_code_map.ncd.
+Design name: data_out_fpga
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HC
+Package:     TQFP144
+Performance: 4
+Loading device for application trce from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.11_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
+Fri Nov 13 12:54:54 2020
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o FPGA_code_FPGA_code.tw1 -gui -msgset C:/lscc/diamond/Project/FPGA P&S/promote.xml FPGA_code_FPGA_code_map.ncd FPGA_code_FPGA_code.prf 
+Design file:     fpga_code_fpga_code_map.ncd
+Preference file: fpga_code_fpga_code.prf
+Device,speed:    LCMXO2-7000HC,4
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "CLK_SYS" 24.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 18.945ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              Mcu_mark_en_reg_0io  (from CLK_SYS_c +)
+   Destination:    FF         Data in        gdm/glv_offset_frac[8]  (to CLK_SYS_c +)
+                   FF                        gdm/glv_offset_frac[7]
+
+   Delay:              22.447ns  (45.0% logic, 55.0% route), 25 logic levels.
+
+ Constraint Details:
+
+     22.447ns physical path delay MCU_MARK_EN_MGIOL to gdm/SLICE_77 meets
+     41.667ns delay constraint less
+      0.275ns LSR_SET requirement (totaling 41.392ns) by 18.945ns
+
+ Physical Path Details:
+
+      Data path MCU_MARK_EN_MGIOL to gdm/SLICE_77:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+C2INP_DEL   ---     0.585 *_EN_MGIOL.CLK to *K_EN_MGIOL.IN MCU_MARK_EN_MGIOL (from CLK_SYS_c)
+ROUTE         7   e 1.234 *K_EN_MGIOL.IN to *SLICE_3030.A1 Mcu_mark_en_reg
+CTOF_DEL    ---     0.497 *SLICE_3030.A1 to *SLICE_3030.F1 gdm/SLICE_3030
+ROUTE         6   e 1.234 *SLICE_3030.F1 to *SLICE_3014.A1 gdm/glv_add_3_sqmuxa_1
+CTOF_DEL    ---     0.497 *SLICE_3014.A1 to *SLICE_3014.F1 gdm/SLICE_3014
+ROUTE        25   e 1.234 *SLICE_3014.F1 to *SLICE_3015.C0 gdm/glv_add_3_sqmuxa
+CTOF_DEL    ---     0.497 *SLICE_3015.C0 to *SLICE_3015.F0 gdm/SLICE_3015
+ROUTE         1   e 1.234 *SLICE_3015.F0 to */SLICE_154.A1 gdm/glv_add_7_1_axb_6
+C1TOFCO_DE  ---     0.894 */SLICE_154.A1 to *SLICE_154.FCO gdm/SLICE_154
+ROUTE         1   e 0.001 *SLICE_154.FCO to *SLICE_153.FCI gdm/glv_add_7_1_cry_6
+FCITOFCO_D  ---     0.162 *SLICE_153.FCI to *SLICE_153.FCO gdm/SLICE_153
+ROUTE         1   e 0.001 *SLICE_153.FCO to *SLICE_152.FCI gdm/glv_add_7_1_cry_8
+FCITOFCO_D  ---     0.162 *SLICE_152.FCI to *SLICE_152.FCO gdm/SLICE_152
+ROUTE         1   e 0.001 *SLICE_152.FCO to *SLICE_151.FCI gdm/glv_add_7_1_cry_10
+FCITOFCO_D  ---     0.162 *SLICE_151.FCI to *SLICE_151.FCO gdm/SLICE_151
+ROUTE         1   e 0.001 *SLICE_151.FCO to *SLICE_150.FCI gdm/glv_add_7_1_cry_12
+FCITOFCO_D  ---     0.162 *SLICE_150.FCI to *SLICE_150.FCO gdm/SLICE_150
+ROUTE         1   e 0.001 *SLICE_150.FCO to *SLICE_149.FCI gdm/glv_add_7_1_cry_14
+FCITOFCO_D  ---     0.162 *SLICE_149.FCI to *SLICE_149.FCO gdm/SLICE_149
+ROUTE         1   e 0.001 *SLICE_149.FCO to *SLICE_148.FCI gdm/glv_add_7_1_cry_16
+FCITOF0_DE  ---     0.588 *SLICE_148.FCI to */SLICE_148.F0 gdm/SLICE_148
+ROUTE         1   e 1.234 */SLICE_148.F0 to *SLICE_3342.B1 gdm/N_107
+CTOF_DEL    ---     0.497 *SLICE_3342.B1 to *SLICE_3342.F1 gdm/SLICE_3342
+ROUTE         1   e 1.234 *SLICE_3342.F1 to *m/SLICE_72.A0 gdm/glv_add_7[17]
+C0TOFCO_DE  ---     1.029 *m/SLICE_72.A0 to */SLICE_72.FCO gdm/SLICE_72
+ROUTE         1   e 0.001 */SLICE_72.FCO to */SLICE_71.FCI gdm/glv_offset_frac_next_cry_18
+FCITOFCO_D  ---     0.162 */SLICE_71.FCI to */SLICE_71.FCO gdm/SLICE_71
+ROUTE         1   e 0.001 */SLICE_71.FCO to */SLICE_70.FCI gdm/glv_offset_frac_next_cry_20
+FCITOFCO_D  ---     0.162 */SLICE_70.FCI to */SLICE_70.FCO gdm/SLICE_70
+ROUTE         1   e 0.001 */SLICE_70.FCO to */SLICE_69.FCI gdm/glv_offset_frac_next_cry_22
+FCITOFCO_D  ---     0.162 */SLICE_69.FCI to */SLICE_69.FCO gdm/SLICE_69
+ROUTE         1   e 0.001 */SLICE_69.FCO to */SLICE_68.FCI gdm/glv_offset_frac_next_cry_24
+FCITOFCO_D  ---     0.162 */SLICE_68.FCI to */SLICE_68.FCO gdm/SLICE_68
+ROUTE         1   e 0.001 */SLICE_68.FCO to */SLICE_67.FCI gdm/glv_offset_frac_next_cry_26
+FCITOFCO_D  ---     0.162 */SLICE_67.FCI to */SLICE_67.FCO gdm/SLICE_67
+ROUTE         1   e 0.001 */SLICE_67.FCO to */SLICE_66.FCI gdm/glv_offset_frac_next_cry_28
+FCITOFCO_D  ---     0.162 */SLICE_66.FCI to */SLICE_66.FCO gdm/SLICE_66
+ROUTE         1   e 0.001 */SLICE_66.FCO to */SLICE_65.FCI gdm/glv_offset_frac_next_cry_30
+FCITOFCO_D  ---     0.162 */SLICE_65.FCI to */SLICE_65.FCO gdm/SLICE_65
+ROUTE         1   e 0.001 */SLICE_65.FCO to */SLICE_64.FCI gdm/glv_offset_frac_next_cry_32
+FCITOF0_DE  ---     0.588 */SLICE_64.FCI to *m/SLICE_64.F0 gdm/SLICE_64
+ROUTE         8   e 1.234 *m/SLICE_64.F0 to *SLICE_3303.C1 gdm/glv_offset_frac_next[33]
+CTOF_DEL    ---     0.497 *SLICE_3303.C1 to *SLICE_3303.F1 gdm/SLICE_3303
+ROUTE         1   e 1.234 *SLICE_3303.F1 to *m/SLICE_36.B1 gdm/un1_glv_offset_frac_next_lt32
+C1TOFCO_DE  ---     0.894 *m/SLICE_36.B1 to */SLICE_36.FCO gdm/SLICE_36
+ROUTE         1   e 0.001 */SLICE_36.FCO to */SLICE_35.FCI gdm/un1_glv_offset_frac_next_cry_cry[32]
+FCITOF0_DE  ---     0.588 */SLICE_35.FCI to *m/SLICE_35.F0 gdm/SLICE_35
+ROUTE        19   e 1.234 *m/SLICE_35.F0 to *SLICE_2138.A1 gdm/un1_glv_offset_frac_next
+CTOF_DEL    ---     0.497 *SLICE_2138.A1 to *SLICE_2138.F1 gdm/SLICE_2138
+ROUTE         9   e 1.234 *SLICE_2138.F1 to */SLICE_77.LSR gdm/glv_offset_frac_next_s_33_0_RNIJ3JP (to CLK_SYS_c)
+                  --------
+                   22.447   (45.0% logic, 55.0% route), 25 logic levels.
+
+Report:   44.010MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "CLK_SYS" 24.000000 MHz  |             |             |
+;                                       |   24.000 MHz|   44.010 MHz|  25  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: CLK_SYS_c   Source: CLK_SYS.PAD   Loads: 1867
+   Covered under: FREQUENCY PORT "CLK_SYS" 24.000000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 5694683 paths, 1 nets, and 23063 connections (91.95% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.11.0.396.4
+Fri Nov 13 12:54:55 2020
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o FPGA_code_FPGA_code.tw1 -gui -msgset C:/lscc/diamond/Project/FPGA P&S/promote.xml FPGA_code_FPGA_code_map.ncd FPGA_code_FPGA_code.prf 
+Design file:     fpga_code_fpga_code_map.ncd
+Preference file: fpga_code_fpga_code.prf
+Device,speed:    LCMXO2-7000HC,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "CLK_SYS" 24.000000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.349ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              loutif/aod_write_count[4]  (from CLK_SYS_c +)
+   Destination:    FF         Data in        loutif/aod_write_count[3]  (to CLK_SYS_c +)
+
+   Delay:               0.330ns  (39.7% logic, 60.3% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.330ns physical path delay loutif/SLICE_3214 to loutif/SLICE_3214 meets
+     -0.019ns M_HLD and
+      0.000ns delay constraint requirement (totaling -0.019ns) by 0.349ns
+
+ Physical Path Details:
+
+      Data path loutif/SLICE_3214 to loutif/SLICE_3214:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.131 *LICE_3214.CLK to *SLICE_3214.Q1 loutif/SLICE_3214 (from CLK_SYS_c)
+ROUTE         6   e 0.199 *SLICE_3214.Q1 to *SLICE_3214.M0 loutif/aod_write_count[4] (to CLK_SYS_c)
+                  --------
+                    0.330   (39.7% logic, 60.3% route), 1 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "CLK_SYS" 24.000000 MHz  |             |             |
+;                                       |            -|            -|   1  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: CLK_SYS_c   Source: CLK_SYS.PAD   Loads: 1867
+   Covered under: FREQUENCY PORT "CLK_SYS" 24.000000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 5694683 paths, 1 nets, and 24548 connections (97.87% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

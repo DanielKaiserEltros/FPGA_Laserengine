@@ -1,0 +1,191 @@
+<HTML>
+<HEAD><TITLE>I/O Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Top"></A><B><U><big>I/O Timing Report</big></U></B>
+Loading design for application iotiming from file fpga_code_fpga_code.ncd.
+Design name: data_out_fpga
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HC
+Package:     TQFP144
+Performance: 5
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file fpga_code_fpga_code.ncd.
+Design name: data_out_fpga
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HC
+Package:     TQFP144
+Performance: 6
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+Loading design for application iotiming from file fpga_code_fpga_code.ncd.
+Design name: data_out_fpga
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HC
+Package:     TQFP144
+Performance: M
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+// Design: data_out_fpga
+// Package: TQFP144
+// ncd File: fpga_code_fpga_code.ncd
+// Version: Diamond (64-bit) 3.11.0.396.4
+// Written on Fri Nov 13 12:56:47 2020
+// M: Minimum Performance Grade
+// iotiming FPGA_code_FPGA_code.ncd FPGA_code_FPGA_code.prf -gui -msgset C:/lscc/diamond/Project/FPGA P&S/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 6, 5, 4):
+
+// Input Setup and Hold Times
+
+Port                Clock   Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+ENC_ENC             CLK_SYS R    -0.214      M       2.451     4
+LASER_BIDIR_DATA[0] CLK_SYS R     0.509      4       2.587     4
+LASER_BIDIR_DATA[1] CLK_SYS R     0.909      4       2.587     4
+LASER_BIDIR_DATA[2] CLK_SYS R     0.711      4       2.587     4
+LASER_BIDIR_DATA[3] CLK_SYS R     0.857      4       2.587     4
+LASER_BIDIR_DATA[4] CLK_SYS R     1.261      4       0.102     6
+LASER_BIDIR_DATA[5] CLK_SYS R     1.213      4       2.587     4
+LASER_BIDIR_DATA[6] CLK_SYS R    -0.245      M       2.587     4
+MCU_BIDIR_DATA[0]   CLK_SYS R     4.836      4      -0.404     M
+MCU_BIDIR_DATA[1]   CLK_SYS R     5.334      4      -0.279     M
+MCU_BIDIR_DATA[2]   CLK_SYS R     4.722      4      -0.329     M
+MCU_BIDIR_DATA[3]   CLK_SYS R     4.746      4      -0.371     M
+MCU_BIDIR_DATA[4]   CLK_SYS R     4.455      4      -0.223     M
+MCU_BIDIR_DATA[5]   CLK_SYS R     3.677      4      -0.205     M
+MCU_BIDIR_DATA[6]   CLK_SYS R     3.541      4      -0.205     M
+MCU_BIDIR_DATA[7]   CLK_SYS R     3.913      4      -0.314     M
+MCU_BUFF_SEL        CLK_SYS R    14.740      4      -0.544     M
+MCU_DATA_SEL        CLK_SYS R     6.353      4      -0.169     M
+MCU_LOCK_PARAMREG   CLK_SYS R    -0.245      M       2.587     4
+MCU_MARK_EN         CLK_SYS R    -0.245      M       2.587     4
+MCU_MEM_SEL         CLK_SYS R    14.361      4      -0.423     M
+MCU_RD              CLK_SYS R    -0.241      M       2.560     4
+MCU_RESET           CLK_SYS R    -0.270      M       2.644     4
+MCU_WR              CLK_SYS R    -0.241      M       2.560     4
+
+
+// Clock to Output Delay
+
+Port                Clock   Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+BOARD_FUNC_SEL[0]   CLK_SYS R    13.816         4        3.209          M
+BOARD_FUNC_SEL[1]   CLK_SYS R    12.792         4        3.153          M
+BOARD_FUNC_SEL[2]   CLK_SYS R    15.649         4        3.688          M
+BOARD_RD            CLK_SYS R     8.147         4        2.358          M
+BOARD_SEL[1]        CLK_SYS R     9.971         4        2.790          M
+BOARD_WR            CLK_SYS R    12.213         4        2.888          M
+CLK_PX_AOD          CLK_SYS R    10.712         4        2.994          M
+CLK_PX_LASER        CLK_SYS R    12.775         4        3.530          M
+ENC_DIR             CLK_SYS R    12.419         4        3.468          M
+GLV_CLRQ            CLK_SYS R    16.441         4        4.352          M
+GLV_DO[0]           CLK_SYS R     8.259         4        2.369          M
+GLV_DO[10]          CLK_SYS R     8.172         4        2.370          M
+GLV_DO[11]          CLK_SYS R     8.135         4        2.352          M
+GLV_DO[12]          CLK_SYS R     8.135         4        2.352          M
+GLV_DO[13]          CLK_SYS R     8.172         4        2.370          M
+GLV_DO[14]          CLK_SYS R     8.135         4        2.352          M
+GLV_DO[15]          CLK_SYS R     8.184         4        2.378          M
+GLV_DO[1]           CLK_SYS R     8.259         4        2.369          M
+GLV_DO[2]           CLK_SYS R     8.184         4        2.378          M
+GLV_DO[3]           CLK_SYS R     8.184         4        2.378          M
+GLV_DO[4]           CLK_SYS R     8.184         4        2.378          M
+GLV_DO[5]           CLK_SYS R     8.184         4        2.378          M
+GLV_DO[6]           CLK_SYS R     8.184         4        2.378          M
+GLV_DO[7]           CLK_SYS R     8.184         4        2.378          M
+GLV_DO[8]           CLK_SYS R     8.184         4        2.378          M
+GLV_DO[9]           CLK_SYS R     8.184         4        2.378          M
+GLV_WRQ             CLK_SYS R     8.259         4        2.369          M
+LASER_BIDIR_DATA[0] CLK_SYS R    14.876         4        2.675          M
+LASER_BIDIR_DATA[1] CLK_SYS R    15.409         4        2.818          M
+LASER_BIDIR_DATA[2] CLK_SYS R    15.409         4        2.754          M
+LASER_BIDIR_DATA[3] CLK_SYS R    15.409         4        2.812          M
+LASER_BIDIR_DATA[4] CLK_SYS R    15.409         4        2.358          M
+LASER_BIDIR_DATA[5] CLK_SYS R    15.423         4        2.955          M
+LASER_BIDIR_DATA[6] CLK_SYS R    15.423         4        2.812          M
+LASER_BIDIR_DATA[7] CLK_SYS R    15.423         4        2.358          M
+LASER_EE            CLK_SYS R    17.545         4        4.396          M
+LASER_EM            CLK_SYS R    15.415         4        3.725          M
+LASER_GUIDE         CLK_SYS R     8.367         4        2.423          M
+LASER_PWR_LATCH     CLK_SYS R     8.367         4        2.423          M
+LASER_SYNCH         CLK_SYS R     8.367         4        2.423          M
+MCU_BIDIR_DATA[0]   CLK_SYS R    11.481         4        2.374          M
+MCU_BIDIR_DATA[1]   CLK_SYS R    11.481         4        2.374          M
+MCU_BIDIR_DATA[2]   CLK_SYS R    10.979         4        2.374          M
+MCU_BIDIR_DATA[3]   CLK_SYS R    11.284         4        2.374          M
+MCU_BIDIR_DATA[4]   CLK_SYS R    10.948         4        2.381          M
+MCU_BIDIR_DATA[5]   CLK_SYS R    10.905         4        2.381          M
+MCU_BIDIR_DATA[6]   CLK_SYS R     9.922         4        2.346          M
+MCU_BIDIR_DATA[7]   CLK_SYS R    10.780         4        2.381          M
+MCU_MARKING         CLK_SYS R    17.198         4        3.860          M
+MCU_RTS_MCU         CLK_SYS R     8.167         4        2.351          M
+WARNING: you must also run trce with hold speed: 4
+WARNING: you must also run trce with hold speed: 6
+WARNING: you must also run trce with setup speed: M
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

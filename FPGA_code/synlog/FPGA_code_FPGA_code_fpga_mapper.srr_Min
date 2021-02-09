@@ -1,0 +1,222 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Sep 20 16:17:52 2019
+#
+
+
+Top view:               data_out_fpga
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.374
+
+                          Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock            Frequency     Frequency     Period        Period        Slack       Type         Group              
+------------------------------------------------------------------------------------------------------------------------------
+data_out_fpga|CLK_SYS     1.0 MHz       51.7 MHz      1000.000      19.337        498.355     inferred     Inferred_clkgroup_0
+==============================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall     |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting               Ending                 |  constraint  slack   |  constraint  slack  |  constraint  slack    |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------
+data_out_fpga|CLK_SYS  data_out_fpga|CLK_SYS  |  0.000       -0.374  |  No paths    -      |  500.000     501.004  |  No paths    -    
+=======================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: data_out_fpga|CLK_SYS
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                               Starting                                                                     Arrival           
+Instance                       Reference                 Type        Pin     Net                            Time        Slack 
+                               Clock                                                                                          
+------------------------------------------------------------------------------------------------------------------------------
+wrlaser.pixel_count_out[0]     data_out_fpga|CLK_SYS     FD1P3IX     Q       wrlaser_addr_to_mem_LUT[0]     0.803       -0.374
+wrlaser.pixel_count_out[1]     data_out_fpga|CLK_SYS     FD1P3IX     Q       wrlaser_addr_to_mem_LUT[1]     0.803       -0.374
+wrlaser.pixel_count_out[2]     data_out_fpga|CLK_SYS     FD1P3IX     Q       wrlaser_addr_to_mem_LUT[2]     0.803       -0.374
+wrlaser.pixel_count_out[3]     data_out_fpga|CLK_SYS     FD1P3IX     Q       wrlaser_addr_to_mem_LUT[3]     0.803       -0.374
+wrlaser.pixel_count_out[4]     data_out_fpga|CLK_SYS     FD1P3IX     Q       wrlaser_addr_to_mem_LUT[4]     0.803       -0.374
+wrlaser.pixel_count_out[5]     data_out_fpga|CLK_SYS     FD1P3IX     Q       wrlaser_addr_to_mem_LUT[5]     0.803       -0.374
+wrlaser.pixel_count_out[6]     data_out_fpga|CLK_SYS     FD1P3IX     Q       wrlaser_addr_to_mem_LUT[6]     0.803       -0.374
+gapman.Rb_ptr[0]               data_out_fpga|CLK_SYS     FD1P3AX     Q       gapman_addr_to_mem_RB[0]       0.832       -0.346
+gapman.Rb_ptr[1]               data_out_fpga|CLK_SYS     FD1P3AX     Q       gapman_addr_to_mem_RB[1]       0.832       -0.346
+gapman.Rb_ptr[2]               data_out_fpga|CLK_SYS     FD1P3AX     Q       gapman_addr_to_mem_RB[2]       0.832       -0.346
+==============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                     Starting                                                                    Required           
+Instance                             Reference                 Type      Pin      Net                            Time         Slack 
+                                     Clock                                                                                          
+------------------------------------------------------------------------------------------------------------------------------------
+memLUT.dpram2.DataBuffer_0_0_0_0     data_out_fpga|CLK_SYS     DP8KC     ADB3     wrlaser_addr_to_mem_LUT[0]     1.178        -0.374
+memLUT.dpram3.DataBuffer_0_0_0_0     data_out_fpga|CLK_SYS     DP8KC     ADB3     wrlaser_addr_to_mem_LUT[0]     1.178        -0.374
+memLUT.dpram1.DataBuffer_0_0_0_0     data_out_fpga|CLK_SYS     DP8KC     ADB3     wrlaser_addr_to_mem_LUT[0]     1.178        -0.374
+memLUT.dpram0.DataBuffer_0_0_0_0     data_out_fpga|CLK_SYS     DP8KC     ADB3     wrlaser_addr_to_mem_LUT[0]     1.178        -0.374
+memLUT.dpram3.DataBuffer_0_0_0_0     data_out_fpga|CLK_SYS     DP8KC     ADB4     wrlaser_addr_to_mem_LUT[1]     1.178        -0.374
+memLUT.dpram1.DataBuffer_0_0_0_0     data_out_fpga|CLK_SYS     DP8KC     ADB4     wrlaser_addr_to_mem_LUT[1]     1.178        -0.374
+memLUT.dpram2.DataBuffer_0_0_0_0     data_out_fpga|CLK_SYS     DP8KC     ADB4     wrlaser_addr_to_mem_LUT[1]     1.178        -0.374
+memLUT.dpram0.DataBuffer_0_0_0_0     data_out_fpga|CLK_SYS     DP8KC     ADB4     wrlaser_addr_to_mem_LUT[1]     1.178        -0.374
+memLUT.dpram3.DataBuffer_0_0_0_0     data_out_fpga|CLK_SYS     DP8KC     ADB5     wrlaser_addr_to_mem_LUT[2]     1.178        -0.374
+memLUT.dpram0.DataBuffer_0_0_0_0     data_out_fpga|CLK_SYS     DP8KC     ADB5     wrlaser_addr_to_mem_LUT[2]     1.178        -0.374
+====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.803
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             1.178
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.374
+
+    Number of logic level(s):                0
+    Starting point:                          wrlaser.pixel_count_out[0] / Q
+    Ending point:                            memLUT.dpram3.DataBuffer_0_0_0_0 / ADB3
+    The start point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CK
+    The end   point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CLKB
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                 Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+wrlaser.pixel_count_out[0]           FD1P3IX     Q        Out     0.803     0.803       -         
+wrlaser_addr_to_mem_LUT[0]           Net         -        -       -         -           4         
+memLUT.dpram3.DataBuffer_0_0_0_0     DP8KC       ADB3     In      0.000     0.803       -         
+==================================================================================================
+
+
+Path information for path number 2: 
+    Propagation time:                        0.803
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             1.178
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.374
+
+    Number of logic level(s):                0
+    Starting point:                          wrlaser.pixel_count_out[1] / Q
+    Ending point:                            memLUT.dpram3.DataBuffer_0_0_0_0 / ADB4
+    The start point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CK
+    The end   point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CLKB
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                 Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+wrlaser.pixel_count_out[1]           FD1P3IX     Q        Out     0.803     0.803       -         
+wrlaser_addr_to_mem_LUT[1]           Net         -        -       -         -           4         
+memLUT.dpram3.DataBuffer_0_0_0_0     DP8KC       ADB4     In      0.000     0.803       -         
+==================================================================================================
+
+
+Path information for path number 3: 
+    Propagation time:                        0.803
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             1.178
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.374
+
+    Number of logic level(s):                0
+    Starting point:                          wrlaser.pixel_count_out[2] / Q
+    Ending point:                            memLUT.dpram3.DataBuffer_0_0_0_0 / ADB5
+    The start point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CK
+    The end   point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CLKB
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                 Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+wrlaser.pixel_count_out[2]           FD1P3IX     Q        Out     0.803     0.803       -         
+wrlaser_addr_to_mem_LUT[2]           Net         -        -       -         -           4         
+memLUT.dpram3.DataBuffer_0_0_0_0     DP8KC       ADB5     In      0.000     0.803       -         
+==================================================================================================
+
+
+Path information for path number 4: 
+    Propagation time:                        0.803
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             1.178
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.374
+
+    Number of logic level(s):                0
+    Starting point:                          wrlaser.pixel_count_out[3] / Q
+    Ending point:                            memLUT.dpram3.DataBuffer_0_0_0_0 / ADB6
+    The start point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CK
+    The end   point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CLKB
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                 Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+wrlaser.pixel_count_out[3]           FD1P3IX     Q        Out     0.803     0.803       -         
+wrlaser_addr_to_mem_LUT[3]           Net         -        -       -         -           4         
+memLUT.dpram3.DataBuffer_0_0_0_0     DP8KC       ADB6     In      0.000     0.803       -         
+==================================================================================================
+
+
+Path information for path number 5: 
+    Propagation time:                        0.803
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             1.178
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.374
+
+    Number of logic level(s):                0
+    Starting point:                          wrlaser.pixel_count_out[4] / Q
+    Ending point:                            memLUT.dpram3.DataBuffer_0_0_0_0 / ADB7
+    The start point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CK
+    The end   point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CLKB
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                 Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+wrlaser.pixel_count_out[4]           FD1P3IX     Q        Out     0.803     0.803       -         
+wrlaser_addr_to_mem_LUT[4]           Net         -        -       -         -           4         
+memLUT.dpram3.DataBuffer_0_0_0_0     DP8KC       ADB7     In      0.000     0.803       -         
+==================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

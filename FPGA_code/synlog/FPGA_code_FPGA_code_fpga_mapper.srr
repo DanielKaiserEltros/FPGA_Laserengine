@@ -1,0 +1,493 @@
+# Fri Nov 13 12:52:59 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-8TOPF9L
+
+Implementation : FPGA_code
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 148MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 148MB)
+
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') icm_px_proc\.un2_px_count_aod (in view: work.image_clock_manager(arch_icm))
+@N: MF179 :|Found 16 by 16 bit equality operator ('==') icm_px_proc\.un3_px_count_laser (in view: work.image_clock_manager(arch_icm))
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":82:8:82:27|Found 16 by 16 bit equality operator ('==') icm_px_proc\.un17_px_count_aod (in view: work.image_clock_manager(arch_icm))
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[37] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[36] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[35] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[34] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[33] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[32] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[31] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[30] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[29] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[28] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[27] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[26] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[25] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[37] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[36] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[35] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[34] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[33] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[32] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[31] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[30] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[29] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[28] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[27] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[26] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[25] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing instance encctr.div.ddent_cp[1] because it is equivalent to instance encctr.div.ddent_cp[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:10:54:26|Found 16 by 16 bit equality operator ('==') un2_div_state (in view: work.division_16_22(arch_div))
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:33:54:47|Found 16 by 16 bit equality operator ('==') un5_div_state (in view: work.division_16_22(arch_div))
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance ddent_cp[0] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance remainder_frac[0] (in view: work.division_16_22(arch_div)) because it does not drive other instances.
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":219:14:219:42|Found 7 by 7 bit equality operator ('==') gap_proc\.un44_gap_status (in view: work.gap_manager(gap_manager_arch))
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":204:10:204:48|Found 16 by 16 bit equality operator ('==') gap_proc\.un23_gap_status (in view: work.gap_manager(gap_manager_arch))
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":207:37:207:66|Found 16 by 16 bit equality operator ('==') gap_proc\.un26_gap_status (in view: work.gap_manager(gap_manager_arch))
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[25] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[24] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[23] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[22] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[21] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[20] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[19] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_out[18] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[25] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[24] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[23] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[22] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[21] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[20] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[19] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":45:2:45:3|Removing sequential instance quot_reg[18] (in view: work.division_16_10(arch_div)) because it does not drive other instances.
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:10:54:26|Found 16 by 16 bit equality operator ('==') un2_div_state (in view: work.division_16_10(arch_div))
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:33:54:47|Found 16 by 16 bit equality operator ('==') un5_div_state (in view: work.division_16_10(arch_div))
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:10:54:26|Found 16 by 16 bit equality operator ('==') un2_div_state (in view: work.division_16_8(arch_div))
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\division.vhd":54:33:54:47|Found 16 by 16 bit equality operator ('==') un5_div_state (in view: work.division_16_8(arch_div))
+@N: MF179 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\write_laser.vhd":113:9:113:37|Found 7 by 7 bit equality operator ('==') write_em_proc\.un27_write_status (in view: work.write_laser(arch_write_laser))
+@N: MF135 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|RAM working\.gapreg_1[15:8] (in view: work.gapreg(arch_gapreg)) is 160 words by 8 bits.
+@N: MF246 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Hierarchically decompose RAM 'working\.gapreg_1[15:8]' 
+@N: MF135 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|RAM working\.gapreg[15:8] (in view: work.gapreg(arch_gapreg)) is 160 words by 8 bits.
+@N: MF246 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Hierarchically decompose RAM 'working\.gapreg[15:8]' 
+@N: MF135 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|RAM working\.gapreg[7:0] (in view: work.gapreg(arch_gapreg)) is 160 words by 8 bits.
+@N: MF246 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Hierarchically decompose RAM 'working\.gapreg[7:0]' 
+@N: BN362 :|Removing sequential instance working\.gapreg_rams0_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams1_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams3_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams4_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams5_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams7_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams8_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams9_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams11_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams12_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams13_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams15_0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams2 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams3 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams4 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams6 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams7 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams8 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams10 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams11 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams12 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams14 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_rams15 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams0 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams1 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams2 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams4 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams5 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams6 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams8 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams9 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams10 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams12 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams13 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@N: BN362 :|Removing sequential instance working\.gapreg_1_rams14 (in view: work.gapreg(arch_gapreg)) of type view:PrimLib.ram1(prim) because it does not drive other instances.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":96:2:96:3|Removing instance gdm.glv_delay_frac[29] because it is equivalent to instance gdm.glv_delay_frac[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[15] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[14] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[13] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[12] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[11] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[10] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[9] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance SETTLING_TIME_SMALL[8] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[7] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[6] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[5] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[4] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[3] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Command[2] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance Beam_px_delay[4] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[7] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[7] (in view: work.paramreg(arch_paramreg)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[6] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[6] (in view: work.paramreg(arch_paramreg)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[5] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[5] (in view: work.paramreg(arch_paramreg)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[4] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[4] (in view: work.paramreg(arch_paramreg)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance CONTROL_CODE[3] (in view: work.paramreg(arch_paramreg)) because it does not drive other instances.
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[3] (in view: work.paramreg(arch_paramreg)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Only the first 100 messages of id 'BN362' are reported. To see all messages use 'report_messages -log C:\lscc\diamond\Project\FPGA P&S\FPGA_code\synlog\FPGA_code_FPGA_code_fpga_mapper.srr -id BN362' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN362} -count unlimited' in the Tcl shell.
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Boundary register CONTROL_CODE[2] (in view: work.paramreg(arch_paramreg)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: MO231 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\mcu_interface.vhd":96:2:96:3|Found counter in view:work.mcu_if(mcu_if_arch) instance Addr_12bit[11:0] 
+@N: MF794 |RAM working\.gapreg_1[15:8] required 8 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 157MB peak: 158MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 173MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 171MB peak: 182MB)
+
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops13_0 because it is equivalent to instance gapinf.working.gapreg_flops13. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops13 because it is equivalent to instance gapinf.working.gapreg_flops13. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops10_0 because it is equivalent to instance gapinf.working.gapreg_flops10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops10 because it is equivalent to instance gapinf.working.gapreg_flops10. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops8_0 because it is equivalent to instance gapinf.working.gapreg_flops8. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops8 because it is equivalent to instance gapinf.working.gapreg_flops8. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops5_0 because it is equivalent to instance gapinf.working.gapreg_flops5. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops5 because it is equivalent to instance gapinf.working.gapreg_flops5. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops15_0 because it is equivalent to instance gapinf.working.gapreg_flops15. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops15 because it is equivalent to instance gapinf.working.gapreg_flops15. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops14_0 because it is equivalent to instance gapinf.working.gapreg_flops14. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops14 because it is equivalent to instance gapinf.working.gapreg_flops14. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops12_0 because it is equivalent to instance gapinf.working.gapreg_flops12. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops12 because it is equivalent to instance gapinf.working.gapreg_flops12. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops11_0 because it is equivalent to instance gapinf.working.gapreg_flops11. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops11 because it is equivalent to instance gapinf.working.gapreg_flops11. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops9_0 because it is equivalent to instance gapinf.working.gapreg_flops9. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops9 because it is equivalent to instance gapinf.working.gapreg_flops9. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops7_0 because it is equivalent to instance gapinf.working.gapreg_flops7. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops7 because it is equivalent to instance gapinf.working.gapreg_flops7. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops6_0 because it is equivalent to instance gapinf.working.gapreg_flops6. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops6 because it is equivalent to instance gapinf.working.gapreg_flops6. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops4_0 because it is equivalent to instance gapinf.working.gapreg_flops4. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops4 because it is equivalent to instance gapinf.working.gapreg_flops4. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops3_0 because it is equivalent to instance gapinf.working.gapreg_flops3. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops3 because it is equivalent to instance gapinf.working.gapreg_flops3. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops2_0 because it is equivalent to instance gapinf.working.gapreg_flops2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops2 because it is equivalent to instance gapinf.working.gapreg_flops2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops1_0 because it is equivalent to instance gapinf.working.gapreg_flops1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops1 because it is equivalent to instance gapinf.working.gapreg_flops1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_flops0_0 because it is equivalent to instance gapinf.working.gapreg_flops0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Removing instance gapinf.working.gapreg_1_flops0 because it is equivalent to instance gapinf.working.gapreg_flops0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\repeat_manager.vhd":112:24:112:42|Pipelining module un1_repeats_cnt_reg[24:1]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\repeat_manager.vhd":60:2:60:3|Pushed in register repeats_cnt_reg[23:0].
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":313:16:313:25|Pipelining module un1_Rb_ptr[0:9]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":318:2:318:3|Pushed in register Rb_ptr[9:0].
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":69:8:69:35|Pipelining module icm_px_proc\.un2_px_count_aod. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":58:2:58:3|Pushed in register px_count_aod[15:0].
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":87:9:87:39|Pipelining module icm_px_proc\.un3_px_count_laser. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":58:2:58:3|Pushed in register px_count_laser[15:0].
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":78:21:78:36|Pipelining module un8_px_count_aod[17:32]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":58:2:58:3|Pushed in register px_count_aod[15:0].
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":453:16:453:41|Pipelining module ds_t_tmp_1[35:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":429:2:429:3|Pushed in register DS_t[17:0].
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":440:18:440:61|Pipelining module sr_min_tmp_1[15:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":429:2:429:3|Pushed in register SR_min_raw[15:0].
+@N: FA113 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":184:17:184:41|Pipelining module enc_proc\.r_dac_tmp_1[39:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\encodercounter.vhd":112:2:112:3|Pushed in register R_dac[23:0].
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 199MB peak: 200MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 199MB peak: 200MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 196MB peak: 200MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 199MB peak: 200MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:20s; Memory used current: 247MB peak: 253MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:21s		   498.67ns		2252 /      3161
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 247MB peak: 253MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Generating RAM gapinf.working\.gapreg_1[15:8]
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Generating RAM gapinf.working\.gapreg[15:8]
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gapreg.vhd":42:2:42:3|Generating RAM gapinf.working\.gapreg[7:0]
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams14_0
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams2_0
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams6_0
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams10_0
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams13
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams1
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams5
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_rams9
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_1_rams15
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_1_rams3
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_1_rams7
+@N: FO126 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\main_fpga.vhd":618:0:618:5|Generating RAM gapinf.working\.gapreg_1_rams11
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\mcu_interface.vhd":96:2:96:3|Boundary register mcuif.RTS_MCU.fb (in view: work.data_out_fpga(arch_data_out_fpga)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\galvo_dac_manager.vhd":217:2:217:3|Boundary register gdm.GLV_WRQ.fb (in view: work.data_out_fpga(arch_data_out_fpga)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":58:2:58:3|Boundary register imgclkmgr.px_clk_laser_reg.fb (in view: work.data_out_fpga(arch_data_out_fpga)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\lout_interface.vhd":120:2:120:3|Boundary register loutif.BOARD_RD.fb (in view: work.data_out_fpga(arch_data_out_fpga)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:26s; Memory used current: 250MB peak: 253MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:27s; CPU Time elapsed 0h:00m:26s; Memory used current: 190MB peak: 253MB)
+
+Writing Analyst data base C:\lscc\diamond\Project\FPGA P&S\FPGA_code\synwork\FPGA_code_FPGA_code_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:28s; CPU Time elapsed 0h:00m:27s; Memory used current: 235MB peak: 253MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\lscc\diamond\Project\FPGA P&S\FPGA_code\FPGA_code_FPGA_code.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:28s; Memory used current: 241MB peak: 253MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:29s; Memory used current: 237MB peak: 253MB)
+
+@W: MT420 |Found inferred clock data_out_fpga|CLK_SYS with period 1000.00ns. Please declare a user-defined clock on port CLK_SYS.
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Nov 13 12:53:30 2020
+#
+
+
+Top view:               data_out_fpga
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 498.355
+
+                          Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock            Frequency     Frequency     Period        Period        Slack       Type         Group              
+------------------------------------------------------------------------------------------------------------------------------
+data_out_fpga|CLK_SYS     1.0 MHz       48.8 MHz      1000.000      20.493        498.355     inferred     Inferred_clkgroup_0
+==============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                        |    rise  to  rise     |    fall  to  fall   |    rise  to  fall     |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------
+Starting               Ending                 |  constraint  slack    |  constraint  slack  |  constraint  slack    |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------
+data_out_fpga|CLK_SYS  data_out_fpga|CLK_SYS  |  1000.000    979.507  |  No paths    -      |  500.000     498.355  |  No paths    -    
+========================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: data_out_fpga|CLK_SYS
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                                Arrival            
+Instance                   Reference                 Type         Pin     Net                      Time        Slack  
+                           Clock                                                                                      
+----------------------------------------------------------------------------------------------------------------------
+loutif.Can_wr              data_out_fpga|CLK_SYS     FD1P3IX      Q       Can_wr                   0.972       498.355
+Mcu_mark_en_reg_0io        data_out_fpga|CLK_SYS     IFS1P3DX     Q       Mcu_mark_en_reg          1.204       979.507
+gapman.glv_move_reg[0]     data_out_fpga|CLK_SYS     FD1P3AX      Q       glv_move_reg[0]          1.188       979.523
+gapman.glv_move_reg[1]     data_out_fpga|CLK_SYS     FD1P3AX      Q       glv_move_reg[1]          1.188       979.523
+gapman.glv_move_reg[2]     data_out_fpga|CLK_SYS     FD1P3AX      Q       glv_move_reg[2]          1.188       979.523
+gdm.incr_slow_cnt[0]       data_out_fpga|CLK_SYS     FD1S3IX      Q       incr_slow_cnt[0]         1.180       980.764
+gdm.incr_slow_cnt[1]       data_out_fpga|CLK_SYS     FD1S3IX      Q       incr_slow_cnt[1]         1.148       980.796
+reg.Glv_decr_fast[0]       data_out_fpga|CLK_SYS     FD1P3AX      Q       Reg_glv_decr_fast[0]     1.108       981.306
+reg.Glv_decr_fast[3]       data_out_fpga|CLK_SYS     FD1P3AX      Q       Reg_glv_decr_fast[3]     1.108       981.306
+reg.Glv_decr_fast[1]       data_out_fpga|CLK_SYS     FD1P3AX      Q       Reg_glv_decr_fast[1]     1.108       981.449
+======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                                              Required            
+Instance                   Reference                 Type        Pin     Net                                     Time         Slack  
+                           Clock                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------------
+loutif.Wr_for_normal       data_out_fpga|CLK_SYS     FD1S3AX     D       Can_wr_i                                499.894      498.355
+gdm.glv_offset_frac[0]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_s_33_0_RNIJ3JP     999.197      979.507
+gdm.glv_offset_frac[1]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_s_33_0_RNIJ3JP     999.197      979.507
+gdm.glv_offset_frac[2]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_s_33_0_RNIJ3JP     999.197      979.507
+gdm.glv_offset_frac[3]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_s_33_0_RNIJ3JP     999.197      979.507
+gdm.glv_offset_frac[4]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_s_33_0_RNIJ3JP     999.197      979.507
+gdm.glv_offset_frac[5]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_s_33_0_RNIJ3JP     999.197      979.507
+gdm.glv_offset_frac[6]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_s_33_0_RNIJ3JP     999.197      979.507
+gdm.glv_offset_frac[7]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_s_33_0_RNIJ3JP     999.197      979.507
+gdm.glv_offset_frac[8]     data_out_fpga|CLK_SYS     FD1S3IX     CD      glv_offset_frac_next_s_33_0_RNIJ3JP     999.197      979.507
+=====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         499.894
+
+    - Propagation time:                      1.540
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     498.355
+
+    Number of logic level(s):                1
+    Starting point:                          loutif.Can_wr / Q
+    Ending point:                            loutif.Wr_for_normal / D
+    The start point is clocked by            data_out_fpga|CLK_SYS [rising] on pin CK
+    The end   point is clocked by            data_out_fpga|CLK_SYS [falling] on pin CK
+
+Instance / Net                           Pin      Pin               Arrival     No. of    
+Name                         Type        Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------
+loutif.Can_wr                FD1P3IX     Q        Out     0.972     0.972       -         
+Can_wr                       Net         -        -       -         -           1         
+loutif.Wr_for_normal_RNO     INV         A        In      0.000     0.972       -         
+loutif.Wr_for_normal_RNO     INV         Z        Out     0.568     1.540       -         
+Can_wr_i                     Net         -        -       -         -           1         
+loutif.Wr_for_normal         FD1S3AX     D        In      0.000     1.540       -         
+==========================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:29s; Memory used current: 237MB peak: 253MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:29s; Memory used current: 237MB peak: 253MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000hc-4
+
+Register bits: 3161 of 6864 (46%)
+PIC Latch:       0
+I/O cells:       66
+Block Rams : 8 of 26 (30%)
+
+
+Details:
+BB:             15
+CCU2D:          1150
+DP8KC:          8
+DPR16X4C:       72
+FD1P3AX:        1112
+FD1P3IX:        1140
+FD1P3JX:        20
+FD1S3AX:        60
+FD1S3AY:        3
+FD1S3IX:        767
+FD1S3JX:        15
+GSR:            1
+IB:             10
+IFS1P3DX:       9
+IFS1P3IX:       2
+IFS1P3JX:       1
+INV:            22
+L6MUX21:        192
+OB:             40
+OBZ:            1
+OFS1P3DX:       28
+OFS1P3IX:       2
+OFS1P3JX:       2
+ORCALUT4:       2425
+PFUMX:          341
+PUR:            1
+VHI:            22
+VLO:            22
+false:          2
+true:           2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:29s; Memory used current: 48MB peak: 253MB)
+
+Process took 0h:00m:30s realtime, 0h:00m:29s cputime
+# Fri Nov 13 12:53:30 2020
+
+###########################################################]

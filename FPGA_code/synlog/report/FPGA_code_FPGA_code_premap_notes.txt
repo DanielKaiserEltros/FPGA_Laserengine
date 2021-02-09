@@ -1,0 +1,13 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":58:2:58:3|Removing sequential instance px_clk_aod_reg (in view: work.image_clock_manager(arch_icm)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":170:2:170:3|Removing sequential instance row_clk_redge (in view: work.gap_manager(gap_manager_arch)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance DEBUG_RX[23:0] (in view: work.paramreg(arch_paramreg)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: MO225 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":318:2:318:3|There are no possible illegal states for state machine read_RB_status[0:3] (in view: work.gap_manager(gap_manager_arch)); safe FSM implementation is not required.
+@N: MO225 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\write_laser.vhd":147:2:147:3|There are no possible illegal states for state machine delay_em_cnt[0:1] (in view: work.write_laser(arch_write_laser)); safe FSM implementation is not required.
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

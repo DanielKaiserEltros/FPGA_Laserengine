@@ -1,0 +1,31 @@
+@P:  Worst Slack : 498.355
+@P:  data_out_fpga|CLK_SYS - Estimated Frequency : 48.8 MHz
+@P:  data_out_fpga|CLK_SYS - Requested Frequency : 1.0 MHz
+@P:  data_out_fpga|CLK_SYS - Estimated Period : 20.493
+@P:  data_out_fpga|CLK_SYS - Requested Period : 1000.000
+@P:  data_out_fpga|CLK_SYS - Slack : 498.355
+@P:  Total Area : 2447.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:29s

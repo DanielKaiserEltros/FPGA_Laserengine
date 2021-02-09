@@ -1,0 +1,206 @@
+# Fri Nov 13 12:52:58 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-8TOPF9L
+
+Implementation : FPGA_code
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\lscc\diamond\Project\FPGA P&S\FPGA_code\FPGA_code_FPGA_code_scck.rpt 
+Printing clock  summary report in "C:\lscc\diamond\Project\FPGA P&S\FPGA_code\FPGA_code_FPGA_code_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 120MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 122MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\image_clock_manager.vhd":58:2:58:3|Removing sequential instance px_clk_aod_reg (in view: work.image_clock_manager(arch_icm)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":170:2:170:3|Removing sequential instance row_clk_redge (in view: work.gap_manager(gap_manager_arch)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\paramreg.vhd":63:3:63:4|Removing sequential instance DEBUG_RX[23:0] (in view: work.paramreg(arch_paramreg)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+Encoding state machine status_read_count[0:10] (in view: work.lout_if(arch_lout_if))
+original code -> new code
+   0000 -> 00000000001
+   0001 -> 00000000010
+   0010 -> 00000000100
+   0011 -> 00000001000
+   0100 -> 00000010000
+   0101 -> 00000100000
+   0110 -> 00001000000
+   0111 -> 00010000000
+   1000 -> 00100000000
+   1001 -> 01000000000
+   1111 -> 10000000000
+Encoding state machine aod_write_count[0:12] (in view: work.lout_if(arch_lout_if))
+original code -> new code
+   0000 -> 0000000000001
+   0001 -> 0000000000010
+   0010 -> 0000000000100
+   0011 -> 0000000001000
+   0100 -> 0000000010000
+   0101 -> 0000000100000
+   0110 -> 0000001000000
+   0111 -> 0000010000000
+   1000 -> 0000100000000
+   1001 -> 0001000000000
+   1010 -> 0010000000000
+   1011 -> 0100000000000
+   1111 -> 1000000000000
+Encoding state machine div_state[0:2] (in view: work.division_16_22(arch_div))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+Encoding state machine div_state[0:2] (in view: work.division_16_10(arch_div))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+Encoding state machine div_state[0:2] (in view: work.division_16_8(arch_div))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   11 -> 10
+Encoding state machine lock_status[0:2] (in view: work.gap_manager(gap_manager_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine gap_status[0:6] (in view: work.gap_manager(gap_manager_arch))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   100 -> 100
+   101 -> 101
+   110 -> 110
+Encoding state machine read_RB_status[0:3] (in view: work.gap_manager(gap_manager_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\gap_manager.vhd":318:2:318:3|There are no possible illegal states for state machine read_RB_status[0:3] (in view: work.gap_manager(gap_manager_arch)); safe FSM implementation is not required.
+Encoding state machine write_status[0:2] (in view: work.write_laser(arch_write_laser))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine delay_em_cnt[0:1] (in view: work.write_laser(arch_write_laser))
+original code -> new code
+   00 -> 0
+   01 -> 1
+@N: MO225 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\write_laser.vhd":147:2:147:3|There are no possible illegal states for state machine delay_em_cnt[0:1] (in view: work.write_laser(arch_write_laser)); safe FSM implementation is not required.
+Encoding state machine state[0:2] (in view: work.mcu_if(mcu_if_arch))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine substate[0:4] (in view: work.mcu_if(mcu_if_arch))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   100 -> 100
+syn_allowed_resources : blockrams=26  set on top level netlist data_out_fpga
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 154MB)
+
+
+
+Clock Summary
+******************
+
+          Start                     Requested     Requested     Clock        Clock                   Clock
+Level     Clock                     Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------------------------
+0 -       data_out_fpga|CLK_SYS     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0     3090 
+==========================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                          Clock     Source            Clock Pin             Non-clock Pin     Non-clock Pin           
+Clock                     Load      Pin               Seq Example           Seq Example       Comb Example            
+----------------------------------------------------------------------------------------------------------------------
+data_out_fpga|CLK_SYS     3090      CLK_SYS(port)     Mcu_mark_en_reg.C     -                 loutif.un1_clk.I[0](inv)
+======================================================================================================================
+
+@W: MT529 :"c:\lscc\diamond\project\fpga p&s\fpga_code\source\lout_interface.vhd":120:2:120:3|Found inferred clock data_out_fpga|CLK_SYS which controls 3090 sequential elements including loutif.aod_write_count[0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 3069 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       CLK_SYS             Unconstrained_port     3069       Reset_glob     
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 154MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 154MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 152MB peak: 155MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 155MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 13 12:52:59 2020
+
+###########################################################]
